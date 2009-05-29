@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Desktop-search in KDE 4.2
-categories: amministrazione, linux, ubuntu, kde
+categories: amministrazione
 ---
 
 Da parte mia, una volta provata la funzionalità di *desktop search* è
