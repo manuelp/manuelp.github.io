@@ -51,6 +51,7 @@ table {
 }
 
 blockquote {
+    font-family: helvetica, sans-serif;
     font-style: italic;
     background-color: #CCC;
     margin-left: 2em;
@@ -202,6 +203,10 @@ a.extra {
 
 #post h2 {
     font-size: 120%;
+}
+
+#post h3 {
+    font-size: 110%;
 }
 
 #post pre {
