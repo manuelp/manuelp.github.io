@@ -194,7 +194,12 @@ a.extra {
     font-size: 160%;
 }
 
-#post h1, h2, h3, h4, h5, h6 {
+#post h1, 
+#post h2, 
+#post h3, 
+#post h4, 
+#post h5, 
+#post h6 {
     background-color: #af2;
 }
 
@@ -224,7 +229,8 @@ a.extra {
 #post code {
     border: 1px solid #ddd;
     background-color: #eef;
-    font-size: 95%;
+    /*font-size: 95%;*/
+    font-size: normal;
     padding: 0 .2em;
 }
 
@@ -254,4 +260,13 @@ a.extra {
 
 #related h2 {
     margin-bottom: 1em;
+}
+
+#comments h1, 
+#comments h2,
+#comments h3,
+#comments h4,
+#comments h5,
+#comments h6, {
+    background-color: #ff1;
 }
