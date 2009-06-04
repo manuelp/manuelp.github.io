@@ -1,0 +1,71 @@
+---
+layout: post
+title: JDK7 - piattaforma modulare multilinguaggio
+categories: java
+---
+
+Secondo un articolo di [InfoWorld](http://infoworld.com/print/77919), la nuova
+nuova versione della JDK Sun adotterà un design più modulare che supporterà la
+versione 7 del linguaggio Java. E questo porterà, secondo Mark Reinhold
+(ingegnere pricipale dietro Java SE e [OpenJDK][]) a una serie di vantaggi.
+
+[OpenJDK]: "OpenJDK"
+
+Classpath will be dead
+----------------------
+
+La modularità verrà raggiunta attraverso il progetto [Jigsaw][], che permetterà
+agli sviluppatori di sviluppare i propri moduli e di eliminare la necessità del
+*classpath*. 
+
+[Jigsaw]: "Progetto Jigsaw"
+
+> "Class path is dead," Reinhold said.
+
+Un JDK per domarli tutti 
+------------------------
+
+La modularizzazione potrebbe portare anche ad
+una singola versione di Java, dato la capacità di un sistema del genere di
+adattarsi all'ambiente in cui si trova ad essere eseguito.
+
+Piattaforma multi-linguaggio
+----------------------------
+
+> "We're working to define a modular form of the Java platform and its
+> implementation; we're working to evolve the Java Virtual  Machine into a true,
+> multilingual universal runtime for high-level languages; and finally, we're
+> doing things to make developers more productive," said Mark Reinhold,
+> principal engineer for Java SE and OpenJDK.
+
+Aspetto per me decisamente più importante. Per come la vedo io, l'uso di un
+ambiente di esecuzione per *codice managed* che permetta a programmi scritti in
+linguaggi diversi di comunicare e cooperare tra loro, in un'ambiente comune e
+con un set standard di librerie, è una carta vincente.
+
+Giò ora esistono soluzioni simili, le più famose delle quali sono il [CLR][]
+della piattaforma .Net e appunto il JRE che già ora supporta un gran numero di
+linguaggi anche molto diversi tra loro come [Scala][1], [Groovy][2],
+[Clojure][3] per citarne alcuni.
+
+[CLR]:
+[1]:
+[2]:
+[3]:
+
+Crescente uso delle annotazioni
+-------------------------------
+
+Per facilitare il compito dei *checker statici*.
+
+Conclusioni
+-----------
+
+Con queste nuove modifiche la piattaforma Java potrebbe diventare a tutti gli
+effetti un ambiente di esecuzione in grado di supportare una gran varietà di
+necessità, linguaggi e stili di sviluppo, il tutto garantendone
+l'interoperabilità e l'esecuzione controllata.
+
+Tutte caratteristiche che secondo me potrebbero diventare irrinunciabili in
+molti settori.
+

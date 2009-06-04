@@ -30,7 +30,7 @@ Nell'ambito tecnologico possiamo vedere questa "lotta" ad esempio a livello di
 progettazione. 
 
 Da una parte abbiamo i proponenti del [BDUF][], che sostengono una specifica
-completa e dettagliata *prima di comunicare a codificare*. Il che nella
+completa e dettagliata *prima di cominciare a codificare*. Il che nella
 stragrande maggioranza dei casi significa perdere tempo in dettagli minuziosi
 basati su assunzioni non verificate, per poi scoprire che la soluzione non
 funziona o che ce ne sono di migliori e più eleganti, a cui non si arriva se
