@@ -17,7 +17,7 @@ I pro
 I vantaggi di un modello del genere sono presto detti: 
 
 - non c'è alcun bisogno di predisporre datacenter
-- non occorre occuparsi del *deployment* della messa in sicurezza
+- non occorre occuparsi del *deployment* e della messa in sicurezza
 - non occorre pagare personale interno che li amministri
 - tutto il software è direttamente accessibile mediante il browser
 - i dati sono nella *cloud* e accessibili (previa autenticazione) da qualunque
@@ -27,7 +27,7 @@ computazionalmente intensi)
 
 Quindi i software sono forniti come un servizio, unitamente alla loro gestione
 per cui un utente non occorre che si preoccupi di altre problematiche aldilà
-del suo utilizzo. Si tratta di fare un altro passo verso l'*outsourcing*.
+del loro utilizzo. Si tratta di un ulteriore passo verso l'*outsourcing*.
 
 Esempi di questi servizi sono [GMail][3] e [Facebook][4], che sono diventati
 molto popolari e che anno aumentato di molto l'efficienza e la produttività
@@ -57,7 +57,7 @@ software.
 Senza contare che se uso un software a codice chiuso e che viene eseguito per
 di più su macchine remote, non posso essere sicuro che il servizio in questione
 non faccia di più di quello che dichiara. Di conseguenza sarei portato a
-fidarmi di più di un servizio *open-source* e di *standard condivisi*.
+fidarmi di più di un servizio basato su software *open-source* e di *standard condivisi*.
 
 Privacy
 -------
@@ -66,29 +66,29 @@ Se utilizzo il cloud computing, utilizzo un software in cui immetto i miei dati
 che vengono memorizzati in maniera distribuita su server del gestore del
 servizio. In pratica sto a tutti gli effetti fornendo miei dati a una compagnia
 esterna che può essere o meno affidabile. Non ho nessun controllo sulle misure
-di sicurezza di quella compagnia, che potrebbe anche avere accesso ai miei
+di sicurezza di quella compagnia che potrebbe anche avere accesso ai miei
 dati, o che potrebbe essere compromessa con relativo furto di dati.
 
-Se quella compagnia ad esempio va in [bancarotta][6], posso [perdere
+E se quella compagnia ad esempio va in [bancarotta][6] o subisce dei guasti, posso [perdere
 completamente i miei dati][7]. 
 
 [6]: http://www.eweekeurope.co.uk/news/cloud-computing-forerunner-facing-bankruptcy-772 "Articolo di eweekeurope"
 [7]: http://www.techcrunch.com/2009/01/03/journalspace-drama-all-data-lost-without-backup-company-deadpooled/ "Articolo su TechCrunch"
 
-Inoltre, se i servizi sono accentrati in un'unica piattaforma, un'eventuale
-compromissione e furto d'identità potrebbero causare danni molto ingenti. Prova
+Inoltre, se i servizi sono accentrati in un'unica piattaforma, **un'eventuale
+compromissione e furto d'identità potrebbero causare danni molto ingenti**. Prova
 a immaginare a un ipotetico servizio che fornisse al tempo stesso email,
 piattaforma per lo sviluppo di documenti, blog, gruppi di discussione e
 conversazioni in tempo reale (suona familiare?). Immagina che venga
 compromesso e qualche persona senza scrupoli si impadronisca del tuo account. A
 quel punto avrebbe accesso alle tue email, documenti e contatti e le sue azioni
-avrebbero una portata non indifferente.
+avrebbero una portata enorme sia sulla vita lavorativa che personale.
 
 Certo, possono essere adottate misure di sicurezza come crittografia (sia a
 livello di connessione con https che di storage con AES ad esempio),
 autenticazione e backup. Ma il punto rimane che il controllo ultimo sulla
-configurazione e controllo del sistema rimane al fornitore. E i tuoi dati sono
-in quel sistema.
+configurazione e controllo del sistema rimane al fornitore. **E i tuoi dati sono
+in quel sistema**.
 
 Lock-in
 -------
@@ -130,14 +130,14 @@ architettura.
 
 E' anche vero che si possono avere i vantaggi del Cloud Computing in una
 *intranet*, mantenendo il controllo sui propri dati e conservando la comodità
-della centralizzazione (storage e risorse di calcolo distribuite). Ma al costo
-di sacrificare l'accesso globale (a meno di non predisporre VPN) e di
+della centralizzazione di accesso e utilizzando storage e risorse di calcolo distribuite. 
+Ma al costo di sacrificare l'accesso globale (a meno di non predisporre VPN) e di
 re-introdurre i costi di gestione di un datacenter. 
 
 Bisogna stare attenti di chi fidarsi e per cosa. I meccanismi del mercato
-dovrebbero spingere i fornitori a erogare un servizio di qualità, ma quello che
-si guadagna in flessibilità e risparmio, lo si può perdere in privacy e in
-sicurezza.
+dovrebbero spingere i fornitori a erogare un servizio di qualità, ma **quello che
+si guadagna in comodità e risparmio, lo si può perdere in privacy,
+sicurezza e flessibilità**.
 
 > Trust is a concept as old as humanity, and the solutions are the same as they
 > have always been. Be careful who you trust, be careful what you trust them
