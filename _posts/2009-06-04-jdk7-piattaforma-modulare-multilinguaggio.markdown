@@ -9,7 +9,7 @@ nuova versione del JDK Sun adotterà un design più modulare che supporterà la
 versione 7 del linguaggio Java. E questo porterà, secondo Mark Reinhold
 (ingegnere principale dietro Java SE e [OpenJDK][]) a una serie di vantaggi.
 
-[OpenJDK]: "OpenJDK"
+[OpenJDK]: http://openjdk.java.net/ "OpenJDK"
 
 Classpath will be dead
 ----------------------
@@ -18,7 +18,7 @@ La modularità verrà raggiunta attraverso il progetto [Jigsaw][], che permetter
 agli sviluppatori di sviluppare i propri moduli e di eliminare la necessità del
 *classpath*. 
 
-[Jigsaw]: "Progetto Jigsaw"
+[Jigsaw]: http://www.w3.org/Jigsaw/ "Progetto Jigsaw"
 
 > "Class path is dead," Reinhold said.
 
@@ -48,12 +48,12 @@ della piattaforma .Net e appunto il JRE che già ora supporta un gran numero di
 linguaggi anche molto diversi tra loro come [Scala][1], [Groovy][2],
 [Clojure][3], [Jython][4] e [JRuby][5] per citarne alcuni.
 
-[CLR]:
-[1]:
-[2]:
-[3]:
-[4]:
-[5]:
+[CLR]: http://en.wikipedia.org/wiki/Common_Language_Runtime
+[1]: http://www.scala-lang.org/ "Scala"
+[2]: http://groovy.codehaus.org/ "Groovy"
+[3]: http://clojure.org/ "Clojure"
+[4]: http://www.jython.org/ "Jython"
+[5]: http://jruby.codehaus.org/
 
 Crescente uso delle annotazioni
 -------------------------------
