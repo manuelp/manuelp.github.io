@@ -30,7 +30,7 @@ per cui un utente non occorre che si preoccupi di altre problematiche aldilà
 del loro utilizzo. Si tratta di un ulteriore passo verso l'*outsourcing*.
 
 Esempi di questi servizi sono [GMail][3] e [Facebook][4], che sono diventati
-molto popolari e che anno aumentato di molto l'efficienza e la produttività
+molto popolari e che hanno aumentato di molto l'efficienza e la produttività
 (almeno per quanto riguarda GMail).
 
 [3]: http://www.gmail.com "GMail"
@@ -67,7 +67,7 @@ che vengono memorizzati in maniera distribuita su server del gestore del
 servizio. In pratica sto a tutti gli effetti fornendo miei dati a una compagnia
 esterna che può essere o meno affidabile. Non ho nessun controllo sulle misure
 di sicurezza di quella compagnia che potrebbe anche avere accesso ai miei
-dati, o che potrebbe essere compromessa con relativo furto di dati.
+dati, o che potrebbe essere compromessa con relativo furto di informazioni.
 
 E se quella compagnia ad esempio va in [bancarotta][6] o subisce dei guasti, posso [perdere
 completamente i miei dati][7]. 
@@ -80,9 +80,9 @@ compromissione e furto d'identità potrebbero causare danni molto ingenti**. Pro
 a immaginare a un ipotetico servizio che fornisse al tempo stesso email,
 piattaforma per lo sviluppo di documenti, blog, gruppi di discussione e
 conversazioni in tempo reale (suona familiare?). Immagina che venga
-compromesso e qualche persona senza scrupoli si impadronisca del tuo account. A
+compromesso e che qualche persona senza scrupoli si impadronisca del tuo account. A
 quel punto avrebbe accesso alle tue email, documenti e contatti e le sue azioni
-avrebbero una portata enorme sia sulla vita lavorativa che personale.
+avrebbero una portata enorme sia sulla tua vita lavorativa che personale...
 
 Certo, possono essere adottate misure di sicurezza come crittografia (sia a
 livello di connessione con https che di storage con AES ad esempio),
@@ -112,7 +112,7 @@ amministrazioni.
 Pay-per-use
 ===========
 
-Non potendo classificarlo come pro o contro, c'è comunque da considerare questo
+Non potendolo classificare come pro o contro, c'è comunque da considerare questo
 aspetto.
 
 Il cloud computing permette nuovi modelli di business, tra i quali c'è il
