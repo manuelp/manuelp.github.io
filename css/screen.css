@@ -62,7 +62,9 @@ blockquote {
 }
 
 ul, ol {
-    margin-left: 1.25em;
+    margin-left: 2.25em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .highlight {
@@ -81,7 +83,7 @@ ul, ol {
 /*
 /*****************************************************************************/
 
-ul.posts {
+/*ul.posts {
     list-style-type: none;
     margin-bottom: 2em;
 }
@@ -94,7 +96,7 @@ ul.posts span {
     color: #aaa;
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
-}
+}*/
 
 /*****************************************************************************/
 /*
@@ -223,10 +225,10 @@ a.extra {
     padding: 0 .4em;
 }
 
-/* #post ul, */
-/* #post ol { */
-/*     margin-left: 1.25em; */
-/* } */
+/* #post ul, 
+ #post ol { 
+     margin-left: 1.25em; 
+ } */
 
 #post code {
     border: 1px solid #ddd;
