@@ -1,0 +1,86 @@
+---
+layout: post
+title: Cos'è AJAX?
+categories: web
+---
+
+AJAX è l'acronimo di *Asynchronous Javascript And XML* e indica una tecnica per
+permettere di costruire applicazioni web paragonabili a quelle stand-alone che
+utilizziamo normalmente.
+
+L'utilità di AJAX
+=================
+
+Un'applicazione web tradizionale solitamente costruisce una pagina web che
+invia al client. Questo compie delle azioni (riempie form, clicca dei link,
+ecc.) che vengono inviate al server come richieste http, il quale le elabora e
+costruisce una nuova pagina web che ritrasmette al client.
+
+Questo modello funziona, ma ha l'inconveniente di essere *sincrono*: da quando
+l'utente invia una richiesta a quando il server risponde con una nuova pagina,
+l'utente non può far altro che aspettare. 
+
+Il meccanismo funziona per un web che è stato pensato per gli ipertesti ma non
+è più sufficiente per le esigenze moderne di applicativi costruiti sul web
+stesso. Applicativi che necessitano di essere *responsivi*.
+
+Alcuni esempi di applicazioni web molto usate costruite con questa tecnica
+sono: [GMail][1], [Google Maps][2] e [Google Docs][3].
+
+[1]: http:///www.gmail.com/ "GMail"
+[2]: http://maps.google.com/ "Google Maps"
+[3]: http://docs.google.com/ "Google Docs"
+
+Da cosa è costituito
+====================
+
+- XHTML e CSS: per la [presentazione](http://adaptivepath.com/publications/essays/archives/000266.php)
+- [DOM](http://www.scottandrew.com/weblog/articles/dom_1): per il layout dinamico e l'interazione con la pagina
+- [XML e XSLT](http://www-106.ibm.com/developerworks/xml/library/x-xslt/?article=xr): scambio e manipolazione dati
+- [XMLHttpRequest](http://www.xml.com/pub/a/2005/02/09/xml-http-request.html): recupero asincrono dei dati
+- [Javascript](http://www.crockford.com/javascript/javascript.html): collante per tutte le tecnologie precedenti
+
+Come funziona
+=============
+
+AJAX è stato creato per consentire alle applicazioni web un dialogo *asincrono*
+tra client e server minimizzando così il tempo di risposta percepito
+dall'utente.
+
+In pratica si tratta di interporre tra il browser del client e la rete nella
+quale si trova il server un *motore AJAX*, che consente all'utente di
+interagire con l'applicazione web direttamente senza aspettare la risposta del
+server.
+
+Dialogo client/server asincrono
+-------------------------------
+
+Per certi compiti come la validazione dell'input e l'elaborazione di alcune
+informazioni, il motore AJAX può cavarsela da solo. In tutti gli altri casi in
+cui è richiesta una risposta dal server, è il motore stesso che si occupa del
+dialogo consentendo all'utente di continuare ad interagire con l'applicazione
+mentre si è in attesa della risposta.
+
+Il dialogo poi si svolge solitamente attraverso frammenti XML, senza
+il bisogno di ricaricare (e ritrasmettere attraverso la rete) l'intera pagina.
+
+E' questo in sostanza che consente al sistema di fornire all'utente un tempo di
+risposta inferiore, simile a quello di un'applicazione desktop. Qui però **la
+velocità di un applicativo non è più determinata principalmente dalla velocità
+del sistema, ma dalla velocità della rete.**
+
+> La maggiore sfida che Ajax pone davanti ai nostri occhi non riguarda la
+> risoluzione dei problemi tecnici da esso derivati, ma il dimenticare tutte le
+> limitazioni che riguardavano il Web, per lanciarsi verso la creazione di
+> applicazioni robuste, veloci e sempre più simili alle applicazione
+> Desktop.<br/>
+> --Jesse James Garrett, [Ajax: a new approach to web applications][4]
+
+[4]: http://adaptivepath.com/publications/essays/archives/000385.php
+
+Credits
+=======
+
+Grazie a Daniele Simonin per la sua [traduzione][5] dell'[articolo][4] di Jesse James Garrett.
+
+[5]: http://read.melodycode.com/tutorials/158/ajax_un_nuovo_approccio_per_le_applicazioni_web.html
