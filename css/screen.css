@@ -57,6 +57,8 @@ blockquote {
     background-color: #CCC;
     margin-left: 2em;
     margin-right: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 ul, ol {
