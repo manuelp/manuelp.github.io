@@ -72,8 +72,8 @@ del sistema, ma dalla velocità della rete.**
 > La maggiore sfida che Ajax pone davanti ai nostri occhi non riguarda la
 > risoluzione dei problemi tecnici da esso derivati, ma il dimenticare tutte le
 > limitazioni che riguardavano il Web, per lanciarsi verso la creazione di
-> applicazioni robuste, veloci e sempre più simili alle applicazione
-> Desktop.<br/>
+> applicazioni robuste, veloci e sempre più simili alle applicazioni
+> Desktop. <br/>
 > --Jesse James Garrett, [Ajax: a new approach to web applications][4]
 
 [4]: http://adaptivepath.com/publications/essays/archives/000385.php
