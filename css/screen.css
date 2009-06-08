@@ -18,7 +18,7 @@ html, body {
 body {
     background-color: white;
     /*font: 13.34px sans-serif, clean, arial, helvetica, times; */
-    font-family: sans-serif, clean, arial, helvetica, times; 
+    font-family: sans-serif, clean, arial, Times, helvetica, times; 
     font-size: small; 
     text-align: center;
 }
@@ -52,7 +52,7 @@ table {
 }
 
 blockquote {
-    font-family: helvetica, sans-serif;
+    font-family: sans-serif, helvetica;
     font-style: italic;
     background-color: #CCC;
     margin-left: 2em;
