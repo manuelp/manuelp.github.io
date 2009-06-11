@@ -112,6 +112,7 @@ ul.posts span {
     line-height: 1.5em;
 }
 
+/************************* HEADER */
 .header {
     color: #a00;
     font-size: 2em;
@@ -158,6 +159,7 @@ a.extra {
     color: #aaa;
 }
 
+/*********************** FOOTER *********/
 .site .footer {
     font-size: 80%;
     color: #086;
@@ -254,6 +256,8 @@ a.extra {
     background-color: #333;
 }
 
+/* Related */
+
 #related {
     margin-top: 2em;
 }
@@ -265,6 +269,8 @@ a.extra {
 #related h2 {
     margin-bottom: 1em;
 }
+
+/* Comments */
 
 #comments h1, 
 #comments h2,
