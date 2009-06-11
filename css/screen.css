@@ -23,6 +23,15 @@ body {
     text-align: center;
 }
 
+#ie6Warning {
+    background: red;
+    padding: 1em;
+    margin: 1em;
+    border-width: 4pt;
+    border-color: black;
+    border-style: dashed;
+}
+
 #home h1, h2, h3, h4, h5, h6 {
     font-size: 130%;
 }
