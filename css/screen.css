@@ -236,6 +236,11 @@ a.extra {
     padding: 0 .4em;
 }
 
+#post img {
+    margin: 1em;
+    border-width: 0;
+}
+
 /* #post ul, 
  #post ol { 
      margin-left: 1.25em; 
