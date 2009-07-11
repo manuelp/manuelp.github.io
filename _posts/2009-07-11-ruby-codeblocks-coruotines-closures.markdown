@@ -135,7 +135,7 @@ Un code-block associato ad un metodo può essere memorizzato insieme al *contest
 
 In questo modo, il code-block può essere utilizzato anche quando il contesto in cui è stato definito non è più presente. Un linguaggio che supporta questa funzionalità si dice che fornisce le **closures**.
 
-Un esempio per illustrare il tutto (tratto dal "PickAxe"):
+Un esempio per illustrare il tutto (tratto dal [PickAxe](http://rubycentral.com/pickaxe/tut_containers.html)):
 
 {% highlight ruby %}
 def n_times(thing)
