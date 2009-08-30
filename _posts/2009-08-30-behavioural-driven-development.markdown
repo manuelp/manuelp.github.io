@@ -1,3 +1,9 @@
+---
+layout: post
+title: Behavioural-Driven Development
+categories: blog
+---
+
 Il *Behavioural Driven Development* ([BDD][]) è essenzialmente il [TDD][] fatto correttamente. Il problema è che troppo spesso il TDD è portato avanti in maniera scorretta, principalmente a causa dell'eccessivo *focus* sull'aspetto di testing.
 
 ## Perchè Behaviour-Driven?
