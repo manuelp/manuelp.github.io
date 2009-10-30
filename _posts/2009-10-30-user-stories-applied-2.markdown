@@ -11,11 +11,10 @@ Per capire meglio che cosa sono le user stories bisogna capire cosa *non* sono m
 ## IEEE 830
 Lo standard IEEE 830 documenta un modo di esprimere le specifiche di un software, principalmente attraverso una gerarchia di requisiti nella forma "*Il sistema dove...*". Un esempio:
 
-> 4.6) The system shall allow a room to be reserved with a credit card.
->    4.6.1) The system shall accept Visa, MasterCard and American Express cards.
->    4.6.2) The system shall charge the credit card the indicated rate for all nights of the stay before
-the reservation is confirmed.
->    4.6.3) The system shall give the user a unique confirmation number.
+> 4-6) The system shall allow a room to be reserved with a credit card.
+> 4-6-1) The system shall accept Visa, MasterCard and American Express cards.
+> 4-6-2) The system shall charge the credit card the indicated rate for all nights of the stay before the reservation is confirmed.
+> 4-6-3) The system shall give the user a unique confirmation number.
 
  - Specifiche a questo livello di dettaglio sono tediose, prone a errori e *molto costose in termini di tempo*. Per sistemi di media grandezza non sono rari documenti di specifica di 300 pagine... estremamente noiose. la conseguenza è che in realtà gli sviluppatori li guardano appena, ma senza leggerli approfonditamente.
  - Documenti di questo tipo spingono a pensare ai dettagli implementativi ma **rendono molto difficile avere una visione d'insieme**. 
