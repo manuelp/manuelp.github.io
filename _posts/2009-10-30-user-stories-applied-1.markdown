@@ -1,4 +1,10 @@
-Inizio con questo post una tradizione alla [Mark Needham]() nella quale i annoterò i punti salienti di libri, paper e presentazioni che mi ritroverò a visionare. Questo principalmente per il fatto che il modo migliore per imparare qualcosa (e sapere se lo si è capito realmente) è [insegnarlo]() a qualcun altro.
+---
+layout: post
+title: User Stories Applied, cap. 1
+categories: agile
+---
+
+Inizio con questo post una tradizione alla [Mark Needham](http://www.markhneedham.com/blog/tag/book-club/) nella quale i annoterò i punti salienti di libri, paper e presentazioni che mi ritroverò a visionare. Questo principalmente per il fatto che il modo migliore per imparare qualcosa (e sapere se lo si è capito realmente) è [insegnarlo](http://www.markhneedham.com/blog/2009/04/21/learning-through-teaching/) a qualcun altro.
 
 Per esigenze di lavoro ho cominciato a documentarmi sul project management e alla raccolta di requisiti, principalmente in ambito Agile, e mi sono trovato in contatto con l'idea delle *user stories*. Il libro che mi sono procurato al riguardo e che sto leggendo attualmente è: *"User Stories Applied"* di Mike Cohn.
 
