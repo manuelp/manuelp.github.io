@@ -8,7 +8,6 @@ I needed a syntax highlighting support for the wiki [Creole](http://www.wikicreo
 
 {% highlight scheme %}
 ;; Thanks to Alex Schroeder
-;; http://www.emacswiki.org/cgi-bin/wiki/menu-bar%2B.el/Search/AlexSchroeder/AlexSchroederConfigPyrobombus
 (define-generic-mode 'wiki-mode 
   nil ; comments 
   nil; keywords 
