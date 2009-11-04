@@ -11,18 +11,19 @@ Fare una presentazione o insegnare in generale è molto di più che essere degli
 > Ottima presentazione = conoscenze + comunicazione
 
 ## Sommario
+
 - Obiettivo delle presentazioni
 - Sull'uso delle slide
 - Preparazione
-    - Audience
-    - Tema
-    - Struttura
-    - Pratica
-    - Slide
+     - Audience
+     - Tema
+     - Struttura
+     - Pratica
+     - Slide
 - Delivery
-    - Apertura
-    - Talk (show)
-    - Chiusura
+     - Apertura
+     - Talk (show)
+     - Chiusura
 - Infrangere le regole
 - Conclusioni
 - Fonti
