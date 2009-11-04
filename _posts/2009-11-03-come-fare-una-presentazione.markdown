@@ -24,6 +24,7 @@ Fare una presentazione o insegnare in generale è molto di più che essere degli
     - Talk (show)
     - Chiusura
 - Infrangere le regole
+- Conclusioni
 - Fonti
 
 ## Obiettivo delle presentazioni
@@ -34,7 +35,7 @@ Prima di imbarcarsi in qualsiasi impresa, occorre conoscerne la *ragione*. Lo st
 
 Troppo spesso invece si comincia subito a preparare l'esposizione senza alcuna idea di partenza di dove si andrà a parare. **Conoscere l'obiettivo di una presentazione è indispensabile per esprimere con efficacia il messaggio principale e per preparare un discorso con un suo filo logico.** Ci sono ben poche cose più noiose di un elenco disordinato di fatti.
 
-Una vera presentazione non è un semplice elenco di dati, altrimenti sarebbe più conveniente scrivere un articolo. La ragion d'essere delle presentazioni è il dialogo e l'*interpretazione* di tali dati. La gente è in grado di leggere, e il motivo per cui si scomoda ad assistere ad un talk è per conoscere il *significato* e per vedere come questo possa *prendere vita*. Se ci sono dei dati importanti (grafici, tabelle, fonti, ecc) può essere più conveniente scriverle in un documento e renderlo disponibile agli interessati.
+Una vera presentazione non è un semplice elenco di dati, altrimenti sarebbe più conveniente scrivere un articolo. La ragion d'essere delle presentazioni è il dialogo e l'*interpretazione* di tali dati. La gente è in grado di leggere, e il motivo per cui si scomoda ad assistere ad un talk è per conoscere il *significato* e per vedere come questo possa *prendere vita*. Se ci sono dei dati importanti (grafici, tabelle, fonti, ecc) può essere più conveniente scriverle in un documento apposito e renderlo disponibile agli interessati.
 
 Ma il primo e più importante valore che uno speaker *deve* tenere sempre a mente è il **rispetto**: rispetto per l'audiece e per sè stessi. Troppo spesso invece gli speaker dimostrano un'insensibilità totale verso il pubblico, esponendo gli argomenti in modo confuso, incomprensibile e noioso, e subissando gli ascoltatori con aridi e lunghi elenchi puntati nello sforzo di fare bella figura e dimostrare di "sapere".
 
@@ -56,19 +57,19 @@ L'uso di slide (lucidi) è diventato ormai sinonimo di presentazione in molti ca
 
 > "Replace Powerpoint with directness and enthusiasm."
 
-Ripensando all'obiettivo della presentazione e al contesto, occorre invece essere *pragmatici* e riflettere sull'utilità delle slide: **il principale asset e contenuto di un talk è... l'esposizione di un'argomento dal vivo e dalla voce dello speaker, le slide sono sono un ausilio che può essere utile in alcuni casi.** L'esposizione è qualcosa di dinamico, di vivo. Se il pubblico volesse leggere una lista di punti proiettati su uno schermo andrebbe semplicemente a leggersi un libro o un articolo su internet.
+Ripensando all'obiettivo della presentazione e al contesto, occorre invece essere *pragmatici* e riflettere sull'utilità delle slide: **il principale asset e contenuto di un talk è... l'esposizione di un'argomento dal vivo e dalla voce dello speaker. Le slide sono sono un ausilio che può essere utile in alcuni casi.** L'esposizione è qualcosa di dinamico, di vivo. Se il pubblico volesse leggere una lista di punti proiettati su uno schermo andrebbe semplicemente a leggersi un libro o un articolo su internet.
 
 > PRIMA viene il discorso, DOPO (eventualmente) gli ausili visivi.
 
-Alcuni realizzano delle slide per sentirsi più sicuri durante l'esposizione, ma i lucidi *non possono essere un sostituto per la conoscenza dell'argomento che si presenta*. O lo si conosce o non lo si conosce, e usare le slide come "stampelle" è la ragione sbagliata per propinarle e una chiara indicazione del bisogno di fare più *pratica*. **Un argomento lo si conosce e lo si comprende veramente solo quando si è in grado di spiegarlo senza alcun ausilio**.
+Alcuni realizzano delle slide per sentirsi più sicuri durante l'esposizione, ma **i lucidi non possono essere un sostituto per la conoscenza dell'argomento che si presenta**. O lo si conosce o non lo si conosce. Usare le slide come "stampelle" è la ragione sbagliata per propinarle e una chiara indicazione del bisogno di fare più *pratica*. **Un argomento lo si conosce e lo si comprende veramente solo quando si è in grado di spiegarlo senza alcun ausilio**.
 
 Perciò se devi preparare una presentazione, poniti prima questa domanda: **posso fare a meno delle slide?**
 
 Prima di tutto è necessario avere ben chiaro in mente:
 
- - L'obiettivo.
- - Il messaggio.
- - L'audience.
+ - **L'obiettivo.**
+ - **Il messaggio.**
+ - **L'audience.**
 
 L'uso degli strumenti adatti viene di conseguenza.
 
@@ -79,7 +80,7 @@ Per un esempio di come è possibile fare una presentazione **memorabile** senza 
 Vediamo ora alcuni suggerimenti su come preparare e effettuare una buona presentazione.
 
 ## Preparazione
-Il suggerimento più importante sulla preparazione di una presentazione è quello di **preparala lontano dal PC (e da PowerPoint)**. Esporre a voce alta in modalità "freestyle", provando vari approcci e annotando idee, frasi e pensieri importanti. Una volta stesa l'ossatura della presentazione, scriverla su carta (come minimo sotto forma di *outline* o [mappa mentale](http://en.wikipedia.org/wiki/Mind_map)). Solo *dopo* si può considerare se servono slide o meno.
+**Il suggerimento più importante sulla preparazione di una presentazione è quello di *preparala lontano dal PC (e da PowerPoint).* Esporre a voce alta in modalità "freestyle", provando vari approcci e annotando idee, frasi e pensieri importanti. Una volta stesa l'ossatura della presentazione, scriverla su carta (come minimo sotto forma di *outline* o [mappa mentale](http://en.wikipedia.org/wiki/Mind_map)).** Solo *dopo* si può considerare se servono slide o meno.
 
 > Presentazione = discorso 
 
@@ -111,7 +112,7 @@ Per talk più articolati, possono esserci più idee chiave che si vuole trasmett
 
 > "Bad storytelling is beginning, muddle, end." --Philip Larkin
 
-Gli esseri umani amano e trovano più semplice seguire ragionamenti *lineari*, e tale deve essere la presentazione: **una sequenza lineare, logica e concisa di dati, informazioni e aneddoti correlati.** Bisogna resistere alla tentazione di farcire il talk di dati per dimostrare la propria conoscenza (ma non il proprio rispetto). Quasi invariabilmente si è spinti a inserire *troppo* materiale. Conviene distillare la presentazione in modo quasi "brutale" eliminando tutto quanto non è essenziale (il tempo è qualcosa di prezioso, non va sprecato).
+Gli esseri umani amano e trovano più semplice seguire ragionamenti *lineari*, e tale deve essere la presentazione: **una sequenza lineare, logica e concisa di dati, informazioni e aneddoti correlati.** Bisogna resistere alla tentazione di farcire il talk di dati per dimostrare la propria conoscenza (ma non il proprio rispetto). Quasi invariabilmente si è spinti a inserire *troppo* materiale, conviene quindi  distillare la presentazione in modo quasi "brutale" eliminando tutto quanto non è essenziale (il tempo è qualcosa di prezioso, non va sprecato).
 
 > "La semplicità è la sofisticazione ultima." --Leonardo Da Vinci
 
@@ -119,10 +120,11 @@ Aiuta avere buone doti di *storytelling*, ma in ogni caso il talk deve avere un 
 
 Il workflow potrebbe essere:
 
- 1. Identificare i punti rilevanti per l'audience e costruire la presentazione attorno ad essi.
+ 1. Identificare i punti rilevanti per l'audience.
  2. Metterli nell'ordine più interessante per il pubblico.
  3. Fornire il contesto necessario.
- 4. **Distillare ulteriormente**.
+ 4. Arricchire con elementi di teatralità.
+ 5. **Distillare ulteriormente**.
 
 > La perfezione si raggiunge attraverso la quotidiana diminuzione, non aumento.
 
@@ -131,29 +133,31 @@ Per esempio, per una presentazione incentrata su una soluzione ad un problema:
  1. Illustrare le cause del problema che affligge l'audience.
  2. Mostrare perchè è serio.
  3. Proporre una soluzione.
- 4. Sommario e "chiamata alle armi", riassumere chiaramente cosa bisogna fare.
+ 4. Sommario e "chiamata alle armi", riassumendo chiaramente cosa bisogna fare.
 
-Può essere utile illustrare questa struttura all'inizio della presentazione per dare un'idea di cosa tratterà il talk e come.
+E' molto utile illustrare questa struttura all'inizio della presentazione per dare un'idea di cosa tratterà il talk e come.
 
 ### Pratica
-Una volta costruita la presentazione: **praticarla, preferibilmente ad alta voce**. Fare pratica con l'esposizione spostando concetti, eliminando quelli superflui e modificando la presentazione in modo che *sia ben coesa e comunichi efficacemente l'idea centrale*. Possibilmente avendo qualcuno in carne ed ossa che ascolta e fornisce feedback. Inoltre *fare attenzione che si rientri nei tempi*. E' molto importante praticare la presentazione, per poi poterla esporre con sicurezza e padronanda davanti al pubblico. Non occorre memorizzare tutto il talk, basta ricordarsi i punti fondamentali. Gli accessori verranno con naturalezza se si conosce bene la materia e si è fatta abbastanza pratica.
+Una volta costruita la presentazione: **fare pratica, pratica e ancora pratica. Preferibilmente ad alta voce**. Sperimentare spostando concetti, eliminando quelli superflui e modificando la presentazione in modo che *sia ben coesa e comunichi efficacemente l'idea centrale*. Possibilmente avendo qualcuno in carne ed ossa che ascolta e fornisce feedback. Inoltre *fare attenzione che si rientri nei tempi*.  E' molto importante praticare la presentazione, per poi poterla esporre con sicurezza e padronanda davanti al pubblico. Non occorre memorizzare tutto il talk, basta ricordarsi i punti fondamentali, gli accessori verranno con naturalezza se si conosce bene la materia e si è fatta abbastanza pratica.
 
 > "The only way to speak better is to speak." --Damian Conway
 
-La pratica è **essenziale**, non basta preparare un discorso sulla carta. Come gli speaker esperti e gli attori ben sanno, lo scritto e il parlato sono due veicoli abbastanza diversi e ciò che è scritto spesso non fa ha lo stesso effetto quando viene letto ad alta voce. Lo stesso dicasi per l'inverso. Il lavorare al discorso sia in forma scritta che parlata (e praticandolo) permette di chiarire il messaggio essenziale ed "editarlo" in modo da renderlo ad alto impatto.
+La pratica è **essenziale**, non basta preparare un discorso sulla carta. Come gli speaker esperti e gli attori ben sanno, lo scritto e il parlato sono due veicoli di espressione abbastanza diversi e ciò che è scritto spesso non ha lo stesso effetto quando viene letto ad alta voce. Lo stesso dicasi per l'inverso. Il lavorare al discorso sia in forma scritta che parlata (e praticandolo) permette di chiarire il messaggio essenziale ed "editarlo" in modo da renderlo ad alto impatto.
 
 ### Slide
 Come descritto le slide **non** sono indispensabili per una presentazione, ma se *dopo* ever preparato il materiale si decide di utilizzarle, tanto vale renderle memoriabili.
 
-Il modo migliore per rendere delle slide attraenti è essere consapevole che sono un *ausilio*, uno *strumento* e il loro compito è quello di sottolineare ed enfatizzare i punti importanti, non di distrarre il pubblico costringendolo a leggere decine e decine di parole. Inquadrando le slide come uno strumento poi, permette di utilizzarle in modo *creativo* per sorprendere, mantenere l'attenzione e fissare i concetti.
+Data la facilità disarmante nel realizzarne di irritanti e inutili, il modo migliore per rendere delle slide attraenti è essere consapevole che sono un *ausilio*, uno *strumento* il cui compito è quello di sottolineare ed enfatizzare i punti importanti, non di distrarre il pubblico costringendolo a leggere decine e decine di parole. Inquadrare le slide come uno strumento poi, permette di utilizzarle in modo *creativo* per sorprendere, mantenere l'attenzione e fissare i concetti.
 
 Il criterio più importante da tenere a mente nella realizzazione di slide è: **semplicità e stile**. Vedere come esempio le slide di: Apple, Bang & Olufsen, The Perl Journal, ecc.
 
-Un grande errore compiuto da molti è quello di pensare alle slide come ad un documento a sè stante. Ma semplicemente questo non è l'uso per cui le slide sono state inventate e di certo non è quello migliore. **Le slide non sono la *presentazione*, sono solo le *illustrazioni*.**
-
 > "Your slides, if you choose to use them, should not be textual orgies. Use visual shorthand." --Chris Brogan
 
-In quest'ottica, **impiegare poche parole e delle immagini significative**. L'uso delle immagini delle slide ha un grande potere: rende possibile coinvolgere il pubblico anche emotivamente e ne stimola l'immaginazione aiutando a mantenere desta l'attenzione e migliorare la memoria di quello che viene detto. 
+Un grande errore compiuto da molti è quello di pensare alle slide come ad un documento a sè stante. Ma semplicemente questo non è l'uso per cui le slide sono state inventate e di certo non è quello migliore. **Le slide non sono la *presentazione*, sono solo le *illustrazioni*.**
+
+> Le slide NON SONO la presentazione.
+
+In quest'ottica, **impiegare poche parole ed eventualmente delle immagini significative**. L'uso delle immagini delle slide ha un grande potere: rende possibile coinvolgere il pubblico anche emotivamente e ne stimola l'immaginazione aiutando a mantenere desta l'attenzione e migliorare la memoria di quello che viene detto. 
 
 L'approccio risulta ancora più potente se si scelgono immagini significative che rappresentano una *metafora* (meglio se divertente) dei concetti presentati.
 
@@ -164,7 +168,7 @@ Inoltre, *sorprendere* l'audience. E' un altro modo per creare un'esperienza emo
 #### Flusso di informazioni
 Se si decide di utilizzare delle slide come ausilio, bisogna *controllare il flusso di informazioni* in modo che il talk e i lucidi restino in sincrono.
 
-Quando ad esempio si vogliono elencare una serie di punti, il mostrarli tutti contemporaneamente in un'unica slide mentre si parla significa fare in modo che l'audience li legga tutti e aspetti che vengano trattati, invece di prestare attenzione a quello che il presentatore dice. E' più opportuno in questo caso mostrare un punto alla volta.
+Quando ad esempio si vogliono elencare una serie di punti, il mostrarli tutti contemporaneamente in un'unica slide mentre si parla, significa fare in modo che l'audience li legga tutti e aspetti che vengano trattati cercando di collegare ciò che è scritto a ciò che viene detto. Questo a scapito dell'attenzione. E' più opportuno in questo caso mostrare un punto alla volta.
 
 Allo stesso modo, se si vuole presentare un grafico, per prima cosa occorre spiegare i dati e il significato prima di mostrarlo nella slide successiva, in modo che a quel punto gli ascoltatori siano in grado di interpretarlo subito. Tra l'altro, il mostrare il grafico dopo averlo spiegato può aiutare anche a creare anticipazione e innalzare l'interesse.
 
@@ -172,20 +176,20 @@ Allo stesso modo, se si vuole presentare un grafico, per prima cosa occorre spie
 E' importante che le slide siano leggibili e rispettino delle buone linee guida tipografiche. Se c'è qualcosa di peggio di slide mal realizzate, sono slide mal realizzate *e* illeggibili. Ecco le linee guida più importanti:
 
  - **Semplicità e stile!**
- - **Attenzione al contrasto**: sfondo chiaro, testo scuro. Sfondo scuro, testo chiaro. Chiaro?
+ - **Attenzione al contrasto**: colori complementari. Sfondo chiaro, testo scuro. Sfondo scuro, testo chiaro. Chiaro?
  - **Allineare il testo a destra o a sinistra**: l'allineamento centrale è poco professionale, amatoriale e meno leggibile.
  - **Andare all'essenziale**: Un titolo, qualche punto e al massimo un'immagine. Avere troppi elementi rende difficile "decodificare" la pagina ed è stressante. La cosa migliore è inserire poche parole con un font di dimensione molto grande.
  - **Usare font della famiglia Serif per il corpo**: sono i font che rendono meglio su schermo.
  - **Limitare l'uso di font decorativi ai titoli e *solo* se sono leggibili**.
  - **Evitare di inserire il logo in ogni slide**. Non si vuole dare l'impressione di essere dei venditori.
- - **Limitare l'uso di transizioni tra slide**, possibilmente non usare nessun effetto: distraggono e basta. Non essere esibizionista.
+ - **Limitare l'uso di effetti di transizione**, possibilmente non usarne nessuno: distraggono e basta. Non essere esibizionista.
 
 ## Delivery
-**Presentare qualcosa è più di una semplice recitazione di fatti. Si tratta di una vera e propria *esibizione* comprendente elementi teatrali e di drammaticità**. Bisogna imparare a comunicare con efficacia usando non solo le parole ma anche il linguaggio del corpo, il giusto ritmo, le emozioni, la consapevolezza dell'audience e di come questi elementi li influenzino. **Ogni presentazione è una performace finalizzata all'intrattenere il pubblico in modo che al termine ne esca arricchito** (possibilmente di quello che si aspettava).
+**Presentare qualcosa è più di una semplice recitazione di fatti. Si tratta di una vera e propria *esibizione* comprendente elementi teatrali e di drammaticità**. Bisogna imparare a comunicare con efficacia usando non solo le parole ma anche il linguaggio del corpo, il giusto ritmo, le emozioni, la consapevolezza dell'audience e di come questi elementi li influenzino. **Ogni presentazione è una performace finalizzata all'intrattenere il pubblico in modo che al termine ne esca arricchito** (possibilmente di quello che si aspettava, meglio se di più).
 
 > Entertaining always trumps informative.
 
-Se possibile, arrivare prima dell'inizio del talk e preparare tutto prima che il pubblico giunga in sala. Non è molto professionale armeggiare con il proiettore e il portatile mentre l'audience aspetta... **Prepararsi per tempo in modo da essere pronti e (relativamente) rilassati quando arriva l'ora di iniziare.**
+Se possibile, arrivare prima dell'inizio del talk e preparare tutto prima che il pubblico giunga in sala. Non è molto professionale armeggiare con il proiettore e il portatile mentre l'audience aspetta... **Prepararsi per tempo in modo da essere pronti, sicuri che tutto funziona e (relativamente) rilassati quando arriva l'ora di iniziare.**
 
 Una piccola nota: vestirsi in modo consono all'occasione e all'audience. Ovvio, ma meglio precisarlo...
 
@@ -212,11 +216,11 @@ Di seguito qualche suggerimento su come condurre al meglio la *performace*:
  - **Raccontare una storia**. Anche se inventata, è utile per intrattenere e mantenere vive l'attenzione. Ovviamente che sia in qualche modo rilevante all'argomento oggetto della presentazione. Può essere utile anche mischiarla con delle *metafore* utili ad illustrare certi concetti e relazioni. Inutile dire che l'effetto è migliore se la storia è divertente.
  - **Usare la retorica** per essere *incisivi e memorabili*. Praticare ad esempio con: contrasto, lista dei tre e soprattutto la *pausa*. Fare una pausa prima di esporre un punto importante crea anticipazione e drammaticità: un momento teatrale che mantiene l'attenzione.
  - **Se ci si dimentica qualcosa, andare avanti con la presentazione senza scusarsi o fermarsi per cercare di ricordare.** Se l'esposizione veicola il *messaggio principale*, allora è ok.
- - **Emozionare**. E' uno dei modi principali e più efficaci per mantenere l'attenzione e far arrivare i concetti a destinazione. Con un pò di pratica diventa facile visto che qualsiasi argomento può essere trattato dal punto di vista *umani*.
+ - **Emozionare**. E' uno dei modi principali e più efficaci per mantenere l'attenzione e far arrivare i concetti a destinazione. Con un pò di pratica diventa facile visto che qualsiasi argomento può essere trattato dal punto di vista *umano*.
  - E' utile anche raccontare aneddoti (soprattutto se personali), umorismo e storie. **Un tocco personale può aiutare molto a rendere una presentazione autentica e interessante**.
  - **ENTUSIASMO!** L'entusiasmo è contagioso. La presentazione deve essere colma di *passione*, deve prendere vita e catturare l'attenzione del pubblico facendo perdere al tempo il suo significato.
  - **Creare una sensazione di *intimità* con il pubblico**: dare l'impressione di essere lì per loro e di conoscerli trattandoli come amici. L'atmosfera dovrebbe essere rilassata e amichevole.
- - Eventualmente **coinvolgere il pubblico** trasformando la presentazione in una discussione interattiva. Invitare a fare commenti e portare contributi personali. Chiaramente è possibile solo per chi conosce veramente quello di cui sta parlando, diversamente avrà paura di essere colto in fallo.
+ - Eventualmente **coinvolgere il pubblico** trasformando la presentazione in una discussione interattiva. Invitare a fare commenti e portare contributi personali. Chiaramente è possibile solo per chi conosce veramente quello di cui sta parlando ed è in grado di gestire una discussione, diversamente avrà paura di essere colto in fallo.
 
 > Comunicazione memorabile = informazioni + intrattenimento
 
@@ -241,6 +245,17 @@ Sia un principiante che un esperto possono non rispettare alcune regole, la diff
 
 > Per infrangere efficacemente le regole bisogna prima conoscerle.
 
+## Conclusioni
+Ricapitoliamo i punti importanti:
+
+ - Un buon discorso è *intrattenimento* e informazioni. Bisogna imparare a comunicare.
+ - Per fare una buona presentazione è essenziale la *preparazione* che va fatta lontano dal PC.
+ - Ogni presentazione deve presentare 1-5 idee chiave e organizzare un discorso lineare, logico e conciso attorno ad esse.
+ - Una presentazione è essenzialmente un discorso, le slide sono un accessorio non necessario. Se vengono realizzare, che siano fatte con semplicità e stile.
+ - Ogni presentazione deve essere un'esibizione colma di *entusiasmo* e in grado di appassionare l'audience. Occorre imparare a esibirsi e creare un'atmosfera intima è un ingrediente fondamentale delle presentazioni memoriabili.
+ - Ricapitolare i messaggi importanti alla fine dell'esposizione.
+ - Se possibile, dare precedenza alle dimostrazioni piuttosto che alle descrizioni.
+ 
 ## Fonti
 - [How to give a great speech, Part 1: Preparation][1]
 - [How to give a great speech, Part 2: Delivery][2]
