@@ -34,15 +34,15 @@ Prima di imbarcarsi in qualsiasi impresa, occorre conoscerne la *ragione*. Lo st
  - Qual'è l'obiettivo del talk?
  - Che cosa voglio che il pubblico apprenda?
 
-Troppo spesso invece si comincia subito a preparare l'esposizione senza alcuna idea di partenza di dove si andrà a parare. **Conoscere l'obiettivo di una presentazione è indispensabile per esprimere con efficacia il messaggio principale e per preparare un discorso con un suo filo logico.** Ci sono ben poche cose più noiose di un elenco disordinato di fatti.
+Troppo spesso invece si comincia subito a preparare l'esposizione senza alcuna idea di partenza di dove si andrà a parare. **Conoscere l'obiettivo di una presentazione è indispensabile per esprimere con efficacia il messaggio principale e per preparare un discorso con un suo filo logico.** 
 
-Una vera presentazione non è un semplice elenco di dati, altrimenti sarebbe più conveniente scrivere un articolo. La ragion d'essere delle presentazioni è il dialogo e l'*interpretazione* di tali dati. La gente è in grado di leggere, e il motivo per cui si scomoda ad assistere ad un talk è per conoscere il *significato* e per vedere come questo possa *prendere vita*. Se ci sono dei dati importanti (grafici, tabelle, fonti, ecc) può essere più conveniente scriverle in un documento apposito e renderlo disponibile agli interessati.
+Ci sono ben poche cose più noiose di un elenco disordinato di fatti. Una vera presentazione non è un semplice elenco di dati, altrimenti sarebbe più conveniente scrivere un articolo. La ragion d'essere delle presentazioni è il dialogo e l'*interpretazione* di tali dati. La gente è in grado di leggere, e il motivo per cui si scomoda ad assistere ad un talk è per conoscere il *significato* e per vedere come questo possa *prendere vita*. Se ci sono dei dati importanti (grafici, tabelle, fonti, ecc) può essere più conveniente scriverle in un documento apposito e renderlo disponibile agli interessati.
 
 Ma il primo e più importante valore che uno speaker *deve* tenere sempre a mente è il **rispetto**: rispetto per l'audiece e per sè stessi. Troppo spesso invece gli speaker dimostrano un'insensibilità totale verso il pubblico, esponendo gli argomenti in modo confuso, incomprensibile e noioso, e subissando gli ascoltatori con aridi e lunghi elenchi puntati nello sforzo di fare bella figura e dimostrare di "sapere".
 
 > The deepest human need is the need to be appreciated. (William James)
 
-**E' essenziale invece riconoscere al pubblico il rispetto che merita il suo tempo e la sua attenzione, veicolando le informazioni in modo *conciso, chiaro e interessante*.** Si deve essere disposti a sacrificare alcuni dettagli per presentare l'argomento in modo corretto all'audience. E' questo l'**obiettivo** di ogni buona presentazione.
+**E' essenziale riconoscere al pubblico il rispetto che merita il suo tempo e la sua attenzione, veicolando le informazioni in modo *conciso, chiaro e interessante*.** Si deve essere disposti a sacrificare alcuni dettagli per presentare l'argomento in modo corretto all'audience. E' questo l'**obiettivo** di ogni buona presentazione.
 
 > The presentation isn’t about you, it’s about your material.
 
@@ -81,7 +81,7 @@ Per un esempio di come è possibile fare una presentazione **memorabile** senza 
 Vediamo ora alcuni suggerimenti su come preparare e effettuare una buona presentazione.
 
 ## Preparazione
-**Il suggerimento più importante sulla preparazione di una presentazione è quello di *preparala lontano dal PC (e da PowerPoint).* Esporre a voce alta in modalità "freestyle", provando vari approcci e annotando idee, frasi e pensieri importanti. Una volta stesa l'ossatura della presentazione, scriverla su carta (come minimo sotto forma di *outline* o [mappa mentale](http://en.wikipedia.org/wiki/Mind_map)).** Solo *dopo* si può considerare se servono slide o meno.
+**Il suggerimento più importante sulla preparazione di una presentazione è quello di *preparala lontano dal PC (e da PowerPoint).* Una volta chiaro l'obiettivo, esporre a voce alta in modalità "freestyle" provando vari approcci e annotando idee, frasi e pensieri importanti. Dopo aver steso l'ossatura della presentazione, scriverla su carta (come minimo sotto forma di *outline* o [mappa mentale](http://en.wikipedia.org/wiki/Mind_map)).** Solo *dopo* si può considerare se servono slide o meno.
 
 > Presentazione = discorso 
 
@@ -154,7 +154,7 @@ Il criterio più importante da tenere a mente nella realizzazione di slide è: *
 
 > "Your slides, if you choose to use them, should not be textual orgies. Use visual shorthand." --Chris Brogan
 
-Un grande errore compiuto da molti è quello di pensare alle slide come ad un documento a sè stante. Ma semplicemente questo non è l'uso per cui le slide sono state inventate e di certo non è quello migliore. **Le slide non sono la *presentazione*, sono solo le *illustrazioni*.**
+Un grande errore compiuto da molti è quello di pensare alle slide come ad un documento a sè stante: così facendo però realizzano un documento in un formato adatto ad essere presentato su uno schermo, non dei lucidi. Ma semplicemente questo non è l'uso per cui le slide sono state inventate e di certo non è quello migliore nel contesto di una presentazione. **Le slide non sono la *presentazione*, sono solo le *illustrazioni*.**
 
 > Le slide NON SONO la presentazione.
 
@@ -214,23 +214,24 @@ Di seguito qualche suggerimento su come condurre al meglio la *performace*:
  - **Non recitare i punti a memoria o peggio leggere le slide.** Bisogna avere rispetto per il tempo degli altri e dato che catturare l'attenzione non è affatto semplice, una volta che la si ha va gestita correttamente. Si deve conoscere bene ciò che si presenta, e questo significa essere in grado di illustrarlo senza che siano *necessari* ausili esterni.
  - **Usare un tono di voce chiaro, parlare lentamente e variare spesso il ritmo.** Bisogna parlare in modo da essere sentiti, chiaramente e ancora una volta portando rispetto verso il pubblico evitando di annoiarlo a morte con un tono di voce costante e noioso (soporiferio). Spesso i novizi durante i talk parlano troppo velocemente: rallentare deliberatamente.
   - **Evitare i "filler"**, ovvero cose come: "cioè, uhm, eh" ecc. Denotano insicurezza.
- - **Raccontare una storia**. Anche se inventata, è utile per intrattenere e mantenere vive l'attenzione. Ovviamente che sia in qualche modo rilevante all'argomento oggetto della presentazione. Può essere utile anche mischiarla con delle *metafore* utili ad illustrare certi concetti e relazioni. Inutile dire che l'effetto è migliore se la storia è divertente.
- - **Usare la retorica** per essere *incisivi e memorabili*. Praticare ad esempio con: contrasto, lista dei tre e soprattutto la *pausa*. Fare una pausa prima di esporre un punto importante crea anticipazione e drammaticità: un momento teatrale che mantiene l'attenzione.
+ - **Raccontare una storia**. Anche se inventata, è utile per intrattenere e mantenere viva l'attenzione. Ovviamente che sia in qualche modo rilevante all'argomento oggetto della presentazione. Può essere utile anche mischiarla con delle *metafore* utili ad illustrare certi concetti e relazioni. Inutile dire che l'effetto è migliore se la storia è divertente.
+ - **Usare la [retorica](http://it.wikipedia.org/wiki/Retorica)** per essere *incisivi e memorabili*. Praticare ad esempio con: contrasto, lista dei tre e soprattutto la *pausa*. Fare una pausa prima di esporre un punto importante crea anticipazione e drammaticità: un momento teatrale che mantiene l'attenzione.
  - **Se ci si dimentica qualcosa, andare avanti con la presentazione senza scusarsi o fermarsi per cercare di ricordare.** Se l'esposizione veicola il *messaggio principale*, allora è ok.
  - **Emozionare**. E' uno dei modi principali e più efficaci per mantenere l'attenzione e far arrivare i concetti a destinazione. Con un pò di pratica diventa facile visto che qualsiasi argomento può essere trattato dal punto di vista *umano*.
  - E' utile anche raccontare aneddoti (soprattutto se personali), umorismo e storie. **Un tocco personale può aiutare molto a rendere una presentazione autentica e interessante**.
  - **ENTUSIASMO!** L'entusiasmo è contagioso. La presentazione deve essere colma di *passione*, deve prendere vita e catturare l'attenzione del pubblico facendo perdere al tempo il suo significato.
  - **Creare una sensazione di *intimità* con il pubblico**: dare l'impressione di essere lì per loro e di conoscerli trattandoli come amici. L'atmosfera dovrebbe essere rilassata e amichevole.
- - Eventualmente **coinvolgere il pubblico** trasformando la presentazione in una discussione interattiva. Invitare a fare commenti e portare contributi personali. Chiaramente è possibile solo per chi conosce veramente quello di cui sta parlando ed è in grado di gestire una discussione, diversamente avrà paura di essere colto in fallo.
-
-> Comunicazione memorabile = informazioni + intrattenimento
+ - Eventualmente **coinvolgere il pubblico** trasformando la presentazione in una discussione interattiva. Invitare a fare commenti e portare contributi personali. Chiaramente è possibile solo per chi conosce veramente quello di cui sta parlando ed è in grado di gestire una discussione, diversamente avrà paura di essere colto in fallo. Comunque tutto dipende dal pubblico e dalla natura dell'argomento: non sempre l'oggetto del talk si presta ad una discussione interattiva e a volte l'audience preferisce non essere chiamata in causa.
 
 > "Humans want to connect. They are built to want to belong. A great presentation is a fire to gather around and share an experience." --Chris Brogan
 
-Per quanto riguarda le domande, è opportuno avere una *policy* per dove, come e quando accettare domande da condividere con il pubblico. Se non si conosce qualche risposta si può reagire in due modi a seconda della situazione:
+Per quanto riguarda le domande, è opportuno avere una *policy* per dove, come e quando accettare domande da condividere con il pubblico. Se non si conosce qualche risposta si può reagire in modo diverso a seconda della situazione:
 
  - "Non conosco la risposta mi dispiace."
  - Redirigere la domanda a chi può avere la risposta.
+ - "Ora non so risponderti, non appena conoscerò la risposta la scriverò sul mio blog."
+
+> Presentazione memorabile = informazioni + intrattenimento
 
 ### Chiusura
 E' importante chiudere la presentazione con un sommario che ricapitola i punti principali e **un'ultima, chiara ripetizione del messaggio chiave**.
@@ -242,7 +243,7 @@ Il pubblico deve avere la sensazione di aver ottenuto qualcosa dalla presentazio
 ## Infrangere le regole
 Tutto quello che ho illustrato sono consigli e linee guida, ma *tutte le regole possono essere infrante* e a volte devono esserlo: le interazioni umane sono qualcosa di troppo complesso e dinamico da poter essere gestito da un insieme di regole ferree seguite senza usare la testa.
 
-Sia un principiante che un esperto possono non rispettare alcune regole, la differenza sta nella *conoscenza*: l'esperto conosce le regole che infrange e sa spiegare il perchè lo fa, un principiante semplicemente no.
+Sia un principiante che un esperto possono non rispettarne qualcuna, la differenza sta nella *conoscenza*: l'esperto conosce le regole che infrange e sa spiegare il perchè lo fa, un principiante semplicemente no.
 
 > Per infrangere efficacemente le regole bisogna prima conoscerle.
 
@@ -250,11 +251,11 @@ Sia un principiante che un esperto possono non rispettare alcune regole, la diff
 Ricapitoliamo i punti importanti:
 
  - Un buon discorso è *intrattenimento* e informazioni. Bisogna imparare a comunicare.
- - Per fare una buona presentazione è essenziale la *preparazione* che va fatta lontano dal PC.
+ - Per fare una buona presentazione è essenziale una estensiva *preparazione* che va fatta lontano dal PC.
  - Ogni presentazione deve presentare 1-5 idee chiave e organizzare un discorso lineare, logico e conciso attorno ad esse.
  - Una presentazione è essenzialmente un discorso, le slide sono un accessorio non necessario. Se vengono realizzare, che siano fatte con semplicità e stile.
- - Ogni presentazione deve essere un'esibizione colma di *entusiasmo* e in grado di appassionare l'audience. Occorre imparare a esibirsi e creare un'atmosfera intima è un ingrediente fondamentale delle presentazioni memoriabili.
- - Ricapitolare i messaggi importanti alla fine dell'esposizione.
+ - Ogni presentazione deve essere un'esibizione colma di *entusiasmo* e in grado di appassionare l'audience. Imparare ad esibirsi e a creare un'atmosfera intima sono ingredienti fondamentali delle presentazioni memoriabili.
+ - All'inizio anticipare quello di cui si parlerà e alla fine dell'esposizione ricapitolare i messaggi importanti.
  - Se possibile, dare precedenza alle dimostrazioni piuttosto che alle descrizioni.
  
 ## Fonti
