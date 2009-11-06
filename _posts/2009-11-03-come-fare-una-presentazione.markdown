@@ -12,21 +12,13 @@ Fare una presentazione o insegnare in generale è molto di più che essere degli
 
 ## Sommario
 
-- Obiettivo delle presentazioni
-- Sull'uso delle slide
-- Preparazione
-     - Audience
-     - Tema
-     - Struttura
-     - Pratica
-     - Slide
-- Delivery
-     - Apertura
-     - Talk (show)
-     - Chiusura
-- Infrangere le regole
-- Conclusioni
-- Fonti
+ - Obiettivo delle presentazioni
+ - Sull'uso delle slide
+ - Preparazione: Audience, Tema, Struttura, Pratica, Slide
+ - Delivery: Apertura, Talk (show), Chiusura
+ - Infrangere le regole
+ - Conclusioni
+ - Fonti
 
 ## Obiettivo delle presentazioni
 Prima di imbarcarsi in qualsiasi impresa, occorre conoscerne la *ragione*. Lo stesso vale per una presentazione: 
