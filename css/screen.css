@@ -58,6 +58,19 @@ a:visited {
 
 table {
     font-size: inherit;
+    border: 1px solid;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th {
+    background-color: #bdf;
+}
+
+td,th { 
+  border: 1px solid;
+  padding: 0 0.5em;
+  text-align: center;
 }
 
 blockquote {
