@@ -1,0 +1,31 @@
+/*  print.css 
+
+Stylesheet for printing.
+*/
+
+html {
+	font-family: Times, serif;
+	font-size: 12pt;
+}
+
+body {
+	margin: 1.5cm;
+}
+
+a, a:visited, a.nonexistent {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+pre {
+	font-size: 10pt;
+}
+
+.header, #related, #comments {
+	display: none;
+}
+
