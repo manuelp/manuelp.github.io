@@ -32,10 +32,6 @@ body {
     border-style: dashed;
 }
 
-#home h1, h2, h3, h4, h5, h6 {
-    font-size: 130%;
-}
-
 h1 {
     margin-bottom: 0.1em;
 }
@@ -220,27 +216,6 @@ a.extra {
 /* standard */
 #post #title {
     font-size: 160%;
-}
-
-/* #post h1,  */
-/* #post h2,  */
-/* #post h3,  */
-/* #post h4,  */
-/* #post h5,  */
-/* #post h6 { */
-/*     background-color: #af2; */
-/* } */
-
-#post h1 {
-    font-size: 140%;
-}
-
-#post h2 {
-    font-size: 120%;
-}
-
-#post h3 {
-    font-size: 110%;
 }
 
 #post pre {
