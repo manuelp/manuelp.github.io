@@ -8,6 +8,10 @@ Con tutta probabilità sei già stato *vittima* di presentazioni noiose e confus
 
 Fare una presentazione o insegnare in generale è molto di più che essere degli esperti nella materia. Occorrono delle competenze differenti per *presentare* informazioni in modo corretto: **si devono sviluppare le capacità di comunicazione.**
 
+> "Presentation skills are worthy of extreme obsessive study." --Tom Peters, Management guru
+
+> "Presentation is the 'Killer Skill' we take into the real world. It's almost an unfair advantage." --The McKinsey Mind
+
 > Ottima presentazione = conoscenze + comunicazione
 
 ## Sommario
@@ -253,6 +257,8 @@ Ricapitoliamo i punti importanti:
  - Se possibile, dare precedenza alle dimostrazioni piuttosto che alle descrizioni.
  
 ## Approfondimenti
+- [Presentation Tips by Garr Reynolds](http://www.garrreynolds.com/Presentation/index.html)
+- [Presentation Zen](http://www.presentationzen.com/)
 - [How to give a great speech, Part 1: Preparation][1]
 - [How to give a great speech, Part 2: Delivery][2]
 - [Presentation Masterclass - Part 1: Introduction][3]
@@ -268,7 +274,6 @@ Ricapitoliamo i punti importanti:
 - Lehr, J.H., 1985, [Let there be stoning!][5], Ground Water, v. 23, no. 2, p. 162-165
 - [OSCON 2005: Presentation Aikido, Damian Conway, first half](http://www.canspice.org/2005/08/01/oscon-2005-the-conway-channel-first-half/)
 - [OSCON 2005: Presentation Aikido, Damian Conway, second half](http://www.canspice.org/2005/08/01/oscon-2005-presentation-aikido-damian-conway-second-half/)
-- [Top Ten Slide Tips](http://www.garrreynolds.com/Presentation/slides.html)
 
 [1]: http://www.lifehack.org/articles/communication/how-to-give-a-great-speech-part-1-preparation.html
 [2]: http://www.lifehack.org/articles/communication/how-to-give-a-great-speech-part-2-delivery.html
