@@ -142,6 +142,8 @@ Come descritto le slide **non** sono indispensabili per una presentazione, ma se
 
 Data la facilità disarmante nel realizzarne di irritanti e inutili, il modo migliore per rendere delle slide attraenti è essere consapevole che sono un *ausilio*, uno *strumento* il cui compito è quello di sottolineare ed enfatizzare i punti importanti, non di distrarre il pubblico costringendolo a leggere decine e decine di parole. Inquadrare le slide come uno strumento poi, permette di utilizzarle in modo *creativo* per sorprendere, mantenere l'attenzione e fissare i concetti.
 
+> "Nothing in your slide should be superfluous, ever." --Garr Reynolds
+
 Il criterio più importante da tenere a mente nella realizzazione di slide è: **semplicità e stile**. Vedere come esempio le slide di: Apple, Bang & Olufsen, The Perl Journal, ecc.
 
 > "Your slides, if you choose to use them, should not be textual orgies. Use visual shorthand." --Chris Brogan
@@ -250,7 +252,7 @@ Ricapitoliamo i punti importanti:
  - All'inizio anticipare quello di cui si parlerà e alla fine dell'esposizione ricapitolare i messaggi importanti.
  - Se possibile, dare precedenza alle dimostrazioni piuttosto che alle descrizioni.
  
-## Fonti
+## Approfondimenti
 - [How to give a great speech, Part 1: Preparation][1]
 - [How to give a great speech, Part 2: Delivery][2]
 - [Presentation Masterclass - Part 1: Introduction][3]
@@ -266,6 +268,7 @@ Ricapitoliamo i punti importanti:
 - Lehr, J.H., 1985, [Let there be stoning!][5], Ground Water, v. 23, no. 2, p. 162-165
 - [OSCON 2005: Presentation Aikido, Damian Conway, first half](http://www.canspice.org/2005/08/01/oscon-2005-the-conway-channel-first-half/)
 - [OSCON 2005: Presentation Aikido, Damian Conway, second half](http://www.canspice.org/2005/08/01/oscon-2005-presentation-aikido-damian-conway-second-half/)
+- [Top Ten Slide Tips](http://www.garrreynolds.com/Presentation/slides.html)
 
 [1]: http://www.lifehack.org/articles/communication/how-to-give-a-great-speech-part-1-preparation.html
 [2]: http://www.lifehack.org/articles/communication/how-to-give-a-great-speech-part-2-delivery.html
