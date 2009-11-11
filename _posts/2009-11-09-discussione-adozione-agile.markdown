@@ -33,7 +33,7 @@ Di seguito riassumo i contributi espressi nei commenti all'articolo da alcuni le
  - I metodi agili hanno l'obiettivo di massimizzare l'efficienza, la produttività e il business value realizzato indipendentemente dal budget quindi sono ugualmente applicabili in un progetto a costo fisso. Inoltre, con l'avanzare del progetto e specialmente con l'acquisizione di competenze da parte del team diventa possibile stimare con sempre maggior precisione i tempi richiesti. Ovviamente, in un progetto a costo fisso è ancora più importante avere un team con esperienza e un cliente in grado di prioritizzare le features.
 
 ## Commenti personali
-Innanzitutto l'approccio agile (iterativo e incrementale) comporta importanti vantaggi per tutte le parti coinvolte (clienti, management, sviluppatori), ed è utile educare *tutte* le parti coinvolte sui suoi vantaggi.
+Innanzitutto l'approccio agile (iterativo e incrementale) comporta importanti vantaggi per tutte le parti coinvolte (clienti, management, sviluppatori), ed è utile educarle *tutte* sui suoi vantaggi.
 
 Inoltre, data la natura dell'agile (focus su *efficienza* e *qualità*) è applicabile anche in un contesto a costo fisso secondo me. Però qualsiasi progetto a costo fisso comporta un rischio sostenibile solo in questi casi:
 

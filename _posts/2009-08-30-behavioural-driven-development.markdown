@@ -56,7 +56,7 @@ Non c'è stato molto focus sul comportamento del sistema nel suo insieme, e nemm
 Probabilmente però, se fossimo partiti dal principio creando delle *specifiche*, e usandole per guidare lo sviluppo distribuendo la progettazione lungo il processo e realizzando il prodotto *feature-per-feature* creando una versione/demo rilasciabile dopo ogni iterazione, sarebbe stato molto meglio.
 
 ## Update (26/10/2009)
-Un paio di articolo diNaresh Jain chiariscono molto bene gli effetti e il significato del BDD:
+Un paio di articolo di Naresh Jain chiariscono molto bene gli effetti e il significato del BDD:
 
  - [Goodbye Simplicity: I'm Object Obsessed](http://blogs.agilefaqs.com/2009/10/26/goodbye-simplicity-im-object-obsessed/)
  - [There is No Spoon](http://blogs.agilefaqs.com/2009/06/15/there-is-no-spoon-objects/)
