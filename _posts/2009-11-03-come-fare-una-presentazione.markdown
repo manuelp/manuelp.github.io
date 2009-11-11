@@ -144,6 +144,8 @@ La pratica è **essenziale**, non basta preparare un discorso sulla carta. Come 
 ### Slide
 Come descritto le slide **non** sono indispensabili per una presentazione, ma se *dopo* ever preparato il materiale si decide di utilizzarle, tanto vale renderle memoriabili.
 
+> "Great content is a necessary condition, but not a sufficient one." --Garr Reynolds
+
 Data la facilità disarmante nel realizzarne di irritanti e inutili, il modo migliore per rendere delle slide attraenti è essere consapevole che sono un *ausilio*, uno *strumento* il cui compito è quello di sottolineare ed enfatizzare i punti importanti, non di distrarre il pubblico costringendolo a leggere decine e decine di parole. Inquadrare le slide come uno strumento poi, permette di utilizzarle in modo *creativo* per sorprendere, mantenere l'attenzione e fissare i concetti.
 
 > "Nothing in your slide should be superfluous, ever." --Garr Reynolds
