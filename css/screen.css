@@ -177,8 +177,20 @@ a.extra {
     color: #aaa;
 }
 
+/*********************** BANNER *********/
+.site .banner {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.site .banner br {
+    margin: 1em 0 1em 0;
+}
+
 /*********************** FOOTER *********/
 .site .footer {
+    clear: both;
     font-size: 80%;
     color: #086;
     border-top: 4px solid #eee;
