@@ -54,7 +54,7 @@ exit()
 
 E lisp:
 
-{% highlight common-lisp %}
+{% highlight cl %}
 (defun greet-all (persone)
   (mapc (lambda (persona)
 	  (princ `("Ciao" ,persona))
