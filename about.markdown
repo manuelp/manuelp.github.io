@@ -52,6 +52,19 @@ print "Ciao mondo! :D"
 exit()
 {% endhighlight %}
 
+E lisp:
+
+{% highlight common-lisp %}
+(defun greet-all (persone)
+  (mapc (lambda (persona)
+	  (princ `("Ciao" ,persona))
+	  (fresh-line))
+	persone))
+
+(fresh-line)
+(greet-all '("Manuel" "Lisa"))
+{% endhighlighting %}
+
 Links
 -----
 Proviamo anche qualche [link](http://www.google.com "tooltip")
