@@ -18,7 +18,8 @@ html, body {
 body {
     background-color: white;
     /*font: 13.34px sans-serif, clean, arial, helvetica, times; */
-    font-family: sans-serif, clean, arial, Times, helvetica, times; 
+    /*font-family: sans-serif, clean, arial, Times, helvetica, times; */
+    font-family: 'Cuprum', arial, serif;
     font-size: small; 
     text-align: center;
 }
@@ -34,6 +35,15 @@ body {
 
 h1 {
     margin-bottom: 0.1em;
+}
+
+.site h1, 
+.site h2,
+.site h3,
+.site h4,
+.site h5,
+.site h6, {
+    font-family: 'EB Garamond', arial, serif;
 }
 
 p {
@@ -90,9 +100,10 @@ ul, ol {
     margin-bottom: 1em;
     margin-left: 2em;
     margin-right: 2em;
-    /* padding-left: 0.5em; */
-    /* padding-right: 0.5em; */
+    padding-left: 0.3em;
+    padding-right: 0.3em;
     border: 1px solid black;
+    /*background-color: #ff8;*/
 }
 
 /*****************************************************************************/

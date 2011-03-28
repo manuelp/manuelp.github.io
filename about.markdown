@@ -63,7 +63,7 @@ E lisp:
 
 (fresh-line)
 (greet-all '("Manuel" "Lisa"))
-{% endhighlighting %}
+{% endhighlight %}
 
 Links
 -----
