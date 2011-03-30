@@ -19,8 +19,8 @@ body {
     background-color: white;
     /*font: 13.34px sans-serif, clean, arial, helvetica, times; */
     /*font-family: sans-serif, clean, arial, Times, helvetica, times; */
-    font-family: 'Cuprum', arial, serif;
-    font-size: small; 
+    font-family: 'EB Garamond', arial, serif;
+    font-size: 0.9em; 
     text-align: center;
 }
 
@@ -35,15 +35,6 @@ body {
 
 h1 {
     margin-bottom: 0.1em;
-}
-
-.site h1, 
-.site h2,
-.site h3,
-.site h4,
-.site h5,
-.site h6, {
-    font-family: 'EB Garamond', arial, serif;
 }
 
 p {
@@ -190,6 +181,7 @@ a.extra {
 
 /*********************** BANNER *********/
 .site .banner {
+    display: none;
     position: absolute;
     top: 40%;
     left: 10%;
