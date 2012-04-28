@@ -13,6 +13,18 @@ First we need a definition of both, next we'll explore what tools we have at our
 - **Concurrency**: it's the coordination of multiple threads of executions that usually access and modify some *shared state*. Here the main ingredients are *threads* and *shared state*.
 - **Parallelism**: it's an *optimization technique* that also involves state but the main goal is to efficiently use all the available resources (tipically computational, but also bandwidth for example), by distributing operations that are executed *simultaneously* (rather than interleaved as in the concurrency case). Note that with parallelism the multiple simultaneous evaluations can take place on different cores or even in different machines, in the latter case we also have *distribution*.
 
+- Concurrency
+- Parallelism
+- Distributed computing
+
+Clojure has excellent support for concurrency, however [there is no similar direct solution for parallel and distributed computing](https://groups.google.com/d/msg/clojure/o0D-SV2opAY/1IyCgSQqUHEJ). There are `pmap` for parallelism and some useful libraries out there like [Avout](http://avout.io/) and [swarmiji](https://github.com/amitrathore/swarmiji) and [net-eval](http://nakkaya.com/net-eval.html). There are even startups that have done some work with distributed computing in Clojure in [FlightCaster](http://www.datawrangling.com/how-flightcaster-squeezes-predictions-from-flight-data) and [Cascalog](http://nathanmarz.com/blog/introducing-cascalog-a-clojure-based-query-language-for-hado.html).
+
+However, using the [words](https://groups.google.com/d/msg/clojure/TIIH0ZOUKwA/YGbuW6y4BVQJ) of Stuart Sierra:
+
+> Clojure, the language, provides many tools to manage concurrency, safe access to mutable state from multiple threads. It does not currently offer much in the way of parallelism, making something faster by dividing the work across multiple threads or distributed across multiple machines. Several people have experimented with adding parallelism to Clojure, such as the fork/join framework described in JSR-166. Others have successfully used Clojure with Java libraries for parallel computing, such as Hadoop and Hazelcast. It is a long-term goal of Clojure to be useful for parallel and distributed computing, but we're still in the early stages of that development.
+
+Someone in the Clojure newsgroup [says](https://groups.google.com/d/msg/clojure/o0D-SV2opAY/JPjuInyKjw8J) that the STM is not scalable and that *fault tolerance*, *concurrency* and *distributed parallel programming* are all necessary for "limitless scalability and infinite reliability". So there is still a lot to do in this space. For example, Prismatic [has implemented](http://blog.getprismatic.com/blog/2012/4/5/software-engineering-at-prismatic.html) its custom concurrency and parallel abstractions to have more fine grained control.
+
 ## Concurrency ##
 
 Clojure has excellent support for [concurrency](http://clojure.org/state) because it offers an high level mechanism (the *Software Transactional Memory*, in short STM) for persistent immutable data structures. This mechanism makes possible to write concurrent programs eliminating at its root problems like deadlocks and race conditions when you need shared mutable state between threads.
