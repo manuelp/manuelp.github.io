@@ -25,17 +25,29 @@ However, using the [words](https://groups.google.com/d/msg/clojure/TIIH0ZOUKwA/Y
 
 Someone in the Clojure newsgroup [says](https://groups.google.com/d/msg/clojure/o0D-SV2opAY/JPjuInyKjw8J) that the STM is not scalable and that *fault tolerance*, *concurrency* and *distributed parallel programming* are all necessary for "limitless scalability and infinite reliability". So there is still a lot to do in this space. For example, Prismatic [has implemented](http://blog.getprismatic.com/blog/2012/4/5/software-engineering-at-prismatic.html) its custom concurrency and parallel abstractions to have more fine grained control.
 
+So *Clojure is not a parallel programming language* in the sense that it's not the system that decides how to parallelize work, you have to do that. The emphasis is on the coordination aspect with the concurrency primitives. This way you have more control, but I think we need at least a way to do this automatically if it's possible to do that.
+
+Ant colony: [Gist](https://gist.github.com/1494094) e [repo](https://github.com/scientific-coder/clojure-ants-simulation). The video is [here](https://blip.tv/clojure/clojure-concurrency-819147). Slides maybe are [here](http://www.slideshare.net/adorepump/clojure-an-introduction-for-java-programmers)
+
 ## Concurrency ##
 
 Clojure has excellent support for [concurrency](http://clojure.org/state) because it offers an high level mechanism (the *Software Transactional Memory*, in short STM) for persistent immutable data structures. This mechanism makes possible to write concurrent programs eliminating at its root problems like deadlocks and race conditions when you need shared mutable state between threads.
 
-- TODO: But how do you use multiple threads in your code?
+Turns out you don't need to directly use threads. Of course you [can](http://stackoverflow.com/questions/1768567/how-does-one-start-a-thread-in-clojure) if you want, but a more idiomatic way to write concurrent applications it to use *agents*. They are like activities you send work to, running in a thread pool that can leverage multiple cores.
+
+Links:
+  - http://blog.japila.pl/2011/01/clojure-concurrency-with-agents-no-more-explicit-threads/
+  - http://clojure.org/concurrent_programming
+  - http://clojure.org/agents
+
 - TODO: Why parallelism is important
 - TODO: Parallelism in Clojure
 
 But if you want *parallelism*? 
 
 ## Parallelism
+
+`pmap`, `pcalls`. (TODO: `future`, `delay`, ...? Read chapter on "Clojure Programming").
 
 The catch with parallelism is that computations has to have a certain kind of structure to be parallelizable. For example, the application of a function to a seq using `map` is trivially parallelizable because every application is independed to the others. Indeed, there is a version of map that uses parallelism to distribute computations to all available cores: `pmap`. 
 
