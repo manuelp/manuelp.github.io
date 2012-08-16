@@ -1,0 +1,13 @@
+---
+layout: post
+title: True OOP
+categories: oop,fp,alan-kay
+---
+
+> OO was not translated properly from the original Alan Key propositions of components sending messages between each other. [...] The Actors model of computation is typically an OO pattern that implements message passing. It’s strange nowadays to see actors being used as a strong argument to adopt FP instead :)
+
+From [Reborg](http://reborg.tumblr.com/post/29473150827/clojure-weekly-aug-09-16-2012).
+
+After studying and exploring papers, articles and talks by Alan Kay I couldn't agree more to this. There was clearly a misunderstanding on the original object-orientation's vision.
+
+Since the rationale for OOP was *managing complexity and creating massively scalable systems*, I think we need to rediscover the original meaning of this design philosophy if we want to be better armed to solve real world modern problems. Maybe it's not the best way to solve some problem, but it's an additional tool at your disposal.
