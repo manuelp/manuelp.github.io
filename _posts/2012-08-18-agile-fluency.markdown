@@ -27,4 +27,26 @@ L'acquisizione della *team fluency* con l'approccio agile, secondo il modello di
 
 ![A Team's Path Through Agile Fluency](/images/agile-fluency-path.png)
 
+Ogni livello apporta dei benefici specifici, ma avanzare implica investimenti (lavoro, sfide) perciò in alcune organizzazioni può essere abbastanza fermarsi prima.
+
+Pratica deliberata (deliberate practice)
+----------------------------------------
+**Acquisire *dimestichezza* (fluency) è più una questione di abitudini che di abilità**. I corsi possono aiutare ad acquisire le abilità necessarie ma serve *molta* pratica. Secondo l'esperienza degli autori dell'articolo originale le tempistiche sono grossomodo:
+
+- 1 stella: 2-6 mesi. Circa il 45% dei team con cui hanno parlato gli autori riportano dimestichezza con questo livello.
+- 2 stelle: altri 24 mesi, a seconda della quantità di *debito tecnico* (technical debt) nel codice. Circa il 35% dei team riportano dimestichezza a questo livello.
+- 3 stelle: 1-5 anni, più che altro dovuto a resistenze da parte del resto dell'organizzazione. I team che raggiungono questo livello sono molto più rari, circa il 5%.
+- 4 stelle: solo una manciata di team tra quelli che hanno raggiunto il livello a 3 stelle mirano a raggiungerlo. Oltre alle organizzazioni a singolo team, solo poche di dimensioni maggiori l'hanno raggiunto.
+
+Secondo l'esperienza degli autori, i team progrediscono molto più velocemente quando *praticano tecniche avanzate insieme a quelle base*. Consigliano di scegliere il livello di dimestichezza che si vuole raggiungere e *praticare tutto il necessario fin dall'inizio*. In questo modo le pratiche vengono assimilate meglio e in modo affidabile.
+
+Per la maggior parte dei team una dimestichezza di livello 2 o 3 è una buon obiettivo. Il livello 3 comporta maggiori vantaggi, ma richiede anche cambiamenti alla struttura e cultura organizzative perciò è più facile ottenerla in organizzazioni più piccole.
+
+Perdere dimestichezza?
+----------------------
+E' possibile e le cause principali sono:
+
+- Una nuova gestione che decide che l'approccio agile non è più in linea con la propria visione. Perdendo il supporto organizzativo il livello di dimestichezza si erode velocemente (anche per il possibile "abbandonare la nave" di persone insoddisfatte).
+- Ma soprattutto: *turnover*. Un'organizzazione che perde troppi dei propri membri ha difficoltà a mantenere in vita ciò che ha imparato a livello organizzativo. Un problema che si fa sentire in praticolare in aziende che assemblano nuovi team per ogni progetto invece che assegnare progetti a team già ben rodati.
+
 [agile-fluency]: http://martinfowler.com/articles/agileFluency.html
