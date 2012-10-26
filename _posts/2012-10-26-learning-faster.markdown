@@ -4,9 +4,9 @@ title: Learning faster
 categories: learning
 ---
 
-Learning fast, and being able to master concepts and techniques is more important that ever nowadays in the "information age". Learning something *deeply* and mastering it to the point of having an *intuition* about it is very important in every field. The point is developing *knowledge and skills*, not only dry informations.
+Learning fast, and being able to master concepts and techniques is more important that ever nowadays in the "information age". Learning something *deeply* and mastering it to the point of having an *intuition* about it is very important in every field. The point is developing *knowledge and skills*, not only being able to reharse dry informations.
 
-But what we could do about this? *Learning to learn* is underrated, but very important. Here I summarize my understanding of a [guest post](http://calnewport.com/blog/2012/10/26/mastering-linear-algebra-in-10-days-astounding-experiments-in-ultra-learning/) by [Scott Young](http://www.scotthyoung.com/) on [Study Hacks](http://calnewport.com/blog/) by Cal Newport. This guy (Scott), completed the 4-year MIT computer science curriculum in just 12 months... So I suppose he has some good tips to share on this.
+But what we could do about this? *Learning to learn* is underrated, but very important. Here I summarize my understanding of a [guest post](http://calnewport.com/blog/2012/10/26/mastering-linear-algebra-in-10-days-astounding-experiments-in-ultra-learning/) by [Scott Young](http://www.scotthyoung.com/) on [Study Hacks](http://calnewport.com/blog/), a very interesting blog written by Cal Newport. This guy (Scott), completed the 4-year MIT computer science curriculum in just 12 months... So I suppose he has some good tips to share on this.
 
 # The Drilldown Method
 
@@ -17,12 +17,12 @@ The so-called "drilldown method" has this basic structure:
 
 Don't make the mistake to consider this step the most important. Since this a necessary step but generally the ROI is not so high (the real learning is *active*), *in many cases it's better to speed-up this stage so that you can invest more time on the latter ones*.
 
-The interesting thing is that if you're reading a book, *highlighting is a poor way of processing informations*. It's much better to:
+The interesting thing is that if you're reading a book, *highlighting is a poor way of processing informations*. It's much better to use techniques like:
 
-- **Note-taking**: taking sparse notes while reading
-- **Summarizing**: writing a one paragraph summary of each major section
+- **Note-taking**: taking sparse notes while reading.
+- **Summarizing**: writing a one paragraph summary of each major section.
 
-Maybe both, but the point here is **to be *actively* engaged with the material and to quickly process it** to gain a general understanding. Probably you won't understand or remember everything: this is perfectly normal. Probably, if the subject is not trivial, there will be more *iterations*, but for the first one remember that *it's better to quickly review the material and gain a "mental framework" of the subject for further learning, than grinding on every section only to give up in frustrations*. Indeed, often you'll gain enough informations in the first iteration so that in the following ones you'll understand a lot more.
+Maybe both, but the point here is **to be *actively* engaged with the material and quickly processing it** to gain a general understanding. Probably you won't understand or remember everything: this is perfectly normal. If the subject is not trivial there will be more *iterations*, but for the first one remember that *it's better to quickly review the material and gain a "mental framework" of the subject for further learning than grinding on every section only to give up in frustration*. Indeed, often you'll gain enough informations in the first iteration so that in the following ones you'll understand a lot more.
 
 ## 2) Practice
 Practice serves a dual purpose:
@@ -48,7 +48,7 @@ This technique is fairly easy to describe, but it enables some important advanta
 - During this process, you'll come up with insights, novel connections with things you already know, metaphors and problems that will benefit from this new understanding.
 
 > "You do not really understand something unless you can explain it to your grandmother."
-> [Albert Einstein](http://www.diracdelta.co.uk/science/source/q/u/quotes/source.html)
+> -- [Albert Einstein](http://www.diracdelta.co.uk/science/source/q/u/quotes/source.html)
 
 This technique can be applied in several ways:
 
@@ -69,15 +69,15 @@ Understanding intuitively and idea is not easy, but that's when you'd have reall
 ## Gaining deep understanding and mastery
 Don't fall trap of the illusion that these steps in reality are strictly executed in sequence. *They are more a cycle that you go through several times*, section after section, chapter after chapter, book after book.
 
-It's more work to do, sure, compared to one mindless reading. But it's a faster way to gain a real and deep mastery. That is, if you aren't serious and motivated about learning something, you'll give up. And this is good! Not every subject is really useful or interesting to you and that's fine. That's the way you discover what you are really interested into.
+Sure, it's more work to do compared to one mindless reading. But it's a faster way to develop a real and deep understanding and mastering the concepts. That is, if you aren't serious and motivated about learning something, you'll give up. And this is good! Not every subject is really useful or interesting to you and that's fine. That's the way you discover what you are really interested into.
 
 ## What does it means for us developers?
-We developers tend to going through only the first two steps:
+We developers tend to go through only the first two steps:
 
 1. Coverage: reading a book (or pieces of it) that teaches the basics.
 2. Practice: applying that basics to a toy project (or a production system).
 
-However, some developers extends that practice with the third step summarizing their insights and new understanding maybe in blog posts, guides, tutorials and even entire books. This is a useful practice I think.
+However, some developers extend that practice with the third step: summarizing their insights and new understanding in blog posts, guides, tutorials, presentations and even entire books or courses. I think this is a very useful practice.
 
 On a related note, that's why I claim that good programming books should have *exercises with solutions* for at least every chapter (for a recent example, see [Functional Programming for the Object-Oriented Programmer](http://leanpub.com/fp-oo) by Brian Marick).
 
@@ -89,4 +89,6 @@ They should also don't stop after teaching syntax and mechanics, but also teach 
 And in general *not only the how, but also the why and when*.
 
 > "That is, the best programming language books infuse a strong sense of design into the narrative. The strength of this approach is that not only are you learning a programming language, but you’re also learning how to think in that language, and the very why of the language itself."
-> - [Michael Fogus](http://blog.fogus.me/2011/08/14/perlis-languages/)
+> -- [Michael Fogus](http://blog.fogus.me/2011/08/14/perlis-languages/)
+
+It's the same Michael Fogus that with Chris Houser wrote [The Joy Of Clojure](http://joyofclojure.com/), a book that won a Jolt Award in 2011 as one of [The six best books every developer should read](http://www.drdobbs.com/joltawards/jolt-awards-the-best-books/231500080?pgno=4). Another example to look closely to :)
