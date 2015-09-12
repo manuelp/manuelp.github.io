@@ -3,7 +3,10 @@ layout: default
 title: About
 ---
 
-# Who am I? #
-My name is Manuel Paccagnella, I'm a 20-something and work in Italy as a software developer in a small company that creates software solutions for local businesses. 
+Welcome! My name is Manuel Paccagnella, and I'm your host for this blog. I was born in 1986 and now, a bunch of years later, I work in Italy as a software developer in a small company that creates software solutions for local businesses.
 
-In my day job I work mainly with Java and its ecosystem, but I have a great passion an curiosity for the world of programming and I'm constantly learning. My current interests are: functional programming (LISP, Clojure), OO (Smalltalk, Io), all things "agile" and a zillion of other things.
+In my day job I work mainly with Java and Javascript, but I have a great passion and curiosity for the world of software development and I’m constantly learning. I'm particularly interested in functional programming, and right now I'm fond of [Haskell](http://www.haskell.org/) and [Clojure](http://clojure.org/). If you attended EuroClojure 2012 you have probably saw me there :)
+
+I like to read, study, write [some](https://github.com/manuelp) [code](https://bitbucket.org/manuelp), and occasionally post on this blog.
+
+![Manuel](images/me.png)
