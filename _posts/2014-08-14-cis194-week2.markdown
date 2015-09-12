@@ -1,0 +1,155 @@
+---
+layout: post
+title: CIS 194, week 2, Algebraic Data Types
+categories: blog
+---
+
+This is a post about [week 2](http://www.seas.upenn.edu/~cis194/lectures/02-ADTs.html) of the [CIS 194: Introduction to Haskell](http://www.seas.upenn.edu/~cis194/) course by [Brent Yorgey](http://www.cis.upenn.edu/~byorgey/), from the [Penn University of Pennsilvania](http://www.upenn.edu/).
+
+----
+
+This week is all about **Algebraic Data Types** (ADT), not to be confused with *Abstract* Data Types (also ADT) which are another topic.
+
+Haskell has *enumeration types* (like Java, but still less verbose and more intuitive). An example:
+
+```haskell
+data Food = Pizza
+	      | Bacon
+		  | Salad
+	deriving Show
+```
+
+We have just declared a new (algebraic data) type called `Food`, with three *data constructors* which are the *only* values of the type `Food`.
+
+We can now define new functions on the new data type using *pattern matching*:
+
+```haskell
+isTempting:: Food -> Boolean
+isTempting Salad = False
+isTempting _ = True
+```
+
+But in Haskell enumeration types are only a special case of Algebraic Data Types. One common class of ADT is called [sum type](http://en.wikipedia.org/wiki/Sum_type) (a.k.a. tagged union). A simple example of ADT which is not an enumeration is this:
+
+```haskell
+data OperationResult = OK
+                     | Error Integer
+	deriving Show
+```
+
+Here we see that `Error` is a data constructor that *takes an argument* of type `Integer`. We can *construct* new `OperationResult` values using the `Error` data constructor:
+
+```haskell
+success:: OperationResult
+success = OK
+
+failure:: OperationResult
+failure = Error 404
+```
+
+`OK` is a value of type `OperationResult` (since it's a data constructor with zero arguments), but `Error` by itself it's not. We have to pass an `Integer` value to it to build an `OperationResult` with it. 
+
+We've just introduced *polymorphic data types*. Specifically, we can have *type signatures with variables* just as we can have function implementations with variables. The difference here is that while in actual code variables are symbols bound to *values*, in *type variables are bound to types of values*. In other words, types are actually values in type signatures. We're reasoning on a higher and more abstract level. Take a moment to contemplate this fact.
+
+Formally, in Haskell an ADT is *a type with one or more data constructors, each one of them can have zero or more arguments*.
+
+A general example that shows how to build values is:
+
+```haskell
+isSafeDiv:: Double -> Double -> OperationResult
+isSafeDiv _ 0 = Error 1000
+isSafeDiv _ _ = OK
+```
+
+We can also use pattern matching to make decisions based on the *structure* of the `OperationResult` value and bind variables to the arguments:
+
+```haskell
+isSuccessful:: OperationResult -> Boolean
+isSuccessful OK = True
+isSuccessful (Error n) = False
+```
+
+It's idiomatic in Haskell when you have an algebraic data type with a single data constructor, to name it like the data type itself. Example:
+
+```haskell
+data Person = Person String String Int
+	deriving Show
+```
+
+This can be done since *types and data constructors live in separate namespaces*.
+
+## Pattern Matching
+
+In general, pattern matching is a way to *know what data constructor has been used to create a value of a certain ADT, and to take apart its arguments*. Effectively, in Haskell this is *the only way to make decisions*.
+
+```
+pat ::= _
+	| var
+	| var @ (pat)
+	| (Constructor pat1 pat2 ... patn)	
+```
+In order:
+
+* `_` is a wildcard.
+* We can pattern match against literal values (for example: `OK`).
+* We can pattern match against a pattern, and still bind the entire value to a variable.
+* We can pattern match against a data constructor (even recursively).
+
+It's worth noting that types like `Int` can be viewed like an ADT:
+
+```haskell
+data Int = 0 | 1 | 2 | ...
+```
+
+Indeed, we can pattern match on its values. But, perhaps obviously, they are not implemented like that in the compiler.
+
+### Case expressions
+
+A way (the only one actually) to do pattern matching is by using *case expressions*:
+
+```haskell
+case exp of
+	pat1 -> exp1
+	pat2 -> exp2
+	...
+```
+
+For example, we could reimplement the `isSuccessful` function from earlier using a case expression:
+
+```haskell
+isSuccessful:: OperationResult -> Boolean
+isSuccessful op = case op of
+	                OK -> True
+					(Error n) -> False
+```
+
+However it's more elegant to use the first version. Indeed, the syntax for doing pattern matching in a function definition is just *syntactic sugar* on case expressions.
+
+## Recursive algebraic data types
+
+It's interesting to note that ADTs can be *recursive*. For example, let's define a list of integers:
+
+```haskell
+data IntList = Empty
+	         | Cons Int IntList
+```
+
+This definition can be read as: "an `IntList` is either an `Empty` one or an `Int` value followed by an `IntList`". This kind of definition is quite clear and elegant (see [Church encoding](http://en.wikipedia.org/wiki/Church_encoding)). For example:
+
+```haskell
+-- [1,2,3] can be represented as an IntList:
+l:: IntList
+l = Cons 1 (Cons 2 (Cons 3 Empty))
+```
+
+A recursive data ADT naturally leads to recursive functions. For example, to calculate the sum of all the values in an `IntList`:
+
+```haskell
+calcSum:: IntList -> Int
+calcSum Empty = 0
+calcSum (Cons n ns) = n + calcSum ns
+```
+
+So, we've seen so far that type signatures can have variables, and can be recursive. Sounds like we could have a Turing-complete type system... indeed, we have one. Someone even implemented [a LISP interpreter that completely runs on the Haskell type system](https://github.com/seliopou/typo)!
+
+That's all for this week. Remember: *do the exercises*!

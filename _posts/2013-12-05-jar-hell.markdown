@@ -1,0 +1,15 @@
+---
+layout: post
+title: (JAR) Hell is here
+categories: blog
+---
+
+From [Gorging on Java frameworks and dependencies](http://blog.borud.no/2013/03/gorging-on-java-frameworks-and.html):
+
+> I can't remember who said it, but I think one of my colleagues at Comoyo said something along the lines of: **"we obsess over our own code with code reviews and such, but we happily depend on any piece of shit some crazy monkey on the net has cobbled together in his spare time"**.
+    
+> Think about that.  Because it is true.
+    
+> Right now your Java application probably contains a dozen version conflicts that you have not noticed.  The more common variety being the same library occurring in your transitive dependency graph more than once and in different versions.  It is sheer dumb luck that your application works at all.  If you don't know what I am talking about I suggest you have a close look at your transitive dependency graph.
+
+There has to be a better way to manage dependencies. One that is not necessarily a [one-level](https://groups.google.com/d/msg/clojure/WuS31RSiz_A/lmEFS71pEiYJ) dependency tree (which isn't an unreasonable thing given a suitable language/ecosystem). Well, maybe [there is](http://nixos.org/docs/papers.html).

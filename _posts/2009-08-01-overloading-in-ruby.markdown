@@ -10,7 +10,7 @@ Una soluzione in certi casi potrebbe essere quella di usare un design-pattern co
 
 Un esempio, tratto da [rubylearning](http://rubylearning.com/satishtalim/ruby_overloading_methods.html) per chiarire il concetto:
 
-{% highlight: ruby %}
+```ruby
 # The Rectangle constructor accepts arguments in either  
 # of the following forms:  
 #   Rectangle.new([x_top, y_left], length, width)  
@@ -32,4 +32,4 @@ end
 
 Rectangle.new([10, 23], 4, 10)
 Rectangle.new([10, 23], [14, 13])
-{% endhighlight %}
+```

@@ -1,0 +1,86 @@
+---
+layout: post
+title: Introduction to Haskell, week 1
+categories: blog
+---
+
+A while ago I've finally started to study [Haskell](http://www.haskell.org/), in particular following the [CIS 194: Introduction to Haskell](http://www.seas.upenn.edu/~cis194/) course by [Brent Yorgey](http://www.cis.upenn.edu/~byorgey/) from the [Penn University of Pennsilvania](http://www.upenn.edu/). This is the first resource of the curriculum I plan to follow to [learn Haskell](https://github.com/bitemyapp/learnhaskell) (thanks a lot to [Chris Allen](https://github.com/bitemyapp) for laying out a path to FP enlightenment :)
+
+I've worked through the first 4 weeks now, but I decided at this point to switch gears and go back to recap what I've learned so far.
+
+Without further ado, let's recap CIS 192: week 1.
+
+## What is Haskell?
+
+Haskell (named after [Haskell Curry](http://en.wikipedia.org/wiki/Haskell_Curry), for his work on combinatory logic and for the [Curry-Howard Correspondence](http://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence)), is a *lazy, statically typed, pure functional programming language* created in the 1980's by a committee of academics. It's very well [alive](http://www.huffingtonpost.com/aaroncontorer/haskell-the-language-most_b_4242119.html) today, as it's one of the most advanced (statically typed) languages out there.
+
+Haskell is:
+
+## Functional
+
+* Functions are *first-class values*. That is, they can be passed to other functions or returned by them like any other values.
+* The computation model is based around *evaluating expressions*, not *executing instructions*. In other words, it's not based on the [Von Neumann architecture](http://en.wikipedia.org/wiki/Von_Neumann_architecture) (instructions that operate on a shared memory), but on the [lambda calculus](http://en.wikipedia.org/wiki/Lambda_calculus) (you can think about it in terms of *composing functions to transform streams of immutable data*).
+
+## Pure
+
+Every expression is *referentially transparent*. This means that:
+
+  * *Everything is immutable*. Every "mutation" is modeled as a transformation, a *function* that doesn't change the original value but creates a new one.
+  * There are *no side effects* (well, there are: modeled with monads to retain purity, but you don't need to know what a monad is to use them!).
+
+As a consequence of the previous points, calling the same function with the same arguments results in the same output, always.
+
+This approach has a number of very nice benefits, that once you wrap your head around this paradigm you won't give away too easily:
+
+* *Equational reasoning*: thinking about the code becomes much more easier. Refactoring becomes a breeze.
+* *Parallelism*: using multiple cores is much easier when you know that functions are guaranteed not to interfere with each another. There is no shared state!
+
+In general, with *static types* and *pure functions* programs become much more easy to maintain, refactor, debug and *reasoning about*.
+
+### Lazy
+
+In Haskell values are computed only when needed ([call-by-need](http://en.wikipedia.org/wiki/Lazy_evaluation) evaluation strategy).
+
+Advantages:
+
+* It's easy to *define new control structures* just by defining a new function. Contrast this with languages like Clojure where you need [macros](http://clojure.org/macros) to achieve that, or languages like Java where it's basically impossible.
+* It's easy to work with *infinite data structures*, since values are only computed when needed. You can achieve the same in idiomatic Clojure by using the [seq](http://clojure.org/sequences) abstraction and [lazy-seq](http://clojure.github.io/clojure/clojure.core-api.html#clojure.core/lazy-seq), in Java 8 using [Streams](http://www.drdobbs.com/jvm/lambdas-and-streams-in-java-8-libraries/240166818), etc.
+* It enables a *compositional style* (we will see it down the road with *wholemeal programming*, currying and point-free style).
+
+Downside: it becomes harder to reason about the time and space characteristics of programs. 
+
+## Themes
+
+The course revolves around thee key areas:
+
+* Types
+* Abstractions
+* Wholemeal programing
+
+### Types
+
+Static type systems can be annoying, and some of them really are. But this isn't because type systems are inherently annoying, that's because *some of them are insufficiently expressive* (for example, Java and C++ ones).
+
+A type system (especially the Haskell one):
+
+* Gives you clarity of thinking and helps you to *design* and *reason* about programs. Types become an organizing principle, a precise and powerful tool to think about and express abstractions. Using them, you are able to *reason at a higher level, in a systematic way*.
+* Is a form of documentation, always in sync with the actual code.
+* Turns a lot of runtime errors to compile time ones. Computers can do complex, repetitive and clearly specified things efficiently: why not delegate to them some of the burden that a human has to carry on while writing software?
+
+Once you start to get the hang of it, a (good) type system becomes an invaluable ally. It feels liberating, since it can help you long before you write the first line of code: it helps you in the *design* of the system.
+
+### Abstraction
+
+In some way, designing and maintaining software is a battle against repetition: you frequently need to take similar things and factor out their commonality (a process known as [abstraction](http://manuelp.herokuapp.com/posts/5)).
+
+Haskell gives you a lot of abstraction power: parametric polymorphism, higher-order functions, type classes, etc. Its type systems is also a powerful, methodic and sound tool to think mathematically about them.
+
+### Wholemeal programming
+
+Quoting Ralf Hinze:
+
+> “Functional languages excel at wholemeal programming, a term coined by Geraint Jones. Wholemeal programming means to think big: work with an entire list, rather than a sequence of elements; develop a solution space, rather than an individual solution; imagine a graph, rather than a single path. The wholemeal approach often offers new insights or provides new perspectives on a given problem. It is nicely complemented by the idea of projective programming: first solve a more general problem, then extract the interesting bits and pieces by transforming the general program into more specialised ones.”
+
+In short, it's about working with *abstractions* rather than concrete instances of the problem/solution space, with *group/types of things* instead of with single instances.
+
+Next, Brent Yorgey goes on showing the basic types (scalars and lists), how to define and combine functions, etc. Lots of good stuff.
