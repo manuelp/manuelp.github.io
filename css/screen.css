@@ -33,6 +33,15 @@ body {
     border-style: dashed;
 }
 
+.warning {
+    background: yellow;
+    padding: 1em;
+    margin: 1em;
+    border-width: 2pt;
+    border-color: black;
+    border-style: dashed;
+}
+
 h1 {
     margin-bottom: 0.1em;
 }
