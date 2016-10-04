@@ -15,6 +15,8 @@ Unfortunately, this kind of "enlightenment" has some downsides:
 
 Combine both factors, and you have a recipe for [misery](http://joelmccracken.github.io/entries/the-misery-of-lisp/). It's depressing seeing friends (and yourself) wasting time with unnecessary complexity.
 
+[![](/images/SWs One Main FINAL ©® tiny 133.png)](https://www.performancemanagementcompany.com)
+
 However, even if it requires work, practice and dedication to reach a master level, I think that *it's worth it*. I'm certainly not a master, and yet I'm seeing benefits of this learning journey even when I'm not writing [LISP](http://clojure.org/) code. [Eric Raymond](http://www.catb.org/esr/faqs/hacker-howto.html) was right:
 
 > LISP is worth learning for a different reason — the profound enlightenment experience you will have when you finally get it. That experience will make you a better programmer for the rest of your days, even if you never actually use LISP itself a lot.
