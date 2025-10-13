@@ -4,10 +4,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Manuel Paccagnella</title>
- <link href="https://manuelp.github.com/atom.xml" rel="self"/>
- <link href="https://manuelp.github.com/"/>
+ <link href="https://manuelp.github.io/atom.xml" rel="self"/>
+ <link href="https://manuelp.github.io/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>https://manuelp.github.com/</id>
+ <id>https://manuelp.github.io/</id>
  <author>
    <name>Manuel Paccagnella</name>
    <email>manuel.paccagnella@gmail.com</email>
@@ -16,9 +16,9 @@
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="https://manuelp.github.com{{ post.url }}"/>
+   <link href="https://manuelp.github.io{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>https://manuelp.github.com{{ post.id }}</id>
+   <id>https://manuelp.github.io{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}

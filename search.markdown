@@ -8,7 +8,7 @@ title: Search
 	<input type="text"   name="q" size="31" maxlength="255" value="" />
 	<input type="submit" value="Search" /><br/>
 	<input type="radio"  name="sitesearch"
-value="manuelp.github.com" checked="checked"/> Manuel Paccagnella
+value="manuelp.github.io" checked="checked"/> Manuel Paccagnella
     <input type="radio"  name="sitesearch" value="" /> Google
     </form>
 

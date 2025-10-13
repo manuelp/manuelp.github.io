@@ -95,7 +95,7 @@ Inoltre, tenere presente che il modo migliore di illustrare certi concetti è at
 - **Informarsi sull'audience.** Quali sono i suoi interessi, lo stato d'animo, *i bisogni e le aspettative*?
 - **Quanto tempo si ha a disposizione?**
 
-E' importante capire con chi si ha a che fare per veicolare il messaggio nel modo più efficace ed efficiente possibile. Vedere anche un mio precendente [post](https://manuelp.github.com/metaprogramming/2009/05/30/importanza-di-comunicare.html).
+E' importante capire con chi si ha a che fare per veicolare il messaggio nel modo più efficace ed efficiente possibile. Vedere anche un mio precendente [post](https://manuelp.github.io/metaprogramming/2009/05/30/importanza-di-comunicare.html).
 
 ### Tema
 **Identificare la singola *idea chiave* che si vuole comunicare con la presentazione e focalizzarsi su quella.** E' più facile lasciare il segno quando il punto importante è uno piuttosto che una collezione di fatti blandamente correlati.

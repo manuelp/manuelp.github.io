@@ -2,7 +2,7 @@ h1. This is the data for my blog
 
 It is automatically transformed by "Jekyll":http://github.com/mojombo/jekyll
 into a static site whenever I push this repository to GitHub. You can visit
-this site "here":http://manuelp.github.com
+this site "here":http://manuelp.github.io
 
 I was tired of having my blog posts end up in a database off on some remote
 server. That is backwards. I've lost valuable posts that way. I want to author
