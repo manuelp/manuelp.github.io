@@ -30,7 +30,7 @@ P3<Integer, Integer, Integer> y = P.p(1, 2, 3);
 
 Our problem statement is this: we have a list of tuples of type `P2<String, String>`, and we want to identify the duplicates.
 
-To specify this requirement, we write a unit test^[We use the [TDD as if you meant it](http://coderetreat.org/facilitating/activities/tdd-as-if-you-meant-it) technique.]:
+To specify this requirement, we write a unit test[^1]:
 
 ```java
 public class FindPairsDuplicatesTest {
@@ -62,7 +62,7 @@ public class FindPairsDuplicatesTest {
 
 > *Warning*: the `List` we use here is [provided](http://www.functionaljava.org/javadoc/4.4/functionaljava/fj/data/List.html) by Functional Java.
 
-We have just implemented our first failing test, with an empty implementation for our behaviour directly in the test class. Now we can implement the actual behaviour to make it pass. I started right away with a simple but representative test case to keep this post resonably short and to the point. If this was a requirement for an actual application, I'd start with a degenerate test case (for example and empty list of pairs as the input) and used *triangulation*^[See the book [Test-Driven Development: By Example](http://www.amazon.com/Test-Driven-Development-By-Example/dp/0321146530) by Kent Beck.] to implement the actual functionality incrementally. 
+We have just implemented our first failing test, with an empty implementation for our behaviour directly in the test class. Now we can implement the actual behaviour to make it pass. I started right away with a simple but representative test case to keep this post resonably short and to the point. If this was a requirement for an actual application, I'd start with a degenerate test case (for example and empty list of pairs as the input) and used *triangulation*[^2] to implement the actual functionality incrementally. 
 
 # First implementation
 
@@ -249,3 +249,8 @@ public static F<List<Book>, List<Book>> findDuplicatedBooks() {
 We started out with a working implementation that satisfied our initial requirements, and through a series of small incremental refactorings we generalized our function thus making it much more general, flexible and reusable. From a mechanism specialized to detecting duplicates of tuples `(String, String)`, we arrived to a generic algorithm to find duplicates of *arbitrary* types *without changing it, just by generalizing the types involved*. We could even generalize on the `List` type, making the algorith work on any `Iterable` data structure. This way the method would become even more general and applicable to a broader set of use-cases.
 
 This pattern of change is rather common: starting from a specific solution to a particular problem, by *generalizing* it you obtain by definition a more general, flexible and reusable solution. The easiest way to do this is, in my opinion, **"to follow the types"**: by looking at and changing the types it's much easier to see the essence of the problem, to discover hidden abstractions, and in general to transform the code incrementally into a much more general and reusable structure.
+
+---
+
+[^1]: We use the [TDD as if you meant it](http://coderetreat.org/facilitating/activities/tdd-as-if-you-meant-it) technique.
+[^2]: See the book [Test-Driven Development: By Example](http://www.amazon.com/Test-Driven-Development-By-Example/dp/0321146530) by Kent Beck.

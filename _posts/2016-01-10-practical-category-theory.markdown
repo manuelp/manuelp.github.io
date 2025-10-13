@@ -4,7 +4,7 @@ title: Practical category theory
 tags: category-theory, math, type-system
 ---
 
-Sometimes you find a paper, post, presentation or podcast that hits the nail on the head: it explains some concepts in a clear and simple way, that you can understand right away. You read it at the right moment, and helps you to connect the dots and come up with new knowledge and new perspectives on what you do, how and why. You know, when you have the feeling that several pieces of the puzzle fall into place. Those are the "Aha!" moments that feels so exciting, satisfying and useful, and that you should cultivate by learning and practicing new stuff, exposing yourself to disparate perspectives^[Knowledge and the reality to me are like diamonds: they have lots of faces, and to really understand the whole you need to look at lots of them.].
+Sometimes you find a paper, post, presentation or podcast that hits the nail on the head: it explains some concepts in a clear and simple way, that you can understand right away. You read it at the right moment, and helps you to connect the dots and come up with new knowledge and new perspectives on what you do, how and why. You know, when you have the feeling that several pieces of the puzzle fall into place. Those are the "Aha!" moments that feels so exciting, satisfying and useful, and that you should cultivate by learning and practicing new stuff, exposing yourself to disparate perspectives[^1].
 
 I'm studying, practicing and thinking about functional programming, type systems and design for some time now, and one of the most interesting posts I've read so far is: **[How we used Category Theory to solve a problem in Java](http://techblog.realestate.com.au/how-we-used-category-theory-to-solve-a-problem-in-java/)** by Ken Scambler. It's especially interesting to me since I'm [studying Haskell](http://haskellbook.com/) and applying the concepts I'm learning in Java (when it's useful and practical).
 
@@ -33,3 +33,7 @@ And here static and explicit types are maybe not mandatory but makes everything 
 > The fact that we’ve successfully brought category theory principles to bear with a such a thoroughly blue-collar language as Java is worth thinking about. Far from being the preserve of researchers and Haskell programmers, these principles apply universally, and can produce simple, clean modules that are easily understood by programmers with no knowledge of the theory. It is well worth the investment of familiarising yourself with the fundamental ideas.
 
 Absolutely: studying FP, Haskell (and OCaml, Clojure, Rust, etc) and category theory will give you a profound understanding on computation, simplicity, flexibility and compositionality that you can apply *everywhere*. Even in Java. 
+
+---
+
+[^1]: Knowledge and the reality to me are like diamonds: they have lots of faces, and to really understand the whole you need to look at lots of them.

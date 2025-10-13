@@ -10,7 +10,7 @@ There are several options to create web applications with Haskell, for example: 
 ## What is WAI
 WAI stands for "Web Application Interface", and in short it's *an adapter between the web server and a web application*. It decouples the application code from web servers, presenting a *uniform and generic interface* that the application can use without having to target a specific backend.
 
-Indeed, there are several web servers in the Haskell space that supports WAI through an appropriate *handler*. Perhaps the major one is the fast and lightweight [Warp](https://www.stackage.org/package/warp)^[It supports HTTP 2! To know how it's structured, see its chapter in the [AOSA](http://www.aosabook.org/en/posa/warp.html) book.], and another interesting one is [wai-handler-webkit](https://github.com/yesodweb/wai/tree/master/wai-handler-webkit).
+Indeed, there are several web servers in the Haskell space that supports WAI through an appropriate *handler*. Perhaps the major one is the fast and lightweight [Warp](https://www.stackage.org/package/warp)[^1], and another interesting one is [wai-handler-webkit](https://github.com/yesodweb/wai/tree/master/wai-handler-webkit).
 
 ## Interface
 WAI, as many other libraries, builds on the types defined by the [http-types](https://github.com/aristidb/http-types) package. The core abstraction is [`Application`](https://www.stackage.org/haddock/lts-9.14/wai-3.2.1.1/Network-Wai.html#t:Application):
@@ -69,7 +69,7 @@ The `Application` simply ignores the `Request` and applies the supplied `respond
 You can find a slightly longer example [here](https://github.com/manuelp/trpc/blob/master/app/Main.hs).
 
 ## Middleware
-Other that allowing applications to run on multiple web servers without code changes^[This is not entirely true since there are [other considerations](https://www.stackage.org/haddock/lts-9.14/wai-3.2.1.1/Network-Wai.html) to take into account before porting a web application from one server to another.], we can also *decorate* our application with middlewares.
+Other that allowing applications to run on multiple web servers without code changes[^2], we can also *decorate* our application with middlewares.
 
 A [`Middleware`](https://www.stackage.org/haddock/lts-9.14/wai-3.2.1.1/Network-Wai.html#t:Middleware) is essentially an `Application` transformer:
 
@@ -86,3 +86,7 @@ I don't have time to get into the specifics here, but suffice to say that it's a
 * "Yesod Web Framework" book chapter: [Web Application Interface](https://www.yesodweb.com/book/web-application-interface) (this post is essentially a summary of this chapter).
 * Write your own web application(s).
 
+---
+
+[^1]: It supports HTTP 2! To know how it's structured, see its chapter in the [AOSA](http://www.aosabook.org/en/posa/warp.html) book.
+[^2]: This is not entirely true since there are [other considerations](https://www.stackage.org/haddock/lts-9.14/wai-3.2.1.1/Network-Wai.html) to take into account before porting a web application from one server to another.

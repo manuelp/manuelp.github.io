@@ -15,7 +15,7 @@ There are several options to interact with a relational databases using Haskell:
 * [Opaleye](https://github.com/tomjaguarpaw/haskell-opaleye)
 * [groundhog](https://www.schoolofhaskell.com/user/lykahb/groundhog)
 
-Recently I needed to perform queries on a PostgreSQL database to automate some activities, and I used [postgresql-simple](https://www.stackage.org/package/postgresql-simple): a nice (albeit somewhat limited^[Warning: postgresql-simple [doesn't support](https://blog.melding-monads.com/2011/12/30/announcing-postgresql-simple/) prepared statements, but on the other hand [Listen/Notify](https://www.postgresql.org/docs/9.1/static/sql-notify.html) is available.]) way to do that that uses [libpq](https://www.postgresql.org/docs/9.1/static/libpq.html) under the hood. For further information, see its [tutorial](https://www.stackage.org/haddock/lts-9.13/postgresql-simple-0.5.3.0/Database-PostgreSQL-Simple.html).
+Recently I needed to perform queries on a PostgreSQL database to automate some activities, and I used [postgresql-simple](https://www.stackage.org/package/postgresql-simple): a nice (albeit somewhat limited[^1]) way to do that that uses [libpq](https://www.postgresql.org/docs/9.1/static/libpq.html) under the hood. For further information, see its [tutorial](https://www.stackage.org/haddock/lts-9.13/postgresql-simple-0.5.3.0/Database-PostgreSQL-Simple.html).
 
 To use it, the `pg_config` program is required. You have to install the relevant postgresql-server-dev package (with Ubuntu Linux you can install everything with `sudo apt install postgresql-server-dev-all`).
 
@@ -48,7 +48,7 @@ We use [`query_`](https://www.stackage.org/haddock/lts-9.13/postgresql-simple-0.
 query_ :: FromRow r => Connection -> Query -> IO [r] 
 ```
 
-Given a `Connection` and a [`Query`](https://www.stackage.org/haddock/lts-9.13/postgresql-simple-0.5.3.0/Database-PostgreSQL-Simple.html#t:Query)^[Since we use the `OverloadedStrings` language extension, we can specify the query as a `String` literal.], we get a list of results in an `IO` context. `query_` is polymorphic on the result type, which must have a [`FromRow`](https://www.stackage.org/haddock/lts-9.13/postgresql-simple-0.5.3.0/Database-PostgreSQL-Simple.html#t:FromRow) instance available so that its values can be constructed from a sequence of fields. 
+Given a `Connection` and a [`Query`](https://www.stackage.org/haddock/lts-9.13/postgresql-simple-0.5.3.0/Database-PostgreSQL-Simple.html#t:Query)[^2], we get a list of results in an `IO` context. `query_` is polymorphic on the result type, which must have a [`FromRow`](https://www.stackage.org/haddock/lts-9.13/postgresql-simple-0.5.3.0/Database-PostgreSQL-Simple.html#t:FromRow) instance available so that its values can be constructed from a sequence of fields. 
 
 For basic types, postgresql-simple already [provides](https://www.stackage.org/haddock/lts-9.13/postgresql-simple-0.5.3.0/Database-PostgreSQL-Simple.html#g:11) the necessary conversions. That's why we are able to directly read `Int` values out of a query without having to define the relevant conversion. But we still had to:
 
@@ -254,3 +254,8 @@ class FromRow a where
 ```
 
 We have our `FromRow Book` instance.
+
+---
+
+[^1]: Warning: postgresql-simple [doesn't support](https://blog.melding-monads.com/2011/12/30/announcing-postgresql-simple/) prepared statements, but on the other hand [Listen/Notify](https://www.postgresql.org/docs/9.1/static/sql-notify.html) is available.
+[^2]: Since we use the `OverloadedStrings` language extension, we can specify the query as a `String` literal.
