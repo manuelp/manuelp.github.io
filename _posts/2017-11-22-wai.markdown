@@ -1,0 +1,88 @@
+---
+layout: post
+title: Web applications in Haskell with WAI
+tags: Haskell, WAI, web
+withtoc: yes
+---
+
+There are several options to create web applications with Haskell, for example: [Yesod](https://www.yesodweb.com/), [Snap](http://snapframework.com/) or [Scotty](https://github.com/scotty-web/scotty). In this post I want to present a short primer on the basics with [WAI](https://github.com/yesodweb/wai).
+
+## What is WAI
+WAI stands for "Web Application Interface", and in short it's *an adapter between the web server and a web application*. It decouples the application code from web servers, presenting a *uniform and generic interface* that the application can use without having to target a specific backend.
+
+Indeed, there are several web servers in the Haskell space that supports WAI through an appropriate *handler*. Perhaps the major one is the fast and lightweight [Warp](https://www.stackage.org/package/warp)^[It supports HTTP 2! To know how it's structured, see its chapter in the [AOSA](http://www.aosabook.org/en/posa/warp.html) book.], and another interesting one is [wai-handler-webkit](https://github.com/yesodweb/wai/tree/master/wai-handler-webkit).
+
+## Interface
+WAI, as many other libraries, builds on the types defined by the [http-types](https://github.com/aristidb/http-types) package. The core abstraction is [`Application`](https://www.stackage.org/haddock/lts-9.14/wai-3.2.1.1/Network-Wai.html#t:Application):
+
+```haskell
+type Application =
+    Request ->
+    (Response -> IO ResponseReceived) ->
+    IO ResponseReceived
+```
+
+It's quite straightforward: an application is basically just a `Request -> Response` function. A `Request` contains the requested path, the HTTP headers, query parameters the body, etc. The `Response` contains instead an HTTP status, a list of headers and a body.
+
+However, since with every request there is a certain amount of resource management that the web server has to perform in an exception-safe manner to avoid memory leaks, we use a continuation passing style for returning the response. The `ResponseReceived` special type is used to ensure that the continuation is in fact called: when we produce a `Response`, we must call the continuation (passed by the web server) to obtain the return value required.
+
+## Response body
+The response body is a *lazy* value. Laziness, as with infinite lists, permits to create and manage large values without exhausting memory. For example you can have a value that represents the content of a very large file (maybe larger than memory), with a very low memory footprint.
+
+However, serving many small files per second using laziness, the limiting factor is not memory anymore: it becomes *file handles*. Since file handles may not be freed immediately, leading to resource exhaustion, WAI provides its own streaming primitives:
+
+* [`responseBuilder`](https://www.stackage.org/haddock/lts-9.14/wai-3.2.1.1/Network-Wai.html#v:responseBuilder) and its wrapper [`responseLBS`](https://www.stackage.org/haddock/lts-9.14/wai-3.2.1.1/Network-Wai.html#v:responseLBS)
+* [`responseStream`](https://www.stackage.org/haddock/lts-9.14/wai-3.2.1.1/Network-Wai.html#v:responseStream)
+* [`responseFile`](https://www.stackage.org/haddock/lts-9.14/wai-3.2.1.1/Network-Wai.html#v:responseFile)
+* [`responseRaw`](https://www.stackage.org/haddock/lts-9.14/wai-3.2.1.1/Network-Wai.html#v:responseRaw)
+
+## Request body
+The request body can be obtained with (unsurprisingly) [`requestBody`](https://www.stackage.org/haddock/lts-9.14/wai-3.2.1.1/Network-Wai.html#v:requestBody). This accessor permits to read the request body chunk by chunk (that's why it's an `IO` action), and the actual chunks are represented by a *strict* `ByteString` since in this context we don't want laziness.
+
+## Minimum-viable example
+An hello world example, shown by the official documentation. It's as simple as it can get:
+
+```haskell
+{-# LANGUAGE OverloadedStrings #-}
+import Network.Wai
+import Network.HTTP.Types (status200)
+import Network.Wai.Handler.Warp (run)
+
+application :: Application
+application _ respond = respond $
+  responseLBS status200 [("Content-Type", "text/plain")] "Hello World"
+
+main :: IO ()
+main = run 3000 application
+```
+
+Here we use Warp as the server and use its WAI adapter to code our web "application" against it using the WAI primitives. 
+
+The `Application` simply ignores the `Request` and applies the supplied `respond` continuation to a constant `Response` value with:
+
+* Status code: 200
+* Content type HTTP header setted to "text/plain"
+* The body: "Hello World"
+
+> The `responseLBS` composer requires a lazy `ByteString` as the body, which we could specify with a `String` literal thanks to the `OverloadedStrings` language extension.
+
+You can find a slightly longer example [here](https://github.com/manuelp/trpc/blob/master/app/Main.hs).
+
+## Middleware
+Other that allowing applications to run on multiple web servers without code changes^[This is not entirely true since there are [other considerations](https://www.stackage.org/haddock/lts-9.14/wai-3.2.1.1/Network-Wai.html) to take into account before porting a web application from one server to another.], we can also *decorate* our application with middlewares.
+
+A [`Middleware`](https://www.stackage.org/haddock/lts-9.14/wai-3.2.1.1/Network-Wai.html#t:Middleware) is essentially an `Application` transformer:
+
+```haskell
+type Middleware = Application -> Application
+```
+
+And enables the implementation of orthogonal, cross-cutting concerns like authentication & authorizations, GZIP compression, caching, etc. And best of all, as you can see from the type signature, they can be *composed*.
+
+I don't have time to get into the specifics here, but suffice to say that it's a very powerful feature.
+
+## Where to go from here
+* Example: [JSON Web Service](https://www.yesodweb.com/book/json-web-service).
+* "Yesod Web Framework" book chapter: [Web Application Interface](https://www.yesodweb.com/book/web-application-interface) (this post is essentially a summary of this chapter).
+* Write your own web application(s).
+

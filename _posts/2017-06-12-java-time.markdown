@@ -1,0 +1,122 @@
+---
+layout: post
+title: Time &amp; Java
+tags: java, time
+withtoc: yes
+---
+
+I'm certainly not an expert on the subtle intricacies of time and its management by software systems, but I've made my share of mistakes in this area when it comes to Java and I'd love to spare you those same mistakes.
+
+Tomasz Nurkiewicz's post [Guide to time and date in Java](http://www.nurkiewicz.com/2016/08/guide-to-time-and-date-in-java.html) has been illuminating and prompted me to write down a summary as a reference for myself, my colleagues and everyone else that is interested. So, without further ado, here it is. 
+
+## Summary
+
+Without getting into philosophy and relativity:
+
+* Time is a one-dimensional metric.
+* Calendars and time zones is where time gets *very* messy (DST, leap seconds, etc).
+
+When it comes to Java:
+
+* **Don't use `java.util.Date` and `java.util.Calendar`**. They are *broken by design*. Use the `java.time` API instead. If you can't upgrade to Java 8, use [Threeten](http://www.threeten.org/) or [joda-time](http://www.joda.org/joda-time/).
+* Use [`java.time.Instant`](https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html) to represent an instant in time (a timestamp). It's an absolute value independent of calendars and time zones.
+* To *store* or *transmit* time, use a timestamp (the [Unix time](https://en.wikipedia.org/wiki/Unix_time), a `long` value computed using [`Instant#getEpochSecond()`](https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html#getEpochSecond--)) or an [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) string (basically just an `Instant.toString()`).
+* If you need a human representation of an `Instant`, use [`ZonedDateTime`](https://docs.oracle.com/javase/8/docs/api/java/time/ZonedDateTime.html). It can be created from an `Instant` *only* specifying a time zone (`ZonedDateTime#of :: Instant -> ZoneId -> ZonedDateTime`).
+* Human-readable date and time without timezone can be represented by [`LocalDate`](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html) and [`LocalTime`](https://docs.oracle.com/javase/8/docs/api/java/time/LocalTime.html), but **they don't represent any exact moment in time**. They are only really useful to express some notion of time regardless of the time zone.
+
+## More details
+
+Highlights from the post: [Guide to time and date in Java](http://www.nurkiewicz.com/2016/08/guide-to-time-and-date-in-java.html) by Tomasz Nurkiewicz.
+
+> As a matter of fact java.util.Date and Calendar are so broken by design that they are considered to be [deprecated entirely](https://bugs.openjdk.java.net/browse/JDK-8065614) in JDK 9.
+
+## Time
+
+> time as a one-dimensional metric, a real number value
+
+> By convention we assign time = 0 to January 1st, 1970 but in Java we increment this value every millisecond, not second like in [UNIX time](https://en.wikipedia.org/wiki/Unix_time)
+
+> [...] `java.time.Instant`. It does precisely what it claims: stores an instant in time. `Instant` does not have date or calendar related methods, its `toString()` uses familiar ISO format in UTC time zone (more on that later) and most importantly: it's immutable. If you want to remember when a particular event happened, `Instant` is the best you can get in plain Java
+>
+> ```java
+> Instant now = Instant.now();
+> Instant later = now.plusSeconds(60);
+> ```
+>
+> Notice that `Instant` does not have `plusMinutes()`, `plusHours()` and so on. Minutes, hours and days are concepts related to calendar systems, whereas `Instant` is geographically and culturally agnostic
+
+## Calendars 
+(Human readable calendars with `ZonedDateTime`)
+
+> Sometimes you do need a human representation of an instant in time. This includes month, day of week, current hour and so on. But here is a major complication: date and time varies across countries and regions.
+
+> You can create `ZonedDateTime` from `Instant` **only** by providing a time zone. Otherwise default system time zone is used which you have no control over.
+
+> ```java
+> Instant now = Instant.now();
+> System.out.println(now);
+>  
+> ZonedDateTime dateTime = ZonedDateTime.ofInstant(
+>         now,
+>         ZoneId.of("Europe/Warsaw")
+>     );
+>  
+> System.out.println(dateTime);
+> ```
+>
+> The output is as follows:
+> 
+> ```
+> 2016-08-05T07:00:44.057Z
+> 2016-08-05T09:00:44.057+02:00[Europe/Warsaw]
+> ```
+>
+> Notice that `Instant` (for convenience) displays date formatted in UTC whereas `ZonedDateTime` uses supplied `ZoneId` (+2 hours during summer, more on that later).
+
+### Calendar misconceptions
+
+> There are many misconceptions and myths related to time and calendars. For example some people believe that the time difference between two locations is always constant. There are at least two reasons for that not being true.
+
+* Daylight saving time (DST)
+* [Leap seconds](https://en.wikipedia.org/wiki/Leap_second)
+
+> Leap years cause all sorts of issues and break the laws of math
+
+> Another common misconception about dates is that a day is 24 hours. This is again related to daylight saving time
+
+> The lesson to learn here is that every time you enter calendar domain you **must** think about time zones.
+
+## Storing and transmitting time
+
+> By default you should store and send time either as timestamp (`long` value) or as `ISO 8601` which is basically what `Instant.toString()` does as per the documentation. Prefer long value as it is more compact, unless you need more readable format in some text encoding like JSON. Also long is timezone-agnostic so you are not pretending that the timezone you send/store has any meaning. This applies both to transmitting time and storing it in database.
+
+
+## Local time and date
+
+> There are cases where you may want to send full calendar information, including timezone. For example when you build a chatting application you might want to tell the client what was the local time when the message was sent if your friend lives in a different timezone. Otherwise you know it was sent at 10 AM your time, but what was the time in your friend's location? Another example is flight ticket booking website. You want to tell your clients when flight departs and arrives in local time and it's only the server that knows the exact timezone at departure and destination.
+
+> Sometimes you want express date or time without any specific time zone. For example my birthday is:
+> 
+> ```java
+> //1985-12-25
+> LocalDate.of(1985, Month.DECEMBER, 25)
+> ```
+> 
+> I will celebrate my birthday that day no matter where I am. This means party will start at approximately:
+> 
+> ```java
+> //20:00
+> LocalTime.of(20, 0, 0)
+> ```
+> 
+> Irrespective to time zone. I can even say that my birthday party this year will be precisely at:
+> 
+> ```java
+> //2016-12-25T20:00
+> LocalDateTime party = LocalDateTime.of(
+>         LocalDate.of(2016, Month.DECEMBER, 25),
+>         LocalTime.of(20, 0, 0)
+> );
+> ```
+
+> local times are useful, but they don't really represent any moment in time.

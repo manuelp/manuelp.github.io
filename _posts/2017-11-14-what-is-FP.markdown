@@ -1,0 +1,61 @@
+---
+layout: post
+title: What is functional programming?
+tags: Haskell, FP
+---
+
+I've [already](2014-11-17-imparare-fp.html)^[Warning: post in Italian!] [attempted](2015-12-27-diffing-refactoring.html) to define functional programming (FP), but I wasn't satified with it. Kris Jenkins did a much better job, and wrote a couple of very good posts on this:
+
+1. [What Is Functional Programming?](http://blog.jenkster.com/2015/12/what-is-functional-programming.html)
+2. [Which Programming Languages Are Functional?](http://blog.jenkster.com/2015/12/which-programming-languages-are-functional.html)
+
+But recently I've come across the definition of Graham Hutton in his book^[Which I'm studying.], "*Programming in Haskell*" (second edition, 2016).
+
+<a href="http://www.cs.nott.ac.uk/~pszgmh/pih.html">
+    <img src="http://www.cs.nott.ac.uk/~pszgmh/pih.jpg" width="200" alt="Programming in Haskell cover"/>
+</a>
+
+And something clicked. I really like it since it's *concise* and other things (like purity and immutability) are *consequences*. Here it is, slightly modified^[For example, a function doesn't really need a name (see lambdas).]:
+
+> A **function** is a mapping between one or more arguments and a single result. It's *defined* using an *equation* that gives a name to the arguments and a body that *specifies* how the result is calculated in terms of the arguments.
+
+For example:
+
+```haskell
+double x = x + x
+```
+
+Where:
+
+* `double` is the name of the function.
+* `x` is the single argument.
+* `x + y` is the specification of how the result is calculated in terms of the argument.
+
+I've emphasized some keywords that highlights the central idea: *a function is defined by an equation that specifies (describe) how the result is calculated in terms of the arguments*. By this definition we can derive some important properties:
+
+* A function can only be **pure**: the result can only be calculated in terms of its arguments. There can be no *implicit input* (like user's inputs, network packets, etc). Also, the only thing it can do is produce a result. So there cannot be *side-effects* (log messages, network calls, database queries, etc).
+* It's **declarative**: by itself it just describes how a result is produced.
+* Values are naturally **immutable**: an equation can just describe how to produce a result in terms of some arguments. *There is no state to change*.
+
+What other languages call functions^[Don't get me started on "functors" in C++!], by this definition are really other things: *procedures* or methods.
+
+So, what is FP? It's just programming with functions :)
+
+## Substitution model
+Another interesting consequence of that definition, is the *substitution model*:
+
+> When a function is applied to some *values*, the result is obtained by substituting those values in the body of the function in place of the argument names.
+
+The result of this substitution and evaluation can sometimes be a single result, but often *a function is defined in terms of other functions*. In that case, we can continue to perform substitutions until we can *reduce* the whole program to a final result^[If it [terminates](https://en.wikipedia.org/wiki/Halting_problem).]. In other words, every program che be represented by a single equation.
+
+When programs are defined this way, they are easier (for both programs and humans) to *understand, reason about and manipulate*. And we are not talking about a type system^[Which I consider another "secret" weapon by the way.] yet!
+
+Another way to look at purity that follows from this substitution model, is **referential transparency**. It has been [defined by Rúnar Bjarnason](http://blog.higher-order.com/blog/2012/09/13/what-purity-is-and-isnt/) as follows:
+
+> An expression `e` is *referentially transparent* if for all programs `p`, every occurrence of `e` in `p` can be replaced with the result of evaluating `e` without changing the result of evaluating `p`.
+>
+> A function `f` is pure if the expression `f(x)` is referentially transparent for all referentially transparent `x`.
+
+This may seem obscure, pedantic and/or irrelevant, but it's something profoundly practical and with deep ramifications. 
+
+BTW, this is also the reason why ["mostly functional" programming doesn't work](https://queue.acm.org/detail.cfm?id=2611829).
