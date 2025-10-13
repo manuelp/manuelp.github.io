@@ -38,13 +38,13 @@ Inoltre, seguendo la metodologia BDD si ottengono sia delle specifiche eseguibil
 ## Strumenti
 Trattandosi di TDD "fatto come si deve", è possibile utilizzare qualsiasi libreria che supporti il testing come l'onnipresente xUnit. 
 
-Tuttavia, sono stati sviluppati dei framework che incorporano in concetti del BDD sostituendo ad esempio le parole "test" con "behaviour" o "specification" ad esempio, e fornendo molte altre caratteristiche interessanti come [DSL](http://en.wikipedia.org/wiki/Domain-specific_language) appositamente sviluppati (ad esempio usando groovy in [easyb](http://www.easyb.org/)) o [interfacce fluide](http://martinfowler.com/bliki/FluentInterface.html) (popolarizzate dal pioniere [RSpec](http://rspec.info/)), e integrazione di librerie per il [mocking](http://en.wikipedia.org/wiki/Mock_object) come [JMock](http://www.jmock.org/).
+Tuttavia, sono stati sviluppati dei framework che incorporano in concetti del BDD sostituendo ad esempio le parole "test" con "behaviour" o "specification" ad esempio, e fornendo molte altre caratteristiche interessanti come [DSL](https://en.wikipedia.org/wiki/Domain-specific_language) appositamente sviluppati (ad esempio usando groovy in [easyb](https://www.easyb.org/)) o [interfacce fluide](https://martinfowler.com/bliki/FluentInterface.html) (popolarizzate dal pioniere [RSpec](https://rspec.info/)), e integrazione di librerie per il [mocking](https://en.wikipedia.org/wiki/Mock_object) come [JMock](https://www.jmock.org/).
 
 Per Java, ho trovato questi framework più o meno utilizzabili:
 
- - [JBehave2](http://jbehave.org/): dal "fondatore" stesso del BDD
- - [Instinct](http://code.google.com/p/instinct/)
- - [JDave](http://www.jdave.org/)
+ - [JBehave2](https://jbehave.org/): dal "fondatore" stesso del BDD
+ - [Instinct](https://code.google.com/p/instinct/)
+ - [JDave](https://www.jdave.org/)
 
 Sono tutti costruiti al di sopra di JUnit 4, possono quindi di essere fatti girare in un qualunque IDE (oltre che da CLI o Ant ovviamente).
 
@@ -58,13 +58,13 @@ Probabilmente però, se fossimo partiti dal principio creando delle *specifiche*
 ## Update (26/10/2009)
 Un paio di articolo di Naresh Jain chiariscono molto bene gli effetti e il significato del BDD:
 
- - [Goodbye Simplicity: I'm Object Obsessed](http://blogs.agilefaqs.com/2009/10/26/goodbye-simplicity-im-object-obsessed/)
- - [There is No Spoon](http://blogs.agilefaqs.com/2009/06/15/there-is-no-spoon-objects/)
+ - [Goodbye Simplicity: I'm Object Obsessed](https://blogs.agilefaqs.com/2009/10/26/goodbye-simplicity-im-object-obsessed/)
+ - [There is No Spoon](https://blogs.agilefaqs.com/2009/06/15/there-is-no-spoon-objects/)
 
-[Bdd]: http://en.wikipedia.org/wiki/Behavior_Driven_Development "Behaviour Driven Development"
-[TDD]: http://en.wikipedia.org/wiki/Test_Driven_Development "Test Driven Development"
-[BDDDanNorth]: http://dannorth.net/introducing-bdd "Introducing BDD"
-[introBDD]: http://blog.daveastels.com/files/BDD_Intro.pdf "BDD Intro"
-[YAGNI]: http://en.wikipedia.org/wiki/You_Ain%27t_Gonna_Need_It "You Aren't Gonna Need It" 
-[ubiqLanguage]: http://www.c2.com/cgi/wiki?UbiquitousLanguage "Ubiquitous Language"
-[DDD]: http://en.wikipedia.org/wiki/Domain-driven_design "Domain Driven Design"
+[Bdd]: https://en.wikipedia.org/wiki/Behavior_Driven_Development "Behaviour Driven Development"
+[TDD]: https://en.wikipedia.org/wiki/Test_Driven_Development "Test Driven Development"
+[BDDDanNorth]: https://dannorth.net/introducing-bdd "Introducing BDD"
+[introBDD]: https://blog.daveastels.com/files/BDD_Intro.pdf "BDD Intro"
+[YAGNI]: https://en.wikipedia.org/wiki/You_Ain%27t_Gonna_Need_It "You Aren't Gonna Need It" 
+[ubiqLanguage]: https://www.c2.com/cgi/wiki?UbiquitousLanguage "Ubiquitous Language"
+[DDD]: https://en.wikipedia.org/wiki/Domain-driven_design "Domain Driven Design"

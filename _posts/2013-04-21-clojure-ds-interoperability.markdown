@@ -4,7 +4,7 @@ title: Clojure and Java data structures interoperability
 categories: blog
 ---
 
-Clojure is a language [designed to be hosted](http://clojure.org/jvm_hosted), this means that it utilizes all the power of the hosting platform *without trying to hide or abstract it*. This design choice has several consequences:
+Clojure is a language [designed to be hosted](https://clojure.org/jvm_hosted), this means that it utilizes all the power of the hosting platform *without trying to hide or abstract it*. This design choice has several consequences:
 
 * You have full access to the hosting platform.
 * Usually Clojure code can interoperate nicely with other code that runs in the same platform, even if it's written in another language (for example Clojure on the JVM can easily interoperate with code written in Java, Ruby, Python, Groovy, etc).
@@ -43,9 +43,9 @@ So you can easily write libraries in Clojure that can be used from Java without 
 
 ## Using Java data from Clojure ##
 
-Usually, the other way around is [straightforward](http://clojure.org/java_interop#Java%20Interop-Support%20for%20Java%20in%20Clojure%20Library%20Functions) too. But there are some corner cases that you have to be aware of *when writing libraries that can be used from Java*.
+Usually, the other way around is [straightforward](https://clojure.org/java_interop#Java%20Interop-Support%20for%20Java%20in%20Clojure%20Library%20Functions) too. But there are some corner cases that you have to be aware of *when writing libraries that can be used from Java*.
 
-Idiomatic Clojure code often works on data structures through the [seq](http://clojure.org/sequences)(uence) abstraction. In fact a lot of higher-order functions in clojure.core just call `seq` on their collections arguments. But there are corner cases, and we'll look at one of them that I discovered recently when writing the [assert-json](https://github.com/manuelp/assert-json) library.
+Idiomatic Clojure code often works on data structures through the [seq](https://clojure.org/sequences)(uence) abstraction. In fact a lot of higher-order functions in clojure.core just call `seq` on their collections arguments. But there are corner cases, and we'll look at one of them that I discovered recently when writing the [assert-json](https://github.com/manuelp/assert-json) library.
 
 ### A corner case ###
 

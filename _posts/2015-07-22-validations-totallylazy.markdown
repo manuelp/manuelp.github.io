@@ -4,7 +4,7 @@ title: Validations with TotallyLazy
 categories: blog
 ---
 
-[TotallyLazy](http://totallylazy.com/) is a library that gives you some tools to do functional programming on the JVM and particularly in Java, like: `Option/Maybe`, `Either`, persistent data structures, `Sequence` operations, etc. Unfortunately, even if quite useful and nice to use this library is also practically *undocumented* (and no, I don't consider raw code as *sufficient* documentation).
+[TotallyLazy](https://totallylazy.com/) is a library that gives you some tools to do functional programming on the JVM and particularly in Java, like: `Option/Maybe`, `Either`, persistent data structures, `Sequence` operations, etc. Unfortunately, even if quite useful and nice to use this library is also practically *undocumented* (and no, I don't consider raw code as *sufficient* documentation).
 
 Since I've been using this library for some time now, in my pet projects and also using it in production, I'd like to share a thing or two that I've learned along the way. In particular, I'd like to show you how to do *validations* using the primitives offered by TotallyLazy.
 

@@ -6,7 +6,7 @@ tags: java, JDBC
 
 Please, for your own good and for the poor soul who will have to debug and maintain your code: *if you use bare bones JDBC, **learn how it works***!
 
-I've recently spent an entire day debugging a whole application searching for connection leaks that regularly took down an application in production more or less every hour... an experience that I don't recomment to anyone. Investing some time on [learning how JDBC works](http://www.marcobehler.com/make-it-so-java-db-connections-and-transactions-html/) will save you and your team a lot of time and stress.
+I've recently spent an entire day debugging a whole application searching for connection leaks that regularly took down an application in production more or less every hour... an experience that I don't recomment to anyone. Investing some time on [learning how JDBC works](https://www.marcobehler.com/make-it-so-java-db-connections-and-transactions-html/) will save you and your team a lot of time and stress.
 
 The basic workflow is something like:
 
@@ -52,7 +52,7 @@ try {
 }
 ```
 
-You need to close not only the `Connection`, but [also the `PreparedStatement`](http://docs.oracle.com/javase/tutorial/jdbc/basics/prepared.html). `ResultSet` is [automatically closed](http://docs.oracle.com/javase/6/docs/api/java/sql/ResultSet.html#close%28%29) when a `PreparedStatement` is closed or used to execute another query.
+You need to close not only the `Connection`, but [also the `PreparedStatement`](https://docs.oracle.com/javase/tutorial/jdbc/basics/prepared.html). `ResultSet` is [automatically closed](https://docs.oracle.com/javase/6/docs/api/java/sql/ResultSet.html#close%28%29) when a `PreparedStatement` is closed or used to execute another query.
 
 This is much better in Java 7+, where you can use the [try-with-resource statement](https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html):
 
@@ -77,8 +77,8 @@ Even if you use a connection pool, **you should *always* close `Connection`s and
 
 Take a look at this resources to correctly use SQL and JDBC and you won't suffer needlessly:
 
-* [Make it so: Java DB connections & transactions](http://www.marcobehler.com/make-it-so-java-db-connections-and-transactions-html/)
-* [Top 10 JDBC Best Practices for Java Programmer](http://javarevisited.blogspot.it/2012/08/top-10-jdbc-best-practices-for-java.html)
-* [10 Common Mistakes Java Developers Make when Writing SQL](http://blog.jooq.org/2013/07/30/10-common-mistakes-java-developers-make-when-writing-sql/)
-* [10 More Common Mistakes Java Developers Make when Writing SQL](http://blog.jooq.org/2013/08/12/10-more-common-mistakes-java-developers-make-when-writing-sql/)
-* [Yet Another 10 Common Mistakes Java Developers Make When Writing SQL (You Won’t BELIEVE the Last One)](http://blog.jooq.org/2014/05/26/yet-another-10-common-mistakes-java-developer-make-when-writing-sql-you-wont-believe-the-last-one/)
+* [Make it so: Java DB connections & transactions](https://www.marcobehler.com/make-it-so-java-db-connections-and-transactions-html/)
+* [Top 10 JDBC Best Practices for Java Programmer](https://javarevisited.blogspot.it/2012/08/top-10-jdbc-best-practices-for-java.html)
+* [10 Common Mistakes Java Developers Make when Writing SQL](https://blog.jooq.org/2013/07/30/10-common-mistakes-java-developers-make-when-writing-sql/)
+* [10 More Common Mistakes Java Developers Make when Writing SQL](https://blog.jooq.org/2013/08/12/10-more-common-mistakes-java-developers-make-when-writing-sql/)
+* [Yet Another 10 Common Mistakes Java Developers Make When Writing SQL (You Won’t BELIEVE the Last One)](https://blog.jooq.org/2014/05/26/yet-another-10-common-mistakes-java-developer-make-when-writing-sql-you-wont-believe-the-last-one/)

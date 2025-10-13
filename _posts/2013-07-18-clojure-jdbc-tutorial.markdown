@@ -4,7 +4,7 @@ title: A short tutorial on clojure.java.jdbc
 categories: blog
 ---
 
-[clojure.java.jdbc](https://github.com/clojure/java.jdbc) is a useful library to have in your toolbelt when you need to work very close to JDBC and for various reasons you can't or don't want to use higher level tools like [Korma](http://sqlkorma.com/). In fact it is a thin wrapper over JDBC that makes working with it from Clojure easier and safer.
+[clojure.java.jdbc](https://github.com/clojure/java.jdbc) is a useful library to have in your toolbelt when you need to work very close to JDBC and for various reasons you can't or don't want to use higher level tools like [Korma](https://sqlkorma.com/). In fact it is a thin wrapper over JDBC that makes working with it from Clojure easier and safer.
 
 This library is undergoing a major API overhaul (starting with version 0.3.0-alpha1) to make it more idiomatic. I've used previous versions but the new API is significantly different and after toying around with it and reading bits of informations here and there, I wanted to jot down a short guide on how to use it.
 
@@ -29,7 +29,7 @@ The main idea behind clojure.java.jdbc (as I understand it) is to provide functi
 
 Both managing connections and transactions in a transparent way, using plain old SQL strings.
 
-There is a basic DSL for composing SQL strings in the `clojure.java.jdbc.sql` namespace, but as the [documentation](http://clojure.github.io/java.jdbc/#clojure.java.jdbc.sql) says it is deliberately not very sophisticated. To make this guide short we'll only explore the JDBC managing stuff, using raw SQL strings. If you want you can use it in conjunction with [HoneySQL](https://github.com/jkk/honeysql) to generate SQL strings from Clojure data structures (a-la Hiccup).
+There is a basic DSL for composing SQL strings in the `clojure.java.jdbc.sql` namespace, but as the [documentation](https://clojure.github.io/java.jdbc/#clojure.java.jdbc.sql) says it is deliberately not very sophisticated. To make this guide short we'll only explore the JDBC managing stuff, using raw SQL strings. If you want you can use it in conjunction with [HoneySQL](https://github.com/jkk/honeysql) to generate SQL strings from Clojure data structures (a-la Hiccup).
 
 ## A short example
 
@@ -89,18 +89,18 @@ The cool thing about `query` is that you can add keyword parameters to pass tran
 
 *clojure.java.jdbc* is a valuable tool to work with databases via JDBC when other approaches such as Korma are not applicable or desired. It is even more powerful when used in conjuction with a good DSL to *compose* SQL strings.
 
-For a more in depth look at this library, go to the corresponding section at [clojure-doc.org](http://clojure-doc.org/articles/ecosystem/java_jdbc/home.html).
+For a more in depth look at this library, go to the corresponding section at [clojure-doc.org](https://clojure-doc.org/articles/ecosystem/java_jdbc/home.html).
 
 ## Update: 2013-11-04
 
-clojure.java.jdbc 0.3.0 has just reached beta status. Go read the [official announcement](http://corfield.org/blog/post.cfm/clojure-java-jdbc-0-3-0-beta-1) for all the details. In short, now it has been declared feature-complete.
+clojure.java.jdbc 0.3.0 has just reached beta status. Go read the [official announcement](https://corfield.org/blog/post.cfm/clojure-java-jdbc-0-3-0-beta-1) for all the details. In short, now it has been declared feature-complete.
 
 
 ## Update: 2013-11-25 ## 
 
-clojure.java.jdbc 0.0.3-beta2 has been [relesed](https://groups.google.com/forum/#!msg/clojure/pSnXWxpwvT8/9yca3iAohgcJ) with *breaking changes*. Based on the feedback from the community, now the *sql* and *ddl* namespaces have been removed (they have been extracted in a separate lib: *java-jdbc/dsl*) and the official recomendation is to use more sophisticated DSLs like [HoneySQL](https://github.com/jkk/honeysql), [SQLingvo](https://github.com/r0man/sqlingvo), [clojure-sql](https://bitbucket.org/czan/clojure-sql) or [Korma](http://www.sqlkorma.com/). The second breaking change is that the deprecated API has been moved in the *clojure.java.jdbc.deprecated* namespace to eliminated confusion on what the new API is and to highlight this distinction even in the [generated API documentation](http://clojure.github.io/java.jdbc/).
+clojure.java.jdbc 0.0.3-beta2 has been [relesed](https://groups.google.com/forum/#!msg/clojure/pSnXWxpwvT8/9yca3iAohgcJ) with *breaking changes*. Based on the feedback from the community, now the *sql* and *ddl* namespaces have been removed (they have been extracted in a separate lib: *java-jdbc/dsl*) and the official recomendation is to use more sophisticated DSLs like [HoneySQL](https://github.com/jkk/honeysql), [SQLingvo](https://github.com/r0man/sqlingvo), [clojure-sql](https://bitbucket.org/czan/clojure-sql) or [Korma](https://www.sqlkorma.com/). The second breaking change is that the deprecated API has been moved in the *clojure.java.jdbc.deprecated* namespace to eliminated confusion on what the new API is and to highlight this distinction even in the [generated API documentation](https://clojure.github.io/java.jdbc/).
 
 ## Update: 2013-12-18
 
-The stable 0.3.0 version has just been released. You can read the related [post](http://corfield.org/blog/post.cfm/clojure-java-jdbc-0-3-0-released) by Sean Cornfield on his blog.
+The stable 0.3.0 version has just been released. You can read the related [post](https://corfield.org/blog/post.cfm/clojure-java-jdbc-0-3-0-released) by Sean Cornfield on his blog.
 

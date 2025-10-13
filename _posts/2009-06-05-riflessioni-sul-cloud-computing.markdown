@@ -8,8 +8,8 @@ Ultimamente si fa un gran parlare di [Cloud Computing][1], e di come questo
 "nuovo" modo di intendere il software come un servizio ([SaaS][2]) possa essere
 conveniente o meno.
 
-[1]: http://it.wikipedia.org/wiki/Cloud_computing "Cloud Computing secondo wp"
-[2]: http://en.wikipedia.org/wiki/Software_as_a_Service "Software As A Service"
+[1]: https://it.wikipedia.org/wiki/Cloud_computing "Cloud Computing secondo wp"
+[2]: https://en.wikipedia.org/wiki/Software_as_a_Service "Software As A Service"
 
 I pro
 =====
@@ -33,8 +33,8 @@ Esempi di questi servizi sono [GMail][3] e [Facebook][4], che sono diventati
 molto popolari e che hanno aumentato di molto l'efficienza e la produttività
 (almeno per quanto riguarda GMail).
 
-[3]: http://www.gmail.com "GMail"
-[4]: http://www.facebook.com "Facebook"
+[3]: https://www.gmail.com "GMail"
+[4]: https://www.facebook.com "Facebook"
 
 I contro
 ========
@@ -44,7 +44,7 @@ necessità di installazioni e configurazioni varie, dall'altra fa sorgere un
 problema di fiducia e di sicurezza in generale, come fa notare
 [Bruce Schneier][5].
 
-[5]: http://www.schneier.com/blog/archives/2009/06/cloud_computing.html "Articolo di Bruce Schneier sul Cloud Computing"
+[5]: https://www.schneier.com/blog/archives/2009/06/cloud_computing.html "Articolo di Bruce Schneier sul Cloud Computing"
 
 Sicurezza
 ---------
@@ -72,8 +72,8 @@ dati, o che potrebbe essere compromessa con relativo furto di informazioni.
 E se quella compagnia ad esempio va in [bancarotta][6] o subisce dei guasti, posso [perdere
 completamente i miei dati][7]. 
 
-[6]: http://www.eweekeurope.co.uk/news/cloud-computing-forerunner-facing-bankruptcy-772 "Articolo di eweekeurope"
-[7]: http://www.techcrunch.com/2009/01/03/journalspace-drama-all-data-lost-without-backup-company-deadpooled/ "Articolo su TechCrunch"
+[6]: https://www.eweekeurope.co.uk/news/cloud-computing-forerunner-facing-bankruptcy-772 "Articolo di eweekeurope"
+[7]: https://www.techcrunch.com/2009/01/03/journalspace-drama-all-data-lost-without-backup-company-deadpooled/ "Articolo su TechCrunch"
 
 Inoltre, se i servizi sono accentrati in un'unica piattaforma, **un'eventuale
 compromissione e furto d'identità potrebbero causare danni molto ingenti**. Prova
@@ -102,7 +102,7 @@ nel sistema li possa recuperare in ogni momento e integralmente, e devo essere
 sicuro che quando li cancello vengano eliminati realmente (non come nel caso di
 [Facebook][8]).
 
-[8]: http://punto-informatico.it/2602790/PI/Commenti/niente-privacy-benvenuti-facebook.aspx "La finta cancellazione di Facebook"
+[8]: https://punto-informatico.it/2602790/PI/Commenti/niente-privacy-benvenuti-facebook.aspx "La finta cancellazione di Facebook"
 
 Si tratta in altre parole di avere il controllo completo sui propri dati, in
 caso contrario subiamo l'odioso *vendor lock-in* che stiamo solo ora

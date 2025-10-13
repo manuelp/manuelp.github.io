@@ -6,7 +6,7 @@ categories: oop,fp,alan-kay
 
 > OO was not translated properly from the original Alan Key propositions of components sending messages between each other. \[...\] The Actors model of computation is typically an OO pattern that implements message passing. It’s strange nowadays to see actors being used as a strong argument to adopt FP instead :)
 
-From [Reborg](http://reborg.tumblr.com/post/29473150827/clojure-weekly-aug-09-16-2012).
+From [Reborg](https://reborg.tumblr.com/post/29473150827/clojure-weekly-aug-09-16-2012).
 
 After studying and exploring papers, articles and talks by Alan Kay I couldn't agree more to this. There was clearly a misunderstanding on the original object-orientation's vision.
 

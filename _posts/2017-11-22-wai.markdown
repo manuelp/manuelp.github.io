@@ -5,7 +5,7 @@ tags: Haskell, WAI, web
 withtoc: yes
 ---
 
-There are several options to create web applications with Haskell, for example: [Yesod](https://www.yesodweb.com/), [Snap](http://snapframework.com/) or [Scotty](https://github.com/scotty-web/scotty). In this post I want to present a short primer on the basics with [WAI](https://github.com/yesodweb/wai).
+There are several options to create web applications with Haskell, for example: [Yesod](https://www.yesodweb.com/), [Snap](https://snapframework.com/) or [Scotty](https://github.com/scotty-web/scotty). In this post I want to present a short primer on the basics with [WAI](https://github.com/yesodweb/wai).
 
 ## What is WAI
 WAI stands for "Web Application Interface", and in short it's *an adapter between the web server and a web application*. It decouples the application code from web servers, presenting a *uniform and generic interface* that the application can use without having to target a specific backend.
@@ -88,5 +88,5 @@ I don't have time to get into the specifics here, but suffice to say that it's a
 
 ---
 
-[^1]: It supports HTTP 2! To know how it's structured, see its chapter in the [AOSA](http://www.aosabook.org/en/posa/warp.html) book.
+[^1]: It supports HTTP 2! To know how it's structured, see its chapter in the [AOSA](https://www.aosabook.org/en/posa/warp.html) book.
 [^2]: This is not entirely true since there are [other considerations](https://www.stackage.org/haddock/lts-9.14/wai-3.2.1.1/Network-Wai.html) to take into account before porting a web application from one server to another.

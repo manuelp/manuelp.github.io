@@ -4,7 +4,7 @@ title: Discussione - Adozione dell'Agile
 categories: agile
 ---
 
-Di seguito riporto qualche appunto sull'[articolo](http://www.infoq.com/articles/failed-agile-adoption-reasons) *Why Agile Adoption Fails in Some Organizations* apparso su InfoQ il 4 Novembre 2009.
+Di seguito riporto qualche appunto sull'[articolo](https://www.infoq.com/articles/failed-agile-adoption-reasons) *Why Agile Adoption Fails in Some Organizations* apparso su InfoQ il 4 Novembre 2009.
 
 L'agile presuppone che l'organizzazione finanzi il *team* e che lo sviluppo sia un'attività continuativa e considerata come un *investimento*. In questo contesto si riconosce l'inevitabile inaccuratezza delle stime iniziali e si procede in modo iterativo e incrementale, accumulando esperienza e imparando a prevedere le tempistiche mano a mano che si avanza con lo sviluppo. In un team agile le stime sulle tempistiche hanno scarsa importanza e il team procede a produrre valore in modo continuativo, ma non si sa con precisione a priori quanto tempo ci vorrà per completarlo.
 

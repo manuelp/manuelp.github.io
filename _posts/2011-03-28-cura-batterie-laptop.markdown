@@ -6,7 +6,7 @@ categories: hardware, laptop
 
 Ho da poco acquistato un nuovo portatile e voglio trattarlo bene, facendo durare la batteria il più a lungo possibile. Informandomi in giro ho incontrato molti "boh" e diverse risposte poco convincenti, così mi sono deciso a fare qualche ricerca in proposito (vedi *Riferimenti*).
 
-Innanzitutto, il famoso [effetto memoria](http://it.wikipedia.org/wiki/Accumulatore_di_carica_elettrica#Effetto_memoria) (secondo il quale ricaricando ripetutamente la batteria senza arrivare alla capacità massima questa "ricorda" questo livello energetico abbassandone a tutti gli effetti la capacità) riguarda le batterie al nickel-metalidrato (NiMH) e nickel-cadmio (NiCd) *che non sono più utilizzate nei portatili moderni*. Ad oggi, tutti i dispositivi elettronici dotati di batteria come portatili, videocamere, IPod, etc sono alimentati da batterie aglio ioni di litio (Li-ion) che *non soffre di questo problema*.
+Innanzitutto, il famoso [effetto memoria](https://it.wikipedia.org/wiki/Accumulatore_di_carica_elettrica#Effetto_memoria) (secondo il quale ricaricando ripetutamente la batteria senza arrivare alla capacità massima questa "ricorda" questo livello energetico abbassandone a tutti gli effetti la capacità) riguarda le batterie al nickel-metalidrato (NiMH) e nickel-cadmio (NiCd) *che non sono più utilizzate nei portatili moderni*. Ad oggi, tutti i dispositivi elettronici dotati di batteria come portatili, videocamere, IPod, etc sono alimentati da batterie aglio ioni di litio (Li-ion) che *non soffre di questo problema*.
 
 Quando si parla di durata della batteria, due sono i fattori chiave che determinano la durata della vita di una batteria: la *temperatura* e la *carica*.
 
@@ -43,8 +43,8 @@ In breve, ecco cosa tenere presente per allungare la vita della propria batteria
  - Se si utilizza il portatile prevalentemente connessi alla rete elettrica, rimuovere la batteria e riporla in un posto freddo e asciutto ad una temperatura di **0°C** ed un livello di carica tra il **40-60%**. Calibrare la batteria ogni **30 giorni**.
 
 ## Riferimenti ##
-* [How to take care of your laptop battery to prolong its lifespan](http://4sysops.com/archives/how-to-take-care-of-your-laptop-battery-to-prolong-its-lifespan/)
-* [How to charge and discharge laptop batteries to extend their lifetime](http://4sysops.com/archives/how-to-charge-and-discharge-laptop-batteries-to-extend-their-lifetime/)
-* [How to store a laptop battery properly to save it from an early death](http://4sysops.com/archives/how-to-store-a-laptop-battery-properly-to-save-it-from-an-early-death/)
-* [[TWiB: Pull the plug. Your battery will thank you.](http://thisweekinbatteries.blogspot.com/2010/02/pull-plug-your-battery-will-thank-you.html)
-* [How to prolong lithium-based batteries](http://batteryuniversity.com/learn/article/how_to_prolong_lithium_based_batteries)
+* [How to take care of your laptop battery to prolong its lifespan](https://4sysops.com/archives/how-to-take-care-of-your-laptop-battery-to-prolong-its-lifespan/)
+* [How to charge and discharge laptop batteries to extend their lifetime](https://4sysops.com/archives/how-to-charge-and-discharge-laptop-batteries-to-extend-their-lifetime/)
+* [How to store a laptop battery properly to save it from an early death](https://4sysops.com/archives/how-to-store-a-laptop-battery-properly-to-save-it-from-an-early-death/)
+* [[TWiB: Pull the plug. Your battery will thank you.](https://thisweekinbatteries.blogspot.com/2010/02/pull-plug-your-battery-will-thank-you.html)
+* [How to prolong lithium-based batteries](https://batteryuniversity.com/learn/article/how_to_prolong_lithium_based_batteries)

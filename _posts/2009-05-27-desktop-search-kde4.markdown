@@ -28,15 +28,15 @@ Piattaforme
 ===========
 
 Per MacOS abbiamo il migliore (mi dicono):
-[Quicksilver](http://quicksilver.en.softonic.com/mac). 
+[Quicksilver](https://quicksilver.en.softonic.com/mac). 
 
-Per Windows ci sono [Google Desktop](http://desktop.google.com/it/) e
-[Launchy](http://www.launchy.net/) (meno sofisticato
+Per Windows ci sono [Google Desktop](https://desktop.google.com/it/) e
+[Launchy](https://www.launchy.net/) (meno sofisticato
 di Google Deskop).
 
-Su piattaforma Linux, per Gnome c'è [GNOME Do](http://do.davebsd.com/) e, per
+Su piattaforma Linux, per Gnome c'è [GNOME Do](https://do.davebsd.com/) e, per
 KDE,
-[Nepomuk](http://nepomuk.semanticdesktop.org/) con il suo Strigi.
+[Nepomuk](https://nepomuk.semanticdesktop.org/) con il suo Strigi.
 
 Usare Nepomuk con Ubuntu 9.04
 =============================

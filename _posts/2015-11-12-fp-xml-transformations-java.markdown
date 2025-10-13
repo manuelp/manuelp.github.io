@@ -32,7 +32,7 @@ There was a clear need for a redesign.
 
 # Solution
 
-I'm going to sketch a solution to this problem using Java 8 code and type signatures written in a Haskell-Java Frankenstein notation. Since this solution is oriented towards FP, I'm going to use [Functional Java](http://functionaljava.org/) to support me in this task (which BTW is a good library for this kind of stuff).
+I'm going to sketch a solution to this problem using Java 8 code and type signatures written in a Haskell-Java Frankenstein notation. Since this solution is oriented towards FP, I'm going to use [Functional Java](https://functionaljava.org/) to support me in this task (which BTW is a good library for this kind of stuff).
 
 ## Transformations as functions
 
@@ -42,7 +42,7 @@ The core idea is that, conceptually, you can think of an XML transformation as a
 XmlTransformation :: Document -> Document
 ```
 
-This function can be expressed using the Functional Java (FJ) [F](http://www.functionaljava.org/javadoc/4.4/functionaljava/fj/F.html) interface:
+This function can be expressed using the Functional Java (FJ) [F](https://www.functionaljava.org/javadoc/4.4/functionaljava/fj/F.html) interface:
 
 ```java
 public interface XmlTransformation extends F<Document, Document> {}
@@ -98,7 +98,7 @@ Document transformed = b.f(a.f(document));
 
 > I've statically imported `AddNode.addNode` and `XPathExpression.xpathExpression` static factory methods [sic] for brevity.
 
-Well, `XmlTransformation`s are just functions, so we could use the [composition operator](http://www.functionaljava.org/javadoc/4.4/functionaljava/fj/Function.html#compose-fj.F-fj.F-) to combine them. Unfortunately, we need some upcasts to make this work:
+Well, `XmlTransformation`s are just functions, so we could use the [composition operator](https://www.functionaljava.org/javadoc/4.4/functionaljava/fj/Function.html#compose-fj.F-fj.F-) to combine them. Unfortunately, we need some upcasts to make this work:
 
 ```java
 // Document document;
@@ -133,7 +133,7 @@ It all becomes much easier when you recognize that you are staring in the eyes a
 *  The *identity* value is simply the identity function `a -> a`.
 * `composeT` is a binary operation, which is *associative*.
 
-Since all the [monoid laws](https://wiki.haskell.org/Typeclassopedia#Laws_5) are satisfied, we can define a proper [`Monoid`](http://www.functionaljava.org/javadoc/4.4/functionaljava/fj/Monoid.html) instance for our `XmlTransformation` type:
+Since all the [monoid laws](https://wiki.haskell.org/Typeclassopedia#Laws_5) are satisfied, we can define a proper [`Monoid`](https://www.functionaljava.org/javadoc/4.4/functionaljava/fj/Monoid.html) instance for our `XmlTransformation` type:
 
 ```java
 Monoid<XmlTransformation> m = Monoid.monoid((t1, t2) -> composeT(t2, t1),
@@ -191,7 +191,7 @@ Document transformed =
 
 This solution IMHO is clean, concise, expressive, flexible and very powerful. It's very easy to define new basic transformations (remember: *each of them can be tested independently!*) and to compose them to build more complex ones (the power of abstraction). Their composition is already been taken care of, once and for all.
 
-It's also easy to extend it to have a more sophisticated error-handling strategy. For example by accumulating errors in [`Either`](http://www.functionaljava.org/javadoc/4.4/functionaljava/fj/data/Either.html) values:
+It's also easy to extend it to have a more sophisticated error-handling strategy. For example by accumulating errors in [`Either`](https://www.functionaljava.org/javadoc/4.4/functionaljava/fj/data/Either.html) values:
 
 ```java
 XmlTransformation :: Either<NonEmptyList<String>>, Document>

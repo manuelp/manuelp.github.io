@@ -4,7 +4,7 @@ title: CIS 194, week 2, Algebraic Data Types
 categories: blog
 ---
 
-This is a post about [week 2](http://www.seas.upenn.edu/~cis194/lectures/02-ADTs.html) of the [CIS 194: Introduction to Haskell](http://www.seas.upenn.edu/~cis194/) course by [Brent Yorgey](http://www.cis.upenn.edu/~byorgey/), from the [Penn University of Pennsilvania](http://www.upenn.edu/).
+This is a post about [week 2](https://www.seas.upenn.edu/~cis194/lectures/02-ADTs.html) of the [CIS 194: Introduction to Haskell](https://www.seas.upenn.edu/~cis194/) course by [Brent Yorgey](https://www.cis.upenn.edu/~byorgey/), from the [Penn University of Pennsilvania](https://www.upenn.edu/).
 
 ----
 
@@ -29,7 +29,7 @@ isTempting Salad = False
 isTempting _ = True
 ```
 
-But in Haskell enumeration types are only a special case of Algebraic Data Types. One common class of ADT is called [sum type](http://en.wikipedia.org/wiki/Sum_type) (a.k.a. tagged union). A simple example of ADT which is not an enumeration is this:
+But in Haskell enumeration types are only a special case of Algebraic Data Types. One common class of ADT is called [sum type](https://en.wikipedia.org/wiki/Sum_type) (a.k.a. tagged union). A simple example of ADT which is not an enumeration is this:
 
 ```haskell
 data OperationResult = OK
@@ -134,7 +134,7 @@ data IntList = Empty
 	         | Cons Int IntList
 ```
 
-This definition can be read as: "an `IntList` is either an `Empty` one or an `Int` value followed by an `IntList`". This kind of definition is quite clear and elegant (see [Church encoding](http://en.wikipedia.org/wiki/Church_encoding)). For example:
+This definition can be read as: "an `IntList` is either an `Empty` one or an `Int` value followed by an `IntList`". This kind of definition is quite clear and elegant (see [Church encoding](https://en.wikipedia.org/wiki/Church_encoding)). For example:
 
 ```haskell
 -- [1,2,3] can be represented as an IntList:

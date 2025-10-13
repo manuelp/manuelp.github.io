@@ -4,7 +4,7 @@ title: Campagna per il pensionamento di IE6
 categories: web
 ---
 
-<a href="http://www.bringdownie6.com/">
+<a href="https://www.bringdownie6.com/">
    <img src="/images/bdie6.png" alt="logo della campagna bring down IE6" style="float:right"/>
 </a>
 
@@ -44,7 +44,7 @@ moderni (anche ad un'altra versione di IE, solo più recente). Dalla
 dichiarazione d'intenti della campagna (la traduzione è mia, ora sapete
 chi incolpare per gli errori):
 
-[bdie6]: http://www.bringdownie6.com/ "campagna: Bring Down IE6"	
+[bdie6]: https://www.bringdownie6.com/ "campagna: Bring Down IE6"	
 
 > La premessa è semplice: Internet Explorer 6 è antiquato, non
 > supporta standard web chiave, e dovrebbe essere pensionato. Questo
@@ -65,12 +65,12 @@ spreco di soldi e di tempo come in questo caso, evitabile in modo
 [piuttosto][ff] [semplice][chrome], allora occorre spingere per andare avanti e
 disfarsi di una tecnologia obsoleta.
 
-[ff]: http://www.getfirefox.com/ "Scarica Mozilla Firefox"
-[chrome]: http://www.google.com/chrome "Scarica Google Chrome"
+[ff]: https://www.getfirefox.com/ "Scarica Mozilla Firefox"
+[chrome]: https://www.google.com/chrome "Scarica Google Chrome"
 
 > "IE6 is the new Netscape 4. The hacks needed to support IE6 are
 > increasingly viewed as excess freight. Like Netscape 4 in 2000, IE6 is
 > perceived to be holding back the web." <br/>
 > --[Jeff Zeldman][zeldman], standards guru
 
-[zeldman]: http://www.zeldman.com/ "Il sito personale di Jeffrey Zeldman"
+[zeldman]: https://www.zeldman.com/ "Il sito personale di Jeffrey Zeldman"

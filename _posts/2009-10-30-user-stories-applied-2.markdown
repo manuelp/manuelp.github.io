@@ -4,7 +4,7 @@ title: User Stories Applied, capitolo 2
 categories: agile
 ---
 
-Continua l'esplorazione della tecnica delle [user stories](http://en.wikipedia.org/wiki/User_story). 
+Continua l'esplorazione della tecnica delle [user stories](https://en.wikipedia.org/wiki/User_story). 
 
 Per capire meglio che cosa sono le user stories bisogna capire cosa *non* sono mettendole in contrasto con le altre tecniche di raccolta dei requisiti (use cases, specifiche dei requisiti software IEEE 830 e interactive design scenarios).
 

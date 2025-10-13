@@ -5,18 +5,18 @@ categories: blog
 ---
 
 Ecco il primo post di questo mio nuovo blog! Finalmente mi sono deciso
-ad aprirlo, utilizzando il servizio [GitHub Pages](http://pages.github.com/).
+ad aprirlo, utilizzando il servizio [GitHub Pages](https://pages.github.com/).
 
 Si parte con un design molto minimale, creato a partire da quello di
-   [Tom Preston-Werner](http://github.com/mojombo/), il creatore di
-   [Jekyll](http://github.com/mojombo/jekyll) e co-fondatore di
-   [GitHub](http://github.com).
+   [Tom Preston-Werner](https://github.com/mojombo/), il creatore di
+   [Jekyll](https://github.com/mojombo/jekyll) e co-fondatore di
+   [GitHub](https://github.com).
 
 Gli scopi di questo blog sono molteplici:
 
  - Per imparare qualcosa non basta leggere: metterlo in pratica e
    cercare di
-   [insegnarlo](http://www.markhneedham.com/blog/2009/04/21/learning-through-teaching/)
+   [insegnarlo](https://www.markhneedham.com/blog/2009/04/21/learning-through-teaching/)
    è uno dei metodi migliori per apprendere. Quindi questo è un posto
    in cui insegno prima di tutto a me stesso, e poi rendo anche
    disponibili questi lavori per aiutare che volesse intraprendere la

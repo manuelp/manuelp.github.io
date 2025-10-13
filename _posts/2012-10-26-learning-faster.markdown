@@ -6,7 +6,7 @@ categories: learning
 
 Learning fast, and being able to master concepts and techniques is more important that ever nowadays in the "information age". Learning something *deeply* and mastering it to the point of having an *intuition* about it is very important in every field. The point is developing *knowledge and skills*, not only being able to reharse dry informations.
 
-But what we could do about this? *Learning to learn* is underrated, but very important. Here I summarize my understanding of a [guest post](http://calnewport.com/blog/2012/10/26/mastering-linear-algebra-in-10-days-astounding-experiments-in-ultra-learning/) by [Scott Young](http://www.scotthyoung.com/) on [Study Hacks](http://calnewport.com/blog/), a very interesting blog written by Cal Newport. This guy (Scott), completed the 4-year MIT computer science curriculum in just 12 months... So I suppose he has some good tips to share on this.
+But what we could do about this? *Learning to learn* is underrated, but very important. Here I summarize my understanding of a [guest post](https://calnewport.com/blog/2012/10/26/mastering-linear-algebra-in-10-days-astounding-experiments-in-ultra-learning/) by [Scott Young](https://www.scotthyoung.com/) on [Study Hacks](https://calnewport.com/blog/), a very interesting blog written by Cal Newport. This guy (Scott), completed the 4-year MIT computer science curriculum in just 12 months... So I suppose he has some good tips to share on this.
 
 # The Drilldown Method
 
@@ -48,7 +48,7 @@ This technique is fairly easy to describe, but it enables some important advanta
 - During this process, you'll come up with insights, novel connections with things you already know, metaphors and problems that will benefit from this new understanding.
 
 > "You do not really understand something unless you can explain it to your grandmother."
-> -- [Albert Einstein](http://www.diracdelta.co.uk/science/source/q/u/quotes/source.html)
+> -- [Albert Einstein](https://www.diracdelta.co.uk/science/source/q/u/quotes/source.html)
 
 This technique can be applied in several ways:
 
@@ -58,7 +58,7 @@ This technique can be applied in several ways:
 - To check and exercise your memory: writing down a summary of a particular concept without using any material other than your memory.
 
 ## Down the rabbit hole
-With the Feynman Technique you can go deeper, but you could go further and develop not just an understanding, but even a *deep intuition* about it. That's the Ri stage in the [Shuhari](http://en.wikipedia.org/wiki/Shuhari) model.
+With the Feynman Technique you can go deeper, but you could go further and develop not just an understanding, but even a *deep intuition* about it. That's the Ri stage in the [Shuhari](https://en.wikipedia.org/wiki/Shuhari) model.
 
 Understanding intuitively and idea is not easy, but that's when you'd have really internalized it. Most intuitions about an idea, according to Scott, can be classified in this "classes":
 
@@ -79,7 +79,7 @@ We developers tend to go through only the first two steps:
 
 However, some developers extend that practice with the third step: summarizing their insights and new understanding in blog posts, guides, tutorials, presentations and even entire books or courses. I think this is a very useful practice.
 
-On a related note, that's why I claim that good programming books should have *exercises with solutions* for at least every chapter (for a recent example, see [Functional Programming for the Object-Oriented Programmer](http://leanpub.com/fp-oo) by Brian Marick).
+On a related note, that's why I claim that good programming books should have *exercises with solutions* for at least every chapter (for a recent example, see [Functional Programming for the Object-Oriented Programmer](https://leanpub.com/fp-oo) by Brian Marick).
 
 They should also don't stop after teaching syntax and mechanics, but also teach about:
 
@@ -89,6 +89,6 @@ They should also don't stop after teaching syntax and mechanics, but also teach 
 And in general *not only the how, but also the why and when*.
 
 > "That is, the best programming language books infuse a strong sense of design into the narrative. The strength of this approach is that not only are you learning a programming language, but you’re also learning how to think in that language, and the very why of the language itself."
-> -- [Michael Fogus](http://blog.fogus.me/2011/08/14/perlis-languages/)
+> -- [Michael Fogus](https://blog.fogus.me/2011/08/14/perlis-languages/)
 
-It's the same Michael Fogus that with Chris Houser wrote [The Joy Of Clojure](http://joyofclojure.com/), a book that won a Jolt Award in 2011 as one of [The six best books every developer should read](http://www.drdobbs.com/joltawards/jolt-awards-the-best-books/231500080?pgno=4). Another example to look closely to :)
+It's the same Michael Fogus that with Chris Houser wrote [The Joy Of Clojure](https://joyofclojure.com/), a book that won a Jolt Award in 2011 as one of [The six best books every developer should read](https://www.drdobbs.com/joltawards/jolt-awards-the-best-books/231500080?pgno=4). Another example to look closely to :)

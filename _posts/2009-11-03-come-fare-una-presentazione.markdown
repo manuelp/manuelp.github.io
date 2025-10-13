@@ -44,10 +44,10 @@ Ma il primo e più importante valore che uno speaker *deve* tenere sempre a ment
 
 Per avere un'idea di come sono delle presentazione fatte *veramente* bene:
 
- - Vedere su [YouTube](http://www.youtube.com/) le presentazioni di: Seth Godin, Tom Peters, Guy Kawasaki, Steve Jobs e Dick Hardt.
- - Guardare le presentazioni di alcuni dei "maghi" su [TED.com](http://www.ted.com), ad esempio: Rives, Hans Rosling, Barnett Thomas, Lawrence Lessig e Ken Robinson.
- - Se si ha occasione, assistere a qualche talk di [Damian Conway](http://damian.conway.org/).
- - Vai su [Common Craft](http://www.commoncraft.com/) a dare un'occhiata ai loro tutorial "plain English" sul Web 2.0
+ - Vedere su [YouTube](https://www.youtube.com/) le presentazioni di: Seth Godin, Tom Peters, Guy Kawasaki, Steve Jobs e Dick Hardt.
+ - Guardare le presentazioni di alcuni dei "maghi" su [TED.com](https://www.ted.com), ad esempio: Rives, Hans Rosling, Barnett Thomas, Lawrence Lessig e Ken Robinson.
+ - Se si ha occasione, assistere a qualche talk di [Damian Conway](https://damian.conway.org/).
+ - Vai su [Common Craft](https://www.commoncraft.com/) a dare un'occhiata ai loro tutorial "plain English" sul Web 2.0
 
 ## Sull'uso delle slide
 L'uso di slide (lucidi) è diventato ormai sinonimo di presentazione in molti campi, tanto che la stragrande maggioranza si cimenta nel realizzare questi *ausili* senza pensarci un istante. Il problema, soprattutto con slide contenenti molto materiale, è che ad un certo punto o la gente legge le slide e non segue più lo speaker (a quel punto converrebbe scrivere un semplice articolo), oppure ascolta lo speaker e non guarda nemmeno le slide (in questo caso non servono neppure).
@@ -72,18 +72,18 @@ L'uso degli strumenti adatti viene di conseguenza.
 
 > "Focus on your purpose, your message and your audience and you won’t go far wrong. Once you are clear on those, the details of tools and delivery will become apparent." --Rowan Manahan
 
-Per un esempio di come è possibile fare una presentazione **memorabile** senza usare *nessuna* slide, vedere il talk di [Sir Ken Robinson](http://www.ted.com/index.php/talks/ken_robinson_says_schools_kill_creativity.html). Inoltre, per un uso creativo e molto visuale delle slide per sottolineare l'esposizione vedere lo [stile Takahashi](http://presentationzen.blogs.com/presentationzen/2005/09/living_large_ta.html) orginale e le sue variazioni che usano anche immagini, come ad esempio la presentazione di Kent Beck sul [Responsive Design](http://www.infoq.com/presentations/responsive-design).
+Per un esempio di come è possibile fare una presentazione **memorabile** senza usare *nessuna* slide, vedere il talk di [Sir Ken Robinson](https://www.ted.com/index.php/talks/ken_robinson_says_schools_kill_creativity.html). Inoltre, per un uso creativo e molto visuale delle slide per sottolineare l'esposizione vedere lo [stile Takahashi](https://presentationzen.blogs.com/presentationzen/2005/09/living_large_ta.html) orginale e le sue variazioni che usano anche immagini, come ad esempio la presentazione di Kent Beck sul [Responsive Design](https://www.infoq.com/presentations/responsive-design).
 
 Vediamo ora alcuni suggerimenti su come preparare e effettuare una buona presentazione.
 
 ## Preparazione
-**Il suggerimento più importante sulla preparazione di una presentazione è quello di *preparala lontano dal PC (e da PowerPoint).* Una volta chiaro l'obiettivo, esporre a voce alta in modalità "freestyle" provando vari approcci e annotando idee, frasi e pensieri importanti. Dopo aver steso l'ossatura della presentazione, scriverla su carta (come minimo sotto forma di *outline* o [mappa mentale](http://en.wikipedia.org/wiki/Mind_map)).** Solo *dopo* si può considerare se servono slide o meno.
+**Il suggerimento più importante sulla preparazione di una presentazione è quello di *preparala lontano dal PC (e da PowerPoint).* Una volta chiaro l'obiettivo, esporre a voce alta in modalità "freestyle" provando vari approcci e annotando idee, frasi e pensieri importanti. Dopo aver steso l'ossatura della presentazione, scriverla su carta (come minimo sotto forma di *outline* o [mappa mentale](https://en.wikipedia.org/wiki/Mind_map)).** Solo *dopo* si può considerare se servono slide o meno.
 
 > Presentazione = discorso 
 
 Un passo importante che molti non considerano è che un pezzo scritto prima di raggiungere la sua forma definitiva viene modificato molte volte. Lo stesso vale per i discorsi: **per renderli concisi ma evocativi e memorabili è necessario scriverli e perfezionarli esercitandosi molto nell'esposizione**. E' così che i **grandi** discorsi sono stati creati e hanno potuto esercitare un impatto enorme sulle generazioni a venire: vedi Martin Luther King, Lincoln, Ghandi...
 
-Uno dei più grandi "presentatori" contemporanei, [Damian Conway](http://damian.conway.org/),  raccomanda un *minimo di 10 ore di preparazione per ogni ora di presentazione* (20 se l'argomento è relativamente ostico). Questo ovviamente se si vuole fare un talk **memorabile**...
+Uno dei più grandi "presentatori" contemporanei, [Damian Conway](https://damian.conway.org/),  raccomanda un *minimo di 10 ore di preparazione per ogni ora di presentazione* (20 se l'argomento è relativamente ostico). Questo ovviamente se si vuole fare un talk **memorabile**...
 
 E' anche utile preparare almeno un piano di *backup* per non essere colti impreparati dalle evenienze.
 
@@ -95,7 +95,7 @@ Inoltre, tenere presente che il modo migliore di illustrare certi concetti è at
 - **Informarsi sull'audience.** Quali sono i suoi interessi, lo stato d'animo, *i bisogni e le aspettative*?
 - **Quanto tempo si ha a disposizione?**
 
-E' importante capire con chi si ha a che fare per veicolare il messaggio nel modo più efficace ed efficiente possibile. Vedere anche un mio precendente [post](http://manuelp.github.com/metaprogramming/2009/05/30/importanza-di-comunicare.html).
+E' importante capire con chi si ha a che fare per veicolare il messaggio nel modo più efficace ed efficiente possibile. Vedere anche un mio precendente [post](https://manuelp.github.com/metaprogramming/2009/05/30/importanza-di-comunicare.html).
 
 ### Tema
 **Identificare la singola *idea chiave* che si vuole comunicare con la presentazione e focalizzarsi su quella.** E' più facile lasciare il segno quando il punto importante è uno piuttosto che una collezione di fatti blandamente correlati.
@@ -215,7 +215,7 @@ Di seguito qualche suggerimento su come condurre al meglio la *performace*:
  - **Usare un tono di voce chiaro, parlare lentamente e variare spesso il ritmo.** Bisogna parlare in modo da essere sentiti, chiaramente e ancora una volta portando rispetto verso il pubblico evitando di annoiarlo a morte con un tono di voce costante e noioso (soporiferio). Spesso i novizi durante i talk parlano troppo velocemente: rallentare deliberatamente.
   - **Evitare i "filler"**, ovvero cose come: "cioè, uhm, eh" ecc. Denotano insicurezza.
  - **Raccontare una storia**. Anche se inventata, è utile per intrattenere e mantenere viva l'attenzione. Ovviamente che sia in qualche modo rilevante all'argomento oggetto della presentazione. Può essere utile anche mischiarla con delle *metafore* utili ad illustrare certi concetti e relazioni. Inutile dire che l'effetto è migliore se la storia è divertente.
- - **Usare la [retorica](http://it.wikipedia.org/wiki/Retorica)** per essere *incisivi e memorabili*. Praticare ad esempio con: contrasto, lista dei tre e soprattutto la *pausa*. Fare una pausa prima di esporre un punto importante crea anticipazione e drammaticità: un momento teatrale che mantiene l'attenzione.
+ - **Usare la [retorica](https://it.wikipedia.org/wiki/Retorica)** per essere *incisivi e memorabili*. Praticare ad esempio con: contrasto, lista dei tre e soprattutto la *pausa*. Fare una pausa prima di esporre un punto importante crea anticipazione e drammaticità: un momento teatrale che mantiene l'attenzione.
  - **Se ci si dimentica qualcosa, andare avanti con la presentazione senza scusarsi o fermarsi per cercare di ricordare.** Se l'esposizione veicola il *messaggio principale*, allora è ok.
  - **Emozionare**. E' uno dei modi principali e più efficaci per mantenere l'attenzione e far arrivare i concetti a destinazione. Con un pò di pratica diventa facile visto che qualsiasi argomento può essere trattato dal punto di vista *umano*.
  - E' utile anche raccontare aneddoti (soprattutto se personali), umorismo e storie. **Un tocco personale può aiutare molto a rendere una presentazione autentica e interessante**.
@@ -259,26 +259,26 @@ Ricapitoliamo i punti importanti:
  - Se possibile, dare precedenza alle dimostrazioni piuttosto che alle descrizioni.
  
 ## Approfondimenti
-- [Presentation Tips by Garr Reynolds](http://www.garrreynolds.com/Presentation/index.html)
-- [Presentation Zen](http://www.presentationzen.com/)
+- [Presentation Tips by Garr Reynolds](https://www.garrreynolds.com/Presentation/index.html)
+- [Presentation Zen](https://www.presentationzen.com/)
 - [How to give a great speech, Part 1: Preparation][1]
 - [How to give a great speech, Part 2: Delivery][2]
 - [Presentation Masterclass - Part 1: Introduction][3]
 - [Presentation Masterclass - Part 2: 5 Key Questions When Planning Your Presentation][4]
-- [Six Ways To Transform Your Presentation](http://www.lifehack.org/articles/communication/six-ways-to-transform-your-presentation.html)
-- [4 Effective Presentation Techniques](http://www.lifehack.org/articles/communication/4-effective-presentation-techniques.html)
-- [Presentation HowTo](http://howto.lifehack.org/wiki/Presentation)
-- [Present Like A Rockstar](http://www.lifehack.org/articles/communication/present-like-a-rockstar.html)
-- [My Best Presentation Tricks](http://www.lifehack.org/articles/lifehack/my-best-presentation-tricks.html)
-- [18 Tips for Killer Presentations](http://www.lifehack.org/articles/communication/18-tips-for-killer-presentations.html)
-- [10 Tips for More Effective PowerPoint Presentations](http://www.lifehack.org/articles/technology/10-tips-for-more-effective-powerpoint-presentations.html)
-- [A few more Presentation How To's](http://headrush.typepad.com/creating_passionate_users/2006/07/a_few_more_pres.html)
+- [Six Ways To Transform Your Presentation](https://www.lifehack.org/articles/communication/six-ways-to-transform-your-presentation.html)
+- [4 Effective Presentation Techniques](https://www.lifehack.org/articles/communication/4-effective-presentation-techniques.html)
+- [Presentation HowTo](https://howto.lifehack.org/wiki/Presentation)
+- [Present Like A Rockstar](https://www.lifehack.org/articles/communication/present-like-a-rockstar.html)
+- [My Best Presentation Tricks](https://www.lifehack.org/articles/lifehack/my-best-presentation-tricks.html)
+- [18 Tips for Killer Presentations](https://www.lifehack.org/articles/communication/18-tips-for-killer-presentations.html)
+- [10 Tips for More Effective PowerPoint Presentations](https://www.lifehack.org/articles/technology/10-tips-for-more-effective-powerpoint-presentations.html)
+- [A few more Presentation How To's](https://headrush.typepad.com/creating_passionate_users/2006/07/a_few_more_pres.html)
 - Lehr, J.H., 1985, [Let there be stoning!][5], Ground Water, v. 23, no. 2, p. 162-165
-- [OSCON 2005: Presentation Aikido, Damian Conway, first half](http://www.canspice.org/2005/08/01/oscon-2005-the-conway-channel-first-half/)
-- [OSCON 2005: Presentation Aikido, Damian Conway, second half](http://www.canspice.org/2005/08/01/oscon-2005-presentation-aikido-damian-conway-second-half/)
+- [OSCON 2005: Presentation Aikido, Damian Conway, first half](https://www.canspice.org/2005/08/01/oscon-2005-the-conway-channel-first-half/)
+- [OSCON 2005: Presentation Aikido, Damian Conway, second half](https://www.canspice.org/2005/08/01/oscon-2005-presentation-aikido-damian-conway-second-half/)
 
-[1]: http://www.lifehack.org/articles/communication/how-to-give-a-great-speech-part-1-preparation.html
-[2]: http://www.lifehack.org/articles/communication/how-to-give-a-great-speech-part-2-delivery.html
-[3]: http://www.lifehack.org/articles/communication/presentation-masterclass-part-1-introduction.html
-[4]:  http://www.lifehack.org/articles/communication/5-key-questions-when-planning-your-presentation-presentation-masterclass-part-2.html
-[5]: http://geology.wwu.edu/rjmitch/stoning.pdf "Let there be stoning!"
+[1]: https://www.lifehack.org/articles/communication/how-to-give-a-great-speech-part-1-preparation.html
+[2]: https://www.lifehack.org/articles/communication/how-to-give-a-great-speech-part-2-delivery.html
+[3]: https://www.lifehack.org/articles/communication/presentation-masterclass-part-1-introduction.html
+[4]:  https://www.lifehack.org/articles/communication/5-key-questions-when-planning-your-presentation-presentation-masterclass-part-2.html
+[5]: https://geology.wwu.edu/rjmitch/stoning.pdf "Let there be stoning!"

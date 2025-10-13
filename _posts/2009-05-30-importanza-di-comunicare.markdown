@@ -100,9 +100,9 @@ stylesheets.
  - usa lo *spell-checking*, prima automatico e poi manualmente
 (verifica *walkthrough*) 
 
- [latex]: http://www.latex-project.org/ "Homepage del LaTeX Project"
- [docbook]: http://www.docbook.org/ "DocBook: The Definitive Guide"
- [fop]: http://xmlgraphics.apache.org/fop/ "Apache FOP"
+ [latex]: https://www.latex-project.org/ "Homepage del LaTeX Project"
+ [docbook]: https://www.docbook.org/ "DocBook: The Definitive Guide"
+ [fop]: https://xmlgraphics.apache.org/fop/ "Apache FOP"
 
 <br/> 
 
@@ -116,16 +116,16 @@ raccogliere feedback e instaurare una proficua relazione di lavoro.
 Cosa che sembra abbia funzionato tra l'altro per la produzione di libri interi
 come [Real World Haskell][RWH] e [Programming Scala][ProgrammingScala].
 
- [RWH]: http://book.realworldhaskell.org/ "Real World Haskell"
- [ProgrammingScala]: http://programming-scala.labs.oreilly.com/
+ [RWH]: https://book.realworldhaskell.org/ "Real World Haskell"
+ [ProgrammingScala]: https://programming-scala.labs.oreilly.com/
 
 Ragione per cui ho adottato questo approccio per il presente blog: nonostante
 il suo aspetto/layout sia ancora un work-in-progress è online e il
 [repository][] dei suoi sorgenti è liberamente accessibile (in lettura) e
 pubblicato con licenza [CreativeCommons][].
 
- [repository]: http://github.com/manuelp/manuelp.github.com/tree/master 
- [CreativeCommons]: http://creativecommons.org/licenses/by-sa/2.5/it/ "CC 2.5 Attribution-Share Alike"
+ [repository]: https://github.com/manuelp/manuelp.github.com/tree/master 
+ [CreativeCommons]: https://creativecommons.org/licenses/by-sa/2.5/it/ "CC 2.5 Attribution-Share Alike"
 
 Inoltre, nel caso di comunicazioni verbali è utile trasformare l'esposizione in
 una sessione interattiva, ad esempio facendo domande e chiedendo di riassumere

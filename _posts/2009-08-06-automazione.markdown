@@ -6,7 +6,7 @@ categories: metaprogramming
 
 Una cosa risaputa è che un buon programmatore deve essere *pigro*. Ma di una pigrizia particolare: *perchè svolgere a mano ogni compito ripetitivo che può essere svolto altrettanto bene e molto più velocemente da una macchina?*
 
-Nella mia situazione, complice anche il fatto che sto imparando [Ruby](http://ruby-lang.org/it/), ho automatizzato diverse cose. In particolare, scrivo su un altro [blog](http://viasenzanome.wordpress.com/) di sviluppo personale e per un certo periodo ho avuto un dominio apposito con un blog servito dal software [Serendipity][1] che dopo un anno di attività ho chiuso per ritornare a wordpress.
+Nella mia situazione, complice anche il fatto che sto imparando [Ruby](https://ruby-lang.org/it/), ho automatizzato diverse cose. In particolare, scrivo su un altro [blog](https://viasenzanome.wordpress.com/) di sviluppo personale e per un certo periodo ho avuto un dominio apposito con un blog servito dal software [Serendipity][1] che dopo un anno di attività ho chiuso per ritornare a wordpress.
 
 Purtroppo (mea culpa) non avevo effettuato il backup del vecchio blog se non tramite uno "snapshot" del sito, quindi mi sono ritrovato con circa un'ottantina di post sotto forma di file html che volevo importare su wordpress. Inutile dire che farlo a mano sarebbe stata un'impresa non da poco...
 
@@ -18,5 +18,5 @@ Con il secondo tentativo, ho utilizzato una stupenda libreria che mi ha permesso
 
 Risultato: una quindicina di minuti circa per postare sul blog originale circa 80 post con la data corretta e tutti i commenti! 
 
-[1]: http://www.s9y.org/ "Serendipity Weblog System" 
-[2]: http://wiki.github.com/why/hpricot "hpricot"
+[1]: https://www.s9y.org/ "Serendipity Weblog System" 
+[2]: https://wiki.github.com/why/hpricot "hpricot"

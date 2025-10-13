@@ -5,7 +5,7 @@ tags: Haskell, FSM, event-sourcing
 withtoc: yes
 ---
 
-In this post I want to briefly show you one way to encode [finite-state machines](https://en.wikipedia.org/wiki/Finite-state_machine) (FSM) and use them with [event sourcing](http://docs.geteventstore.com/introduction/4.0.0/event-sourcing-basics/). For the purposes of this post I'll use Haskell with just basic data types and functions, so translating it in your language of choice should be relatively easy.
+In this post I want to briefly show you one way to encode [finite-state machines](https://en.wikipedia.org/wiki/Finite-state_machine) (FSM) and use them with [event sourcing](https://docs.geteventstore.com/introduction/4.0.0/event-sourcing-basics/). For the purposes of this post I'll use Haskell with just basic data types and functions, so translating it in your language of choice should be relatively easy.
 
 ## The problem
 This is the particular FSM we want to encode:
@@ -14,7 +14,7 @@ This is the particular FSM we want to encode:
 
 It's not very complicated isn't it? It represents the states of a resource (for example a document) and the possible transitions between them. In other words, the FSM represents a _process_ that the resource goes through. Potentially with multiple users involved.
 
-You can think of the states transitions as _domain events_ in an [event sourced](http://docs.geteventstore.com/introduction/4.0.0/event-sourcing-basics/) application. From this point of view, the document state is a _projection_ of domain events that is computed by processing the events sequentially according to rules represented by the FSM. In other words, **domain events represents _what happened_ and the document state is _derived_ from them according to a FSM**. In this sense, the FSM gives an interpretation of what happened in the domain in the past according to a codified process. A nice property of this interpretation is that this process can change and the document state can be recalculated by replaying the events.
+You can think of the states transitions as _domain events_ in an [event sourced](https://docs.geteventstore.com/introduction/4.0.0/event-sourcing-basics/) application. From this point of view, the document state is a _projection_ of domain events that is computed by processing the events sequentially according to rules represented by the FSM. In other words, **domain events represents _what happened_ and the document state is _derived_ from them according to a FSM**. In this sense, the FSM gives an interpretation of what happened in the domain in the past according to a codified process. A nice property of this interpretation is that this process can change and the document state can be recalculated by replaying the events.
 
 ## Solution
 First of all, we encode the possible states:

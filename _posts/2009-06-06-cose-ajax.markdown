@@ -27,18 +27,18 @@ stesso. Applicativi che necessitano di essere *responsivi*.
 Alcuni esempi di applicazioni web molto usate costruite con questa tecnica
 sono: [GMail][1], [Google Maps][2] e [Google Docs][3].
 
-[1]: http:///www.gmail.com/ "GMail"
-[2]: http://maps.google.com/ "Google Maps"
-[3]: http://docs.google.com/ "Google Docs"
+[1]: https:///www.gmail.com/ "GMail"
+[2]: https://maps.google.com/ "Google Maps"
+[3]: https://docs.google.com/ "Google Docs"
 
 Da cosa è costituito
 ====================
 
-- XHTML e CSS: per la [presentazione](http://adaptivepath.com/publications/essays/archives/000266.php)
-- [DOM](http://www.scottandrew.com/weblog/articles/dom_1): per il layout dinamico e l'interazione con la pagina
-- [XML e XSLT](http://www-106.ibm.com/developerworks/xml/library/x-xslt/?article=xr): scambio e manipolazione dati
-- [XMLHttpRequest](http://www.xml.com/pub/a/2005/02/09/xml-http-request.html): recupero asincrono dei dati
-- [Javascript](http://www.crockford.com/javascript/javascript.html): collante per tutte le tecnologie precedenti
+- XHTML e CSS: per la [presentazione](https://adaptivepath.com/publications/essays/archives/000266.php)
+- [DOM](https://www.scottandrew.com/weblog/articles/dom_1): per il layout dinamico e l'interazione con la pagina
+- [XML e XSLT](https://www-106.ibm.com/developerworks/xml/library/x-xslt/?article=xr): scambio e manipolazione dati
+- [XMLHttpRequest](https://www.xml.com/pub/a/2005/02/09/xml-http-request.html): recupero asincrono dei dati
+- [Javascript](https://www.crockford.com/javascript/javascript.html): collante per tutte le tecnologie precedenti
 
 Come funziona
 =============
@@ -76,11 +76,11 @@ del sistema, ma dalla velocità della rete.**
 > Desktop. <br/>
 > --Jesse James Garrett, [Ajax: a new approach to web applications][4]
 
-[4]: http://adaptivepath.com/publications/essays/archives/000385.php
+[4]: https://adaptivepath.com/publications/essays/archives/000385.php
 
 Credits
 =======
 
 Grazie a Daniele Simonin per la sua [traduzione][5] dell'[articolo][4] di Jesse James Garrett.
 
-[5]: http://read.melodycode.com/tutorials/158/ajax_un_nuovo_approccio_per_le_applicazioni_web.html
+[5]: https://read.melodycode.com/tutorials/158/ajax_un_nuovo_approccio_per_le_applicazioni_web.html

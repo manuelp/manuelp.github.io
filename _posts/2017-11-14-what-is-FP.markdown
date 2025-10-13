@@ -6,13 +6,13 @@ tags: Haskell, FP
 
 I've [already](2014-11-17-imparare-fp.html)[^1] [attempted](2015-12-27-diffing-refactoring.html) to define functional programming (FP), but I wasn't satified with it. Kris Jenkins did a much better job, and wrote a couple of very good posts on this:
 
-1. [What Is Functional Programming?](http://blog.jenkster.com/2015/12/what-is-functional-programming.html)
-2. [Which Programming Languages Are Functional?](http://blog.jenkster.com/2015/12/which-programming-languages-are-functional.html)
+1. [What Is Functional Programming?](https://blog.jenkster.com/2015/12/what-is-functional-programming.html)
+2. [Which Programming Languages Are Functional?](https://blog.jenkster.com/2015/12/which-programming-languages-are-functional.html)
 
 But recently I've come across the definition of Graham Hutton in his book[^2], "*Programming in Haskell*" (second edition, 2016).
 
-<a href="http://www.cs.nott.ac.uk/~pszgmh/pih.html">
-    <img src="http://www.cs.nott.ac.uk/~pszgmh/pih.jpg" width="200" alt="Programming in Haskell cover"/>
+<a href="https://www.cs.nott.ac.uk/~pszgmh/pih.html">
+    <img src="https://www.cs.nott.ac.uk/~pszgmh/pih.jpg" width="200" alt="Programming in Haskell cover"/>
 </a>
 
 And something clicked. I really like it since it's *concise* and other things (like purity and immutability) are *consequences*. Here it is, slightly modified[^3]:
@@ -50,7 +50,7 @@ The result of this substitution and evaluation can sometimes be a single result,
 
 When programs are defined this way, they are easier (for both programs and humans) to *understand, reason about and manipulate*. And we are not talking about a type system[^6] yet!
 
-Another way to look at purity that follows from this substitution model, is **referential transparency**. It has been [defined by Rúnar Bjarnason](http://blog.higher-order.com/blog/2012/09/13/what-purity-is-and-isnt/) as follows:
+Another way to look at purity that follows from this substitution model, is **referential transparency**. It has been [defined by Rúnar Bjarnason](https://blog.higher-order.com/blog/2012/09/13/what-purity-is-and-isnt/) as follows:
 
 > An expression `e` is *referentially transparent* if for all programs `p`, every occurrence of `e` in `p` can be replaced with the result of evaluating `e` without changing the result of evaluating `p`.
 >

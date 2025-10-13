@@ -8,7 +8,7 @@ A differenza di linguaggi come Java e C++, Ruby *non supporta direttamente l'ove
 
 Una soluzione in certi casi potrebbe essere quella di usare un design-pattern come il *factory method*. In tutti gli altri, fortunatamente, è abbastanza semplice emulare l'overloading grazie al supporto di ruby alle liste di argomenti di lunghezza variabile.
 
-Un esempio, tratto da [rubylearning](http://rubylearning.com/satishtalim/ruby_overloading_methods.html) per chiarire il concetto:
+Un esempio, tratto da [rubylearning](https://rubylearning.com/satishtalim/ruby_overloading_methods.html) per chiarire il concetto:
 
 ```ruby
 # The Rectangle constructor accepts arguments in either  

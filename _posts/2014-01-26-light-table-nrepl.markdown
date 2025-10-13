@@ -4,7 +4,7 @@ title: How to programmatically manage a Light Table-aware nREPL server
 categories: blog
 ---
 
-Starting an [nREPL](https://github.com/clojure/tools.nrepl) server for a Clojure application is trivial if you use [Leiningen](http://leiningen.org/):
+Starting an [nREPL](https://github.com/clojure/tools.nrepl) server for a Clojure application is trivial if you use [Leiningen](https://leiningen.org/):
 
 ```bash
 lein repl
@@ -26,7 +26,7 @@ But what if you have an application deployed as a JAR (or WAR in an application 
 (stop-server nrepl-server)
 ```
 
-It works out of the box if you use Emacs with [Cider](https://github.com/clojure-emacs/cider) to connect to it, but if you use [Light Table](http://www.lighttable.com/), you need to add an additional nREPL middleware to support some functionality that LT needs to work properly. Again, this is [easy](http://docs.lighttable.com/#how) if you use Leiningen: you just need to declare the dependency to the middleware and add some `:repl-options`:
+It works out of the box if you use Emacs with [Cider](https://github.com/clojure-emacs/cider) to connect to it, but if you use [Light Table](https://www.lighttable.com/), you need to add an additional nREPL middleware to support some functionality that LT needs to work properly. Again, this is [easy](https://docs.lighttable.com/#how) if you use Leiningen: you just need to declare the dependency to the middleware and add some `:repl-options`:
 
 ```clojure
 (defproject some-awesome-thing "0.1.0-SNAPSHOT"
@@ -61,6 +61,6 @@ Then you can add it to the middlewares chain in your code:
 (stop-server nrepl-server)
 ```
 
-Notice that we passed `lighttable-ops` to the `default-handler` as a *var* (in fact, `#'lighttable-ops` is a [reader macro](http://clojure.org/reader) that expands to `(var lighttable-ops)`).
+Notice that we passed `lighttable-ops` to the `default-handler` as a *var* (in fact, `#'lighttable-ops` is a [reader macro](https://clojure.org/reader) that expands to `(var lighttable-ops)`).
 
 Now you can connect to your project remotely using Light Table and inspect, modify and control it *live*. Enjoy :)

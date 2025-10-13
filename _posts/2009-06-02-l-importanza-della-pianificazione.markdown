@@ -20,8 +20,8 @@ Alcuni proponenti dell'approccio [agile][1] erroneamente portano all'estremo il
 concetto di [self-organization][2], sostenendo in maniera più o meno implicita
 una generale antipatia per la pianificazione. 
 
-[1]: http://it.wikipedia.org/wiki/Metodologia_agile
-[2]: http://en.wikipedia.org/wiki/Self-organization
+[1]: https://it.wikipedia.org/wiki/Metodologia_agile
+[2]: https://en.wikipedia.org/wiki/Self-organization
 
 Tecnologia
 ==========
@@ -36,7 +36,7 @@ basati su assunzioni non verificate, per poi scoprire che la soluzione non
 funziona o che ce ne sono di migliori e più eleganti, a cui non si arriva se
 non avendo sott'occhio il codice.
 
-[BDUF]: http://en.wikipedia.org/wiki/Big_Design_Up_Front "Big Design Up-Front" 
+[BDUF]: https://en.wikipedia.org/wiki/Big_Design_Up_Front "Big Design Up-Front" 
 
 > Life is what happens to you while you are busy making other plans.<br/>
 > --John Lennon
@@ -51,7 +51,7 @@ arrivare agli estremi del BDUF), permette di capire meglio il problema e
 impostare una soluzione decente, senza rischiare di ficcarsi in un vicolo cieco
 da cui è molto difficile uscire. 
 
-[unclebob]: http://blog.objectmentor.com/articles/2009/04/25/the-scatology-of-agile-architecture "The Scatology of Agile Architecture"
+[unclebob]: https://blog.objectmentor.com/articles/2009/04/25/the-scatology-of-agile-architecture "The Scatology of Agile Architecture"
 
 Inoltre ci sono determinate cose che **devono** essere fissate up-front. Ad
 esempio, io mi sono ritrovato a lavorare ad un progetto di un sistema
@@ -83,7 +83,7 @@ priorità** (*infrastruttura*, *interfacce*, user stories, ecc.), poter
 allocare risorse, pianificare costi e tempi di massima (ad esempio:
 *project velocity* di [XP][]) e **coordinare il team**.
 
-[XP]: http://www.extremeprogramming.org/
+[XP]: https://www.extremeprogramming.org/
 
 C'è un modo per affrontare con successo anche il progetto più gigantesco e
 complesso: **fare un passo alla volta**. 

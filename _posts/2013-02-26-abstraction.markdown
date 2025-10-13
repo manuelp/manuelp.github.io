@@ -12,7 +12,7 @@ That's why here I'll try to define exactly what the meaning of the word *abstrac
 
 ## Definition ##
 
-First, let's see what [etymonline](http://www.etymonline.com/index.php?term=abstract) has to say about it (emphasis is mine):
+First, let's see what [etymonline](https://www.etymonline.com/index.php?term=abstract) has to say about it (emphasis is mine):
 
 <blockquote> 
 *abstract (adj.)*, late 14c., originally in grammar (of nouns), from Latin abstractus "drawn away," pp. of abstrahere "to drag away; detach divert," from ab(s)- "away" (see ab-) + trahere "draw" (see tract (n.1)).   
@@ -20,7 +20,7 @@ First, let's see what [etymonline](http://www.etymonline.com/index.php?term=abst
 Meaning *"withdrawn or separated from material objects or practical matters"* is from mid-15c [...]
 </blockquote>
 
-So, here we have something important that we can work with. Something is abstract when it's *separated from material practical matters*. Excellent! Now let's see what the [dictionary](http://dictionary.reference.com/browse/abstract) says. As an adjective:
+So, here we have something important that we can work with. Something is abstract when it's *separated from material practical matters*. Excellent! Now let's see what the [dictionary](https://dictionary.reference.com/browse/abstract) says. As an adjective:
 
 1. thought of apart from concrete realities, specific objects, or actual instances: an abstract idea.
 2. expressing a quality or characteristic apart from any specific object or instance, as justice, poverty,  and speed.
@@ -56,7 +56,7 @@ Probably it isn't a good definition, but it's a starting point (I'm open to disc
 
 If components *depends* on an abstraction, we can change its implementation and refactor how we want without affecting its users. Nice!
 
-Notice that this concept is independent from scale: we can abstract functions, classes, components, systems or even entire networks of services. And this is exactly the premise and original meaning of OO: **a way of thinking and designing systems to manage their complexity, by creating loosely coupled abstractions that communicates by messages at all scales**. So "real" object-oriented design is a *fractal design thinking* that produces a network of abstractions (on both state and behavior) that can be easily rearranged and modified (even at runtime, see [Smalltalk](http://en.wikipedia.org/wiki/Smalltalk) for example). Actual mechanics (encapsulation, inheritance and polymorphism) are only consequences, not the definition itself.
+Notice that this concept is independent from scale: we can abstract functions, classes, components, systems or even entire networks of services. And this is exactly the premise and original meaning of OO: **a way of thinking and designing systems to manage their complexity, by creating loosely coupled abstractions that communicates by messages at all scales**. So "real" object-oriented design is a *fractal design thinking* that produces a network of abstractions (on both state and behavior) that can be easily rearranged and modified (even at runtime, see [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk) for example). Actual mechanics (encapsulation, inheritance and polymorphism) are only consequences, not the definition itself.
 
 We can map the same concept in a different way to FP, but this is matter for another post.
 
@@ -70,4 +70,4 @@ Now suppose that your friend is an excellent chef. In this case you only need to
 
 They are quite different, isn't it? Notice how in the first case you didn't touch the pie with a finger, but you still need to know how to mix, how much to cook it, etc. etc. In the second case however, you didn't have to think about all of that low level details. You just wanted an apple pie!
 
-If you want, let's discuss on [Reddit](http://www.reddit.com/r/programming/comments/19a8qq/what_is_abstraction/), or read Zed Shaw [take](http://zedshaw.com/essays/indirection_is_not_abstraction.html) on this topic.
+If you want, let's discuss on [Reddit](https://www.reddit.com/r/programming/comments/19a8qq/what_is_abstraction/), or read Zed Shaw [take](https://zedshaw.com/essays/indirection_is_not_abstraction.html) on this topic.

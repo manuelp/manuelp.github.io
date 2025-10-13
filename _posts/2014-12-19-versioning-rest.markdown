@@ -4,7 +4,7 @@ title: Roy Fielding on Versioning, Hypermedia, and REST
 categories: blog
 ---
 
-Some highlights from [this](http://www.infoq.com/articles/roy-fielding-on-versioning) interview to [Roy Fielding](http://en.wikipedia.org/wiki/Roy_Fielding) on InfoQ:
+Some highlights from [this](https://www.infoq.com/articles/roy-fielding-on-versioning) interview to [Roy Fielding](https://en.wikipedia.org/wiki/Roy_Fielding) on InfoQ:
 
 > "hypermedia as the engine of application state" is a REST constraint. Not an option. Not an ideal. Hypermedia is a constraint. As in, you either do it or you aren’t doing REST. You can’t have evolvability if clients have their controls baked into their design at deployment. Controls have to be learned on the fly. That’s what hypermedia enables.
 

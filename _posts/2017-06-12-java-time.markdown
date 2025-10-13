@@ -7,7 +7,7 @@ withtoc: yes
 
 I'm certainly not an expert on the subtle intricacies of time and its management by software systems, but I've made my share of mistakes in this area when it comes to Java and I'd love to spare you those same mistakes.
 
-Tomasz Nurkiewicz's post [Guide to time and date in Java](http://www.nurkiewicz.com/2016/08/guide-to-time-and-date-in-java.html) has been illuminating and prompted me to write down a summary as a reference for myself, my colleagues and everyone else that is interested. So, without further ado, here it is. 
+Tomasz Nurkiewicz's post [Guide to time and date in Java](https://www.nurkiewicz.com/2016/08/guide-to-time-and-date-in-java.html) has been illuminating and prompted me to write down a summary as a reference for myself, my colleagues and everyone else that is interested. So, without further ado, here it is. 
 
 ## Summary
 
@@ -18,7 +18,7 @@ Without getting into philosophy and relativity:
 
 When it comes to Java:
 
-* **Don't use `java.util.Date` and `java.util.Calendar`**. They are *broken by design*. Use the `java.time` API instead. If you can't upgrade to Java 8, use [Threeten](http://www.threeten.org/) or [joda-time](http://www.joda.org/joda-time/).
+* **Don't use `java.util.Date` and `java.util.Calendar`**. They are *broken by design*. Use the `java.time` API instead. If you can't upgrade to Java 8, use [Threeten](https://www.threeten.org/) or [joda-time](https://www.joda.org/joda-time/).
 * Use [`java.time.Instant`](https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html) to represent an instant in time (a timestamp). It's an absolute value independent of calendars and time zones.
 * To *store* or *transmit* time, use a timestamp (the [Unix time](https://en.wikipedia.org/wiki/Unix_time), a `long` value computed using [`Instant#getEpochSecond()`](https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html#getEpochSecond--)) or an [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) string (basically just an `Instant.toString()`).
 * If you need a human representation of an `Instant`, use [`ZonedDateTime`](https://docs.oracle.com/javase/8/docs/api/java/time/ZonedDateTime.html). It can be created from an `Instant` *only* specifying a time zone (`ZonedDateTime#of :: Instant -> ZoneId -> ZonedDateTime`).
@@ -26,7 +26,7 @@ When it comes to Java:
 
 ## More details
 
-Highlights from the post: [Guide to time and date in Java](http://www.nurkiewicz.com/2016/08/guide-to-time-and-date-in-java.html) by Tomasz Nurkiewicz.
+Highlights from the post: [Guide to time and date in Java](https://www.nurkiewicz.com/2016/08/guide-to-time-and-date-in-java.html) by Tomasz Nurkiewicz.
 
 > As a matter of fact java.util.Date and Calendar are so broken by design that they are considered to be [deprecated entirely](https://bugs.openjdk.java.net/browse/JDK-8065614) in JDK 9.
 

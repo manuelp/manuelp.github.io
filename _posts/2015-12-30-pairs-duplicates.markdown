@@ -19,7 +19,7 @@ A [tuple](https://en.wikipedia.org/wiki/Tuple) is an *finite ordered list of $n$
 
 These data structures are useful when you have values that belong together but it's not worth it to create an ad-hoc type for them.
 
-[Functional Java](http://www.functionaljava.org/) models tuples as [products](http://www.functionaljava.org/javadoc/4.4/functionaljava/fj/P.html) $P$ (terminology borrowed from [category theory](https://en.wikipedia.org/wiki/Category_theory)) with various implementations: [P1](http://www.functionaljava.org/javadoc/4.4/functionaljava/fj/P1.html), [P2](http://www.functionaljava.org/javadoc/4.4/functionaljava/fj/P2.html), ..., [P8](http://www.functionaljava.org/javadoc/4.4/functionaljava/fj/P8.html). Here are some examples:
+[Functional Java](https://www.functionaljava.org/) models tuples as [products](https://www.functionaljava.org/javadoc/4.4/functionaljava/fj/P.html) $P$ (terminology borrowed from [category theory](https://en.wikipedia.org/wiki/Category_theory)) with various implementations: [P1](https://www.functionaljava.org/javadoc/4.4/functionaljava/fj/P1.html), [P2](https://www.functionaljava.org/javadoc/4.4/functionaljava/fj/P2.html), ..., [P8](https://www.functionaljava.org/javadoc/4.4/functionaljava/fj/P8.html). Here are some examples:
 
 ```java
 P2<Integer, String> x = P.p(1, "Hello");
@@ -60,7 +60,7 @@ public class FindPairsDuplicatesTest {
 }
 ```
 
-> *Warning*: the `List` we use here is [provided](http://www.functionaljava.org/javadoc/4.4/functionaljava/fj/data/List.html) by Functional Java.
+> *Warning*: the `List` we use here is [provided](https://www.functionaljava.org/javadoc/4.4/functionaljava/fj/data/List.html) by Functional Java.
 
 We have just implemented our first failing test, with an empty implementation for our behaviour directly in the test class. Now we can implement the actual behaviour to make it pass. I started right away with a simple but representative test case to keep this post resonably short and to the point. If this was a requirement for an actual application, I'd start with a degenerate test case (for example and empty list of pairs as the input) and used *triangulation*[^2] to implement the actual functionality incrementally. 
 
@@ -252,5 +252,5 @@ This pattern of change is rather common: starting from a specific solution to a 
 
 ---
 
-[^1]: We use the [TDD as if you meant it](http://coderetreat.org/facilitating/activities/tdd-as-if-you-meant-it) technique.
-[^2]: See the book [Test-Driven Development: By Example](http://www.amazon.com/Test-Driven-Development-By-Example/dp/0321146530) by Kent Beck.
+[^1]: We use the [TDD as if you meant it](https://coderetreat.org/facilitating/activities/tdd-as-if-you-meant-it) technique.
+[^2]: See the book [Test-Driven Development: By Example](https://www.amazon.com/Test-Driven-Development-By-Example/dp/0321146530) by Kent Beck.

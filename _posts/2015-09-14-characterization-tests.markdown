@@ -8,11 +8,11 @@ When you have to modify some legacy code and you don't have any tests[^1] to beg
 
 > "Legacy code is simply code without tests."
 >
-> -- Michael Feathers, from "[Working Effectively With Legacy Code](http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052)"
+> -- Michael Feathers, from "[Working Effectively With Legacy Code](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052)"
 
 Regardless of why there aren't any automated tests, in my opinion the right way to proceed is:
 
-1. Write some [characterization tests](http://en.wikipedia.org/wiki/Characterization_test) to pin down the current behaviour. *This is fundamental* because tests guides you to really understand the code you are going to modify. And more importantly, if you *listen* to them, they'll reveal [code smells](https://en.wikipedia.org/wiki/Code_smell) that lie more or less unnoticed in the code base.
+1. Write some [characterization tests](https://en.wikipedia.org/wiki/Characterization_test) to pin down the current behaviour. *This is fundamental* because tests guides you to really understand the code you are going to modify. And more importantly, if you *listen* to them, they'll reveal [code smells](https://en.wikipedia.org/wiki/Code_smell) that lie more or less unnoticed in the code base.
 
 	> "If it stinks, change it."
 	>
@@ -32,7 +32,7 @@ In some cases, this could be a long and difficult process. The temptation to ski
 >
 > --[Lehman's laws of software evolution](https://en.wikipedia.org/wiki/Lehman's_laws_of_software_evolution)
 
-Ignoring a problem [won't make it go away](http://www.bonkersworld.net/all-engineers-are-the-same/). Maybe you spare some time now, but you are preparing for a much greater damage down the line.
+Ignoring a problem [won't make it go away](https://www.bonkersworld.net/all-engineers-are-the-same/). Maybe you spare some time now, but you are preparing for a much greater damage down the line.
 
 > "The act of leaving a mess in the code should be as socially unacceptable as littering."
 >

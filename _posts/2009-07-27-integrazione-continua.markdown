@@ -13,9 +13,9 @@ Nel nostro team abbiamo implementato uno stile di sviluppo [test-driven][], ma n
  
 La lezione è stata imparata.
 
-[test-driven]: http://en.wikipedia.org/wiki/Test-driven_development "Test-Driven Development"
-[Eclipse]: http://www.eclipse.org/ "Eclipse SDK"
-[JUnit]: http://www.junit.org/ "JUnit"
+[test-driven]: https://en.wikipedia.org/wiki/Test-driven_development "Test-Driven Development"
+[Eclipse]: https://www.eclipse.org/ "Eclipse SDK"
+[JUnit]: https://www.junit.org/ "JUnit"
 
 ## Update: 09/08/2009 ##
-Per approfondire il discorso sull'integrazione continua, è *illuminante* l'[articolo](http://www.martinfowler.com/articles/continuousIntegration.html) di Martin Fowler.
+Per approfondire il discorso sull'integrazione continua, è *illuminante* l'[articolo](https://www.martinfowler.com/articles/continuousIntegration.html) di Martin Fowler.
