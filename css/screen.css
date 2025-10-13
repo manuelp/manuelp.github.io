@@ -218,13 +218,19 @@ a.extra {
 /*
 /*****************************************************************************/
 
-#post {
-
-}
-
 /* standard */
 #post #title {
     font-size: 160%;
+}
+
+#post #toc {
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+}
+
+#post #toc #title {
+    font-size: 1em;
+    font-weight: bold;
 }
 
 #post pre {

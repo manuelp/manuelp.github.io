@@ -5,6 +5,14 @@ layout: default
 <div id="post">
   <h1 id="title">{{page.title}}</h1>
   {{page.date | date_to_string}}
+
+  {% if page.withtoc == true %}
+  <div id="toc">
+    <span id="title">Table Of Contents</span>
+    {% include toc.html html=content flat_toc=true %}
+  </div>
+  {% endif %}
+
   {{ content }}
 </div>
 

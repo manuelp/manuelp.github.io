@@ -7,7 +7,7 @@ withtoc: yes
 
 In this post I'm going to illustrate how we can write a solution to a simple problem using FP in Java 8, and then generalize it through a series of small incremental refactorings to make it more flexible and reusable.
 
-## Tuples
+# Tuples
 
 A [tuple](https://en.wikipedia.org/wiki/Tuple) is an *finite ordered list of $n$ elements, where $n\geq0$*. Values contained in a tuple can have heterogeneous types. Here are some examples:
 
