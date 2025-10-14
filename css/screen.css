@@ -103,6 +103,11 @@ ul, ol {
     margin-bottom: 1em;
 }
 
+.email-block {
+    color: #0a7;
+    font-weight: bold;
+}
+
 /*****************************************************************************/
 /*
 /* Home
@@ -294,6 +299,6 @@ a.extra {
 #comments h3,
 #comments h4,
 #comments h5,
-#comments h6, {
+#comments h6 {
     background-color: #ff1;
 }
