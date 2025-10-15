@@ -278,27 +278,3 @@ a.extra {
     background-color: #333;
 }
 
-/* Related */
-
-#related {
-    margin-top: 2em;
-}
-
-#related #title_related {
-    background-color: #ff1;
-}
-
-#related h2 {
-    margin-bottom: 1em;
-}
-
-/* Comments */
-
-#comments h1, 
-#comments h2,
-#comments h3,
-#comments h4,
-#comments h5,
-#comments h6 {
-    background-color: #ff1;
-}
