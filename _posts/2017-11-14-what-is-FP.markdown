@@ -4,7 +4,7 @@ title: What is functional programming?
 tags: [Haskell, FP]
 ---
 
-I've [already](2014-11-17-imparare-fp.html)[^1] [attempted](2015-12-27-diffing-refactoring.html) to define functional programming (FP), but I wasn't satified with it. Kris Jenkins did a much better job, and wrote a couple of very good posts on this:
+I've [already]({% post_url 2014-11-17-imparare-fp %})[^1] [attempted]({% post_url 2015-12-27-diffing-refactoring %}) to define functional programming (FP), but I wasn't satified with it. Kris Jenkins did a much better job, and wrote a couple of very good posts on this:
 
 1. [What Is Functional Programming?](https://blog.jenkster.com/2015/12/what-is-functional-programming.html)
 2. [Which Programming Languages Are Functional?](https://blog.jenkster.com/2015/12/which-programming-languages-are-functional.html)
