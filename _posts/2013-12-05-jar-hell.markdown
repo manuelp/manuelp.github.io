@@ -2,6 +2,7 @@
 layout: post
 title: (JAR) Hell is here
 categories: blog
+tags: [Java]
 ---
 
 From [Gorging on Java frameworks and dependencies](https://blog.borud.no/2013/03/gorging-on-java-frameworks-and.html):

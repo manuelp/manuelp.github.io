@@ -2,6 +2,7 @@
 layout: post
 title: Web Software Engineering?
 categories: web
+tags: [web, ita]
 ---
 
 Ultimamente sto facendo pratica con la programmazione orientata al web (come

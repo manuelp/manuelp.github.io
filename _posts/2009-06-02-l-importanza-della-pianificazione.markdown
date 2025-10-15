@@ -2,6 +2,7 @@
 layout: post
 title: L'importanza della pianificazione
 category: management
+tags: [management, ita]
 ---
 
 > Proceed from a plan, whether that plan is in your head, on the back of a

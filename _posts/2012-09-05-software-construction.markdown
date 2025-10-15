@@ -2,6 +2,7 @@
 layout: post
 title: Software Construction
 categories: oop,fp,tdd,bugs
+tags: [OOP, TDD, FP]
 ---
 
 I've just read an interesting post from Daniel Sobral: "[Bugs, TDD and Functional programming](https://dcsobral.blogspot.com.br/2012/09/bugs-tdd-and-functional-programming.html)" in which he gives some ideas on how to bridge the gap between software and physical constructs.

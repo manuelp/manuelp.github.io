@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Legacy code and Characterization Tests
-tags: testing, legacy-code
+tags: [testing]
 ---
 
 When you have to modify some legacy code and you don't have any tests[^1] to begin with, what do you do? 

@@ -2,6 +2,7 @@
 layout: post
 title: Interesting links
 categories: blog
+tags: [PostgreSQL]
 ---
 
 ## [Deliver Working Software Frequently](https://xprogramming.com/articles/deliver-working-software-frequently/)

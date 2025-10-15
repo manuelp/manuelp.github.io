@@ -2,6 +2,7 @@
 layout: post
 title: True OOP
 categories: oop,fp,alan-kay
+tags: [OOP, FP]
 ---
 
 > OO was not translated properly from the original Alan Key propositions of components sending messages between each other. \[...\] The Actors model of computation is typically an OO pattern that implements message passing. It’s strange nowadays to see actors being used as a strong argument to adopt FP instead :)

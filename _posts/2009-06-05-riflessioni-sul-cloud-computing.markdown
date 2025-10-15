@@ -2,6 +2,7 @@
 layout: post
 title: Riflessioni sul cloud computing
 categories: web
+tags: [web, ita]
 ---
 
 Ultimamente si fa un gran parlare di [Cloud Computing][1], e di come questo

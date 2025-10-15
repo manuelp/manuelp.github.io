@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simple FSMs and event-sourcing in Haskell
-tags: Haskell, FSM, event-sourcing
+tags: [Haskell, Event-Sourcing]
 withtoc: yes
 ---
 

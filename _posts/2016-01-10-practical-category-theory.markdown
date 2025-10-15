@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Practical category theory
-tags: category-theory, math, type-system
+tags: [Category-Theory, Math, Types, FP]
 ---
 
 Sometimes you find a paper, post, presentation or podcast that hits the nail on the head: it explains some concepts in a clear and simple way, that you can understand right away. You read it at the right moment, and helps you to connect the dots and come up with new knowledge and new perspectives on what you do, how and why. You know, when you have the feeling that several pieces of the puzzle fall into place. Those are the "Aha!" moments that feels so exciting, satisfying and useful, and that you should cultivate by learning and practicing new stuff, exposing yourself to disparate perspectives[^1].

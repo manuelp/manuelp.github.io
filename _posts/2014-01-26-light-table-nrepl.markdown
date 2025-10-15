@@ -2,6 +2,7 @@
 layout: post
 title: How to programmatically manage a Light Table-aware nREPL server
 categories: blog
+tags: [Clojure]
 ---
 
 Starting an [nREPL](https://github.com/clojure/tools.nrepl) server for a Clojure application is trivial if you use [Leiningen](https://leiningen.org/):

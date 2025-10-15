@@ -2,6 +2,7 @@
 layout: post
 title: Automazione!
 categories: metaprogramming
+tags: [ita, Ruby]
 ---
 
 Una cosa risaputa è che un buon programmatore deve essere *pigro*. Ma di una pigrizia particolare: *perchè svolgere a mano ogni compito ripetitivo che può essere svolto altrettanto bene e molto più velocemente da una macchina?*

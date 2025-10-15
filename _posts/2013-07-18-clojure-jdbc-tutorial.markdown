@@ -2,6 +2,7 @@
 layout: post
 title: A short tutorial on clojure.java.jdbc
 categories: blog
+tags: [Clojure, PostgreSQL]
 ---
 
 [clojure.java.jdbc](https://github.com/clojure/java.jdbc) is a useful library to have in your toolbelt when you need to work very close to JDBC and for various reasons you can't or don't want to use higher level tools like [Korma](https://sqlkorma.com/). In fact it is a thin wrapper over JDBC that makes working with it from Clojure easier and safer.

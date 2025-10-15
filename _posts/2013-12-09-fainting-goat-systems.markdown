@@ -2,6 +2,7 @@
 layout: post
 title: Fainting Goat Systems
 categories: blog
+tags: [Architecture]
 ---
 
 Paraphrasing [Robert Heinlein](https://en.wikipedia.org/wiki/The_Moon_Is_a_Harsh_Mistress), reality is a harsh mistress. Have you ever designed or worked on a system which was finally declared "done" (the mythical 1.0 release): it passed all [QC](https://en.wikipedia.org/wiki/Quality_control) tests, all was green, all the checks in place... but that failed miserably when deployed in production? Unfortunately, a real system *lives* in a harsh reality made of unreliable networks, crashing subsystems, crazy users and [Elbonian](https://en.wikipedia.org/wiki/Elbonia#Elbonia) hackers.

@@ -2,6 +2,7 @@
 layout: post
 title: Overloading in Ruby
 categories: ruby
+tags: [ita, Ruby]
 ---
 
 A differenza di linguaggi come Java e C++, Ruby *non supporta direttamente l'overloading di metodi e costruttori*. Il che è abbastanza grave quando si dimostra necessario disporre di più costruttori con un numero diverso di argomenti.

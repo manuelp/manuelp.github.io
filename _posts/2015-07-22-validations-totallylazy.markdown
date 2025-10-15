@@ -2,6 +2,7 @@
 layout: post
 title: Validations with TotallyLazy
 categories: blog
+tags: [Java, FP]
 ---
 
 [TotallyLazy](https://totallylazy.com/) is a library that gives you some tools to do functional programming on the JVM and particularly in Java, like: `Option/Maybe`, `Either`, persistent data structures, `Sequence` operations, etc. Unfortunately, even if quite useful and nice to use this library is also practically *undocumented* (and no, I don't consider raw code as *sufficient* documentation).

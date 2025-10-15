@@ -2,6 +2,7 @@
 layout: post
 title: Integrazione Continua
 categories: development
+tags: [ita, TDD, Java]
 ---
 
 Terminato oggi un progetto di dimensioni importanti (con ottimi risultati), è tempo di fare una retrospettiva.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pluggable procedure calls
-tags: Haskell
+tags: [Haskell]
 withtoc: yes
 ---
 

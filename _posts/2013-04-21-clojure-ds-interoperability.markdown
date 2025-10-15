@@ -2,6 +2,7 @@
 layout: post
 title: Clojure and Java data structures interoperability
 categories: blog
+tags: [Clojure, Java]
 ---
 
 Clojure is a language [designed to be hosted](https://clojure.org/jvm_hosted), this means that it utilizes all the power of the hosting platform *without trying to hide or abstract it*. This design choice has several consequences:

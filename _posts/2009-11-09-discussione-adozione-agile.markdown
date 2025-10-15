@@ -2,6 +2,7 @@
 layout: post
 title: Discussione - Adozione dell'Agile
 categories: agile
+tags: [ita, Agile]
 ---
 
 Di seguito riporto qualche appunto sull'[articolo](https://www.infoq.com/articles/failed-agile-adoption-reasons) *Why Agile Adoption Fails in Some Organizations* apparso su InfoQ il 4 Novembre 2009.

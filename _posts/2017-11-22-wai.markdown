@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Web applications in Haskell with WAI
-tags: Haskell, WAI, web
+tags: [Haskell, WAI, web]
 withtoc: yes
 ---
 

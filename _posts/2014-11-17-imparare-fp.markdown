@@ -2,6 +2,7 @@
 layout: post
 title: Imparare la programmazione funzionale
 categories: blog
+tags: [Haskell, FP, ita, Clojure, Learning]
 ---
 
 (Un amico mi ha chiesto un consiglio su dove iniziare per imparare la programmazione funzionale, ri-pubblico qua la mia risposta leggermente adattata.)

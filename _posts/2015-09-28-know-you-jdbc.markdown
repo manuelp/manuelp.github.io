@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Know you JDBC!
-tags: java, JDBC
+tags: [Java]
 ---
 
 Please, for your own good and for the poor soul who will have to debug and maintain your code: *if you use bare bones JDBC, **learn how it works***!

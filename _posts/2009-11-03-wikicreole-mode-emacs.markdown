@@ -2,6 +2,7 @@
 layout: post
 title: Wiki Creole mode for Emacs
 categories: emacs
+tags: [ita, Emacs]
 ---
 
 I needed a syntax highlighting support for the wiki [Creole](https://www.wikicreole.org/wiki/Creole1.0) syntax in Emacs, but I couldn't find it anywhere... until I found the [dot.emacs](https://www.emacswiki.org/cgi-bin/wiki/menu-bar%2B.el/Search/AlexSchroeder/AlexSchroederConfigPyrobombus) configuration file of Alex Schroeder of [emacswiki](https://www.emacswiki.org) fame, which contains a little wonderful elisp snippet that I show you (a little bit modified) here:

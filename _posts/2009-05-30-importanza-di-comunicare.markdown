@@ -1,7 +1,7 @@
 ---
 layout: post
 title: L'importanza di comunicare
-category: metaprogramming
+tags: [ita]
 ---
 
 Non basta avere una buona idea, bisogna anche saperla "vendere". C'è una

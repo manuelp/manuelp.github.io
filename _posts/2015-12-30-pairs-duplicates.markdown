@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Finding pairs duplicates
-tags: java, java-8, FP, case-study, refactoring
+tags: [Java, FP, Case-Study, Refactoring]
 withtoc: yes
 ---
 

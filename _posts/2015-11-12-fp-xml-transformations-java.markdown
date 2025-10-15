@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Functional XML transformations in Java
-tags: case-study, FP, java, java-8, DSL
+tags: [Case-Study, FP, Java, DSL, Essay]
 withtoc: yes
 ---
 

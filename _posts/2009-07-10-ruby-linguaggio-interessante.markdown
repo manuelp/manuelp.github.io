@@ -2,6 +2,7 @@
 layout: post
 title: Ruby - linguaggio interessante
 categories: development
+tags: [Ruby, ita]
 ---
 
 Ho una certa conoscenza del linguaggio [python](https://www.python.org/), avendolo già utilizzato per dei progetti personali, ma ho deciso di imparare ad utilizzare in modo soddisfacente un buon linguaggio ad alto livello (o di *scripting*, anche se non mi piace molto il termine).

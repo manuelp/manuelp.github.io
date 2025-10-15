@@ -2,6 +2,7 @@
 layout: post
 title: Hello world!
 categories: blog
+tags: [ita]
 ---
 
 Ecco il primo post di questo mio nuovo blog! Finalmente mi sono deciso

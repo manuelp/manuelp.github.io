@@ -2,6 +2,7 @@
 layout: post
 title: Learning faster
 categories: learning
+tags: [Learning]
 ---
 
 Learning fast, and being able to master concepts and techniques is more important that ever nowadays in the "information age". Learning something *deeply* and mastering it to the point of having an *intuition* about it is very important in every field. The point is developing *knowledge and skills*, not only being able to reharse dry informations.

@@ -2,6 +2,7 @@
 layout: post
 title: Assert first!
 categories: development
+tags: [ita, TDD, testing]
 ---
 
 Attualmente sto terminando la lettura del libro *"Test-Driven Development By Example"* di Kent Beck, ed è in mia modesta opinione una lettura molto istruttiva e utile per chi cerca di imparare questo stile di sviluppo. E' di grande beneficio vedere la tecnica all'opera e seguirne l'utilizzo passo-passo (forse l'unico modo per sviluppare un *feel* e assimilarne la mentalità), per poi rifinire la propria comprensione con dei *pattern*.

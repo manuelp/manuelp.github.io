@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Querying PostgreSQL with Haskell
-tags: Haskell, PostgreSQL, FP
+tags: [Haskell, PostgreSQL, FP]
 withtoc: yes
 ---
 

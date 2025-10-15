@@ -2,6 +2,7 @@
 layout: post
 title: Introduction to Haskell, week 1
 categories: blog
+tags: [Haskell, FP]
 ---
 
 A while ago I've finally started to study [Haskell](https://www.haskell.org/), in particular following the [CIS 194: Introduction to Haskell](https://www.seas.upenn.edu/~cis194/) course by [Brent Yorgey](https://www.cis.upenn.edu/~byorgey/) from the [Penn University of Pennsilvania](https://www.upenn.edu/). This is the first resource of the curriculum I plan to follow to [learn Haskell](https://github.com/bitemyapp/learnhaskell) (thanks a lot to [Chris Allen](https://github.com/bitemyapp) for laying out a path to FP enlightenment :)

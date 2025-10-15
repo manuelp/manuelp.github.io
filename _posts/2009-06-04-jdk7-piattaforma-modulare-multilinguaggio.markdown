@@ -2,6 +2,7 @@
 layout: post
 title: JDK7 - piattaforma modulare multi-linguaggio
 categories: java
+tags: [java, ita]
 ---
 
 Secondo un articolo di [InfoWorld](https://infoworld.com/print/77919), la nuova

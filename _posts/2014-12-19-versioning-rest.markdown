@@ -2,6 +2,7 @@
 layout: post
 title: Roy Fielding on Versioning, Hypermedia, and REST
 categories: blog
+tags: [web]
 ---
 
 Some highlights from [this](https://www.infoq.com/articles/roy-fielding-on-versioning) interview to [Roy Fielding](https://en.wikipedia.org/wiki/Roy_Fielding) on InfoQ:

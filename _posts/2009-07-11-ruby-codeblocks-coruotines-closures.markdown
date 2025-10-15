@@ -2,6 +2,7 @@
 layout: post
 title: Ruby - code blocks, coroutines e closures
 categories: development
+tags: [Ruby, ita]
 ---
 
 Ruby si ispira abbastanza al Perl (purtroppo, l'ho usato un po' ma non mi è mai piaciuto come linguaggio), ma nonostante questo mi sono sforzato di andare avanti a studiarlo. Uno è in grado di giudicare le potenzialità di un linguaggio solo conoscendolo e avendolo utilizzato, questo vale specialmente per quei linguaggi che forniscono *features* che non si conoscono e che richiedono un modo di pensare diverso. 

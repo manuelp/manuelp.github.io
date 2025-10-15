@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Time &amp; Java
-tags: java, time
+tags: [Java]
 withtoc: yes
 ---
 

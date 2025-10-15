@@ -2,6 +2,7 @@
 layout: post
 title: Cos'è AJAX?
 categories: web
+tags: [web, ita]
 ---
 
 AJAX è l'acronimo di *Asynchronous Javascript And XML* e indica una tecnica per

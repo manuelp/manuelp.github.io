@@ -2,6 +2,7 @@
 layout: post
 title: Power comes from Emergence
 categories: blog
+tags: [git]
 ---
 
 I've been thinking a lot about the intersection of OOP and FP, and I've come to realise one thing: *there is real power on the **composition** of [simple](https://www.infoq.com/presentations/Simple-Made-Easy) things*.

@@ -2,6 +2,7 @@
 layout: post
 title: Campagna per il pensionamento di IE6
 categories: web
+tags: [web, ita]
 ---
 
 <a href="https://www.bringdownie6.com/">

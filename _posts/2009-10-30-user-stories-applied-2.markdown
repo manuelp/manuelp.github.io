@@ -2,6 +2,7 @@
 layout: post
 title: User Stories Applied, capitolo 2
 categories: agile
+tags: [Agile, ita]
 ---
 
 Continua l'esplorazione della tecnica delle [user stories](https://en.wikipedia.org/wiki/User_story). 

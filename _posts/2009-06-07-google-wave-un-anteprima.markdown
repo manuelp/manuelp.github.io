@@ -2,6 +2,7 @@
 layout: post
 title: Google Wave!
 categories: web
+tags: [web, ita]
 ---
 
 C'è *molto* [fermento][1] dietro il fenomeno [Google Wave][2] che potrebbe **[rivoluzionare][3] il modo di comunicare e collaborare online**.

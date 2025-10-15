@@ -2,6 +2,7 @@
 layout: post
 title: CIS 194, week 2, Algebraic Data Types
 categories: blog
+tags: [Haskell, FP]
 ---
 
 This is a post about [week 2](https://www.seas.upenn.edu/~cis194/lectures/02-ADTs.html) of the [CIS 194: Introduction to Haskell](https://www.seas.upenn.edu/~cis194/) course by [Brent Yorgey](https://www.cis.upenn.edu/~byorgey/), from the [Penn University of Pennsilvania](https://www.upenn.edu/).

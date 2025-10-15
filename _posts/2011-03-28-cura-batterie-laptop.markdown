@@ -2,6 +2,7 @@
 layout: post
 title: Come prolungare la vita delle batterie dei laptop
 categories: hardware, laptop
+tags: [ita, Hardware]
 ---
 
 Ho da poco acquistato un nuovo portatile e voglio trattarlo bene, facendo durare la batteria il più a lungo possibile. Informandomi in giro ho incontrato molti "boh" e diverse risposte poco convincenti, così mi sono deciso a fare qualche ricerca in proposito (vedi *Riferimenti*).

@@ -2,6 +2,7 @@
 layout: post
 title: Come fare una presentazione
 categories: comunicazione
+tags: [ita]
 ---
 
 Con tutta probabilità sei già stato *vittima* di presentazioni noiose e confusionarie, esposte da esperti in materia che nonostante tutti i tuoi eroici sforzi sono riusciti a farti addormentare.... E questo non è necessariamente dovuto all'oggetto dell'esposizione, infatti persino gli argomenti più noiosi possono essere resi avvincenti e interessanti da un buon speaker.

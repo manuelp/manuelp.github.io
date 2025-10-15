@@ -2,6 +2,7 @@
 layout: post
 title: "Summary: x-Driven x do not change anything"
 categories: blog
+tags: [TDD]
 ---
 
 This is a short summary of my takeaways of the article [*-Driven* do not change anything](https://www.infoq.com/articles/star-driven-approaches) by [Michał Bartyzel](https://www.infoq.com/author/Micha%C5%82-Bartyzel).

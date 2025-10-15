@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Static typing or fast delivery?
-tags: static-typing, type-system, FP
+tags: [Types, FP]
 ---
 
 Matteo Vaccari, in his blog post [No Frameworks, Part 1](https://matteo.vaccari.name/blog/archives/1019) said:

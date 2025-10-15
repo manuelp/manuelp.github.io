@@ -2,6 +2,7 @@
 layout: post
 title: The Agile Coach
 categories: agile
+tags: [ita, Agile]
 ---
 
 Attualmente sto lavorando come una sorta di "Agile Coach" all'interno di un'azienda nell'ambito di uno stage, e mi sono ritrovato a studiare molto materiale al riguardo. In questo post ho annotato i punti più importanti dal mio punto di vista leggendo l'articolo *The Agile Coach* sul [numero di Novembre](https://pragprog.com/magazines/download/5.pdf) di "PragPub":
