@@ -41,3 +41,8 @@ td,th {
   padding: 0 0.5em;
   text-align: center;
 }
+
+.profile-picture {
+    width: 200px;
+    margin: 0 auto;
+}

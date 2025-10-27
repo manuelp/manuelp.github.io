@@ -24,15 +24,6 @@ body {
     text-align: center;
 }
 
-#ie6Warning {
-    background: red;
-    padding: 1em;
-    margin: 1em;
-    border-width: 4pt;
-    border-color: black;
-    border-style: dashed;
-}
-
 .warning {
     background: yellow;
     padding: 1em;
@@ -106,6 +97,11 @@ ul, ol {
 .email-block {
     color: #0a7;
     font-weight: bold;
+}
+
+.profile-picture {
+    width: 200px;
+    margin: 0 auto;
 }
 
 /*****************************************************************************/

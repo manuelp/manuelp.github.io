@@ -13,4 +13,4 @@ You can contact me at the address you can find in the footer.
 
 I'm also on [Twitter](https://twitter.com/map_it).
 
-![Manuel](images/me.png)
+<img class="profile-picture" src="images/me.png" alt="Profile picture"/>
