@@ -9,9 +9,7 @@ I have a great passion and curiosity for the world of software development and I
 
 I like to read, study, write [some](https://github.com/manuelp) [code](https://bitbucket.org/manuelp), and occasionally post on this blog.
 
-You can contact me at the following email address:
-
-<span class="email-block">manuel (dot) paccagnella (at) protonmail (dot) com</span>
+You can contact me at the address you can find in the footer.
 
 I'm also on [Twitter](https://twitter.com/map_it).
 
