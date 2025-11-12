@@ -58,7 +58,8 @@ This is much better in Java 7+, where you can use the [try-with-resource stateme
 
 ```java
 List<String> names = new ArrayList<>();
-try (Connection conn = DriverManager.getConnection("jdbc:h2:mem:exercise_db;DB_CLOSE_DELAY=-1");
+try (Connection conn = 
+      DriverManager.getConnection("jdbc:h2:mem:exercise_db;DB_CLOSE_DELAY=-1");
      PreparedStatement s = conn.prepareStatement("SELECT name FROM people")) {
   ResultSet rs = s.executeQuery();
   while (rs.next()) {
