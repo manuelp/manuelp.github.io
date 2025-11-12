@@ -3,13 +3,14 @@ layout: post
 title: Finding pairs duplicates
 tags: [Java, FP, Case-Study, Refactoring]
 withtoc: yes
+mathjax: true
 ---
 
 In this post I'm going to illustrate how we can write a solution to a simple problem using FP in Java 8, and then generalize it through a series of small incremental refactorings to make it more flexible and reusable.
 
 # Tuples
 
-A [tuple](https://en.wikipedia.org/wiki/Tuple) is an *finite ordered list of $n$ elements, where $n\geq0$*. Values contained in a tuple can have heterogeneous types. Here are some examples:
+A [tuple](https://en.wikipedia.org/wiki/Tuple) is an *finite ordered list of $$n$$ elements, where $$n\geq0$$*. Values contained in a tuple can have heterogeneous types. Here are some examples:
 
 ```haskell
 (1)
@@ -19,7 +20,7 @@ A [tuple](https://en.wikipedia.org/wiki/Tuple) is an *finite ordered list of $n$
 
 These data structures are useful when you have values that belong together but it's not worth it to create an ad-hoc type for them.
 
-[Functional Java](https://www.functionaljava.org/) models tuples as [products](https://www.functionaljava.org/javadoc/4.4/functionaljava/fj/P.html) $P$ (terminology borrowed from [category theory](https://en.wikipedia.org/wiki/Category_theory)) with various implementations: [P1](https://www.functionaljava.org/javadoc/4.4/functionaljava/fj/P1.html), [P2](https://www.functionaljava.org/javadoc/4.4/functionaljava/fj/P2.html), ..., [P8](https://www.functionaljava.org/javadoc/4.4/functionaljava/fj/P8.html). Here are some examples:
+[Functional Java](https://www.functionaljava.org/) models tuples as [products](https://www.functionaljava.org/javadoc/4.4/functionaljava/fj/P.html) $$P$$ (terminology borrowed from [category theory](https://en.wikipedia.org/wiki/Category_theory)) with various implementations: [P1](https://www.functionaljava.org/javadoc/4.4/functionaljava/fj/P1.html), [P2](https://www.functionaljava.org/javadoc/4.4/functionaljava/fj/P2.html), ..., [P8](https://www.functionaljava.org/javadoc/4.4/functionaljava/fj/P8.html). Here are some examples:
 
 ```java
 P2<Integer, String> x = P.p(1, "Hello");
