@@ -16,7 +16,7 @@ TotallyLazy model a validation like a *function* on some data type that can eith
 * Be successful.
 * Be a failure with a list of error messages.
 
-More precisely, [Validator<T>](https://github.com/bodar/totallylazy/blob/1.69/src/com/googlecode/totallylazy/validations/Validator.java) is a `Predicate<T>` with an additional method `ValidationResult validate(T instance)`. A [ValidationResult](https://github.com/bodar/totallylazy/blob/1.69/src/com/googlecode/totallylazy/validations/ValidationResult.java) is a type which can be successful or failed, and in the latter case can contain a list of error messages (as `String`s).
+More precisely, [Validator\<T\>](https://github.com/bodar/totallylazy/blob/1.69/src/com/googlecode/totallylazy/validations/Validator.java) is a `Predicate<T>` with an additional method `ValidationResult validate(T instance)`. A [ValidationResult](https://github.com/bodar/totallylazy/blob/1.69/src/com/googlecode/totallylazy/validations/ValidationResult.java) is a type which can be successful or failed, and in the latter case can contain a list of error messages (as `String`s).
 
 In Haskell we'd have something like this:
 
@@ -32,14 +32,16 @@ In this case, an example can be much more informative that a lot of words. Let's
 An `Email` in this example is a classic POJO, that I express here as an Haskell record because it's much more concise and the point is not the structure of this class. The only peculiarity of this class is that *every field is optional*. 
 
 ```haskell
-data Email = Email {fromAddress :: Maybe String,
-	                toAddress :: Maybe String,
-					subject :: Maybe String,
-					body :: Maybe String,
-					host :: Maybe String}
+data Email = Email {
+  fromAddress :: Maybe String,
+  toAddress :: Maybe String,
+  subject :: Maybe String,
+  body :: Maybe String,
+  host :: Maybe String
+}
 ```
 
-First of all, we want to write a `Validator` for checking to validate that an optional `String` field must contain a value:
+First of all, we want to write a `Validator` for checking that an optional `String` field contains a value:
 
 ```java
 /**
@@ -69,7 +71,7 @@ private Validator<Option<?>> notEmpty(final String name) {
 
 We've defined a creation method that builds and returns a `Validator<Option<?>>` that validates an [optional](https://github.com/bodar/totallylazy/blob/1.69/src/com/googlecode/totallylazy/Option.java) value by checking if it actually contains a value. Note that since `Validator` is also a `Predicate`, we define the corresponding `#matches()` method and use that in our `#validate()`.
 
-Next, we need to define an ad-hoc validation for the host: it's optional (in fact ignored) if the system is configured to use a mock mailer. Let's assume that we a method that says if it's configured the mock mailer or not, and write this validation:
+Next, we need to define an ad-hoc validation for the host: it's optional (in fact ignored) if the system is configured to use a mock mailer. Let's assume that we want a method that says if it's configured the mock mailer or not, and write this validation:
 
 ```java
 /**
